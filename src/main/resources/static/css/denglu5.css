@@ -1,0 +1,385 @@
+body.damai.pc {
+    margin: 0 auto;
+    width: 350px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body.damai.pc .width-vertical, body.damai.pc .width-vertical .login-tabs {
+    width: 350px
+}
+
+body.damai.pc .width-vertical .login-content {
+    width: 300px
+}
+
+body.damai.pc .fm-field .fm-text {
+    border-color: #e7e7e7
+}
+
+body.damai.pc .fm-text:focus, body.damai.pc .fm-text:hover {
+    border-color: #ff1268
+}
+
+body.damai.pc .login-label-text .fm-field .fm-label {
+    color: #222
+}
+
+body.damai.pc .login-label-icon .fm-field .fm-label {
+    background-color: #e7e7e7
+}
+
+body.damai.pc .login-tabs .login-tabs-tab {
+    background-color: #e7e7e7;
+    border-color: #e7e7e7;
+    color: #222
+}
+
+body.damai.pc .login-tabs .login-tabs-tab.active {
+    border-color: #ff1268;
+    color: #ff1268;
+    background-color: #fff
+}
+
+body.damai.pc .fm-button {
+    background-color: #ff1268;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4aae), to(#ff1268));
+    background-image: linear-gradient(90deg, #ff4aae, #ff1268);
+    border-color: #ff1268
+}
+
+body.damai.pc .phone-code-select .phone-code {
+    border-color: #e7e7e7;
+    border-bottom: 0
+}
+
+body.damai.pc .phone-code-options {
+    border-color: #e7e7e7
+}
+
+body.damai.pc .phone-code-options li.active, body.damai.pc .phone-code-options li:hover {
+    background-color: #e7e7e7
+}
+
+body.damai.pc .phone-code-options .fm-text:focus, body.damai.pc .phone-code-options .fm-text:hover {
+    border-color: #ff1268
+}
+
+body.damai.pc .phone-code-options .login-title {
+    color: #222
+}
+
+body.damai.pc .qrcode-img {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    height: 130px;
+    width: 130px
+}
+
+body.damai.pc .qrcode-img .qrcode-error p {
+    color: #222
+}
+
+body.damai.pc .qrcode-img .qrcode-error .refresh {
+    background: #ff1268;
+    border-color: #ff1268
+}
+
+body.damai.pc .corner-icon-view .iconfont, body.damai.pc .qrcode-desc .iconfont {
+    color: #ff1268
+}
+
+body.damai.pc .corner-icon-view .poptip {
+    background-color: #fff;
+    border-color: #ff1268
+}
+
+body.damai.pc .corner-icon-view .poptip .poptip-content {
+    color: #ff1268
+}
+
+body.damai.pc .corner-icon-view .poptip .poptip-arrow em {
+    border-left-color: #ff1268
+}
+
+body.damai.pc .corner-icon-view .poptip .poptip-arrow span {
+    border-left-color: #fff
+}
+
+body.damai.pc .nc-container .nc_scale .imgCaptcha .nc_scale_submit {
+    background-color: #ff1268;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4aae), to(#ff1268));
+    background-image: linear-gradient(90deg, #ff4aae, #ff1268)
+}
+
+body.damai.pc .nc-h5-overlay .stage2 .btn-ok, body.damai.pc .nc-h5-overlay .stage2 .btn-ok:disabled, body.damai.pc .nc-h5-overlay .stage2 .tips {
+    background-color: #ff1268 !important
+}
+
+body.damai.pc .login-blocks.qrcode-login-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px
+}
+
+body.damai.pc.lang-en_US .sns-login-block {
+    display: none
+}
+
+body.damai.mobile {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body.damai.mobile .width-vertical, body.damai.mobile .width-vertical .login-content {
+    width: 100%
+}
+
+body.damai.mobile .fm-field .fm-text {
+    border-color: #e7e7e7
+}
+
+body.damai.mobile .fm-text:focus, body.damai.mobile .fm-text:hover {
+    border-color: #ff1268
+}
+
+body.damai.mobile .fm-button {
+    background-color: #ff1268;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4aae), to(#ff1268));
+    background-image: linear-gradient(90deg, #ff4aae, #ff1268);
+    border-color: #ff1268
+}
+
+body.damai.mobile .phone-code-select .phone-code {
+    border-color: #e7e7e7;
+    border-bottom: 0
+}
+
+body.damai.mobile .phone-code-options {
+    border-color: #e7e7e7
+}
+
+body.damai.mobile .phone-code-options li.active, body.damai.mobile .phone-code-options li:hover {
+    background-color: #e7e7e7
+}
+
+body.damai.mobile .phone-code-options .fm-text:focus, body.damai.mobile .phone-code-options .fm-text:hover {
+    border-color: #ff1268
+}
+
+body.damai.mobile .phone-code-options .login-title {
+    color: #222
+}
+
+body.damai.mobile .nc-container {
+    margin-top: 20px
+}
+
+body.damai.mobile .nc-container .nc_scale .imgCaptcha .nc_scale_submit {
+    background-color: #ff1268;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4aae), to(#ff1268));
+    background-image: linear-gradient(90deg, #ff4aae, #ff1268)
+}
+
+body.damai.mobile .nc-h5-overlay .stage2 .btn-ok, body.damai.mobile .nc-h5-overlay .stage2 .tips {
+    background-color: #ff1268 !important;
+    border-radius: 3px !important
+}
+
+body.damai.mobile .nc-h5-overlay .stage2 .btn-ok:disabled {
+    background-color: #ff1268 !important
+}
+
+body.damai.mobile .master-login-title {
+    display: none
+}
+
+body.damai.mobile .fm-text {
+    border: none;
+    border-bottom: 1px solid #ddd
+}
+
+body.damai.mobile #login-form .fm-field .fm-label {
+    display: none
+}
+
+body.damai.mobile .fm-button {
+    font-size: 18px
+}
+
+body.damai.mobile .fm-field-sms .send-btn {
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-bottom: 8px;
+    background: #fff1f6;
+    line-height: 25px
+}
+
+body.damai.mobile .fm-field-sms .send-btn a {
+    color: #fc347b
+}
+
+body.damai.mobile .sns-login {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0;
+    padding: 0 20px
+}
+
+body.damai.mobile .sns-login .sns-login-title {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: -8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 50%;
+    margin-left: -55px;
+    width: 110px;
+    color: #73777a;
+    background-color: #fff;
+    line-height: 20px
+}
+
+body.damai.mobile .sns-login #thirdpart-login {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 16px;
+    border-top: 1px solid #ebecec
+}
+
+body.damai.mobile .sns-login #thirdpart-login .thirdpart-login-icon {
+    font-family: iconfont, serif !important;
+    font-size: 43px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #999;
+    background-image: none;
+    background-size: inherit;
+    width: 25%;
+    height: 50px;
+    margin: 0
+}
+
+body.damai.mobile .sns-login #thirdpart-login .icon-weixin:before {
+    content: "\E659"
+}
+
+body.damai.mobile .sns-login #thirdpart-login .icon-qq:before {
+    content: "\E631"
+}
+
+body.damai.mobile .sns-login #thirdpart-login .icon-weibo:before {
+    content: "\E630"
+}
+
+body.damai.mobile .sns-login #thirdpart-login .icon-alipay:before, body.damai.mobile .sns-login #thirdpart-login .icon-alipay_app:before {
+    content: "\E644"
+}
+
+body.damai.mobile .sns-login #thirdpart-login .icon-alipay, body.damai.mobile .sns-login #thirdpart-login .icon-alipay_app, body.damai.mobile .sns-login #thirdpart-login .icon-weibo {
+    font-size: 40px
+}
+
+body.damai.mobile .login-view-password a {
+    font-size: 12px;
+    float: left;
+    margin: 0;
+    color: #999
+}
+
+body.damai.mobile .login-view-password .forgot-password-link {
+    width: 33%;
+    text-align: center
+}
+
+body.damai.mobile .login-view-password .register-link {
+    width: 33%;
+    text-align: right
+}
+
+body.damai.mobile .login-view-password .sms-login-link {
+    width: 33%;
+    text-align: left
+}
+
+body.damai.mobile .login-view-sms a {
+    font-size: 12px;
+    float: left;
+    margin: 0;
+    color: #999
+}
+
+body.damai.mobile .login-view-sms .agreement a {
+    float: none
+}
+
+body.damai.mobile .login-view-sms .register-link {
+    width: 50%;
+    text-align: right
+}
+
+body.damai.mobile .login-view-sms .password-login-link {
+    width: 50%;
+    text-align: left
+}
+
+body.damai.mobile .login-view-sms .fm-field-sms-change a {
+    float: right;
+    padding-bottom: 15px
+}
+
+body.damai.mobile .login-view-sms .fm-submit {
+    margin-top: 0
+}
+
+body.damai.mobile .login-view-sms .sms-login-register .input-wrap-sms-loginid .icon-del {
+    display: none
+}
+
+body.damai.mobile .input-pwa-wrap .fm-text {
+    border-bottom: none
+}
+
+body.damai.mobile .input-pwa-wrap .underline .unfocused-line {
+    background: #e7e7e7
+}
+
+body.damai.mobile .input-pwa-wrap .underline .focused-line {
+    background: #ff1268
+}
+
+body.damai.mobile .fm-login-checkcode-img {
+    height: 42px;
+    float: right;
+    margin: -36px 1px 0 0
+}
+
+body.damai.mobile .picker-modal-container .picker-modal {
+    background-color: #fff
+}
+
+body.damai.mobile .picker-modal-container .picker-modal header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee
+}
+
+body.damai.mobile .picker-modal-container .picker-modal header .title, body.damai.mobile .picker-modal-container .picker-modal header a {
+    color: #ff1268;
+    font-size: 14px
+}
+
+body.damai.mobile .picker-modal-container .picker-item, body.damai.mobile .picker-modal-container .picker-item-selected {
+    font-size: 14px
+}
+
+/*# sourceMappingURL=damai.css.map*/

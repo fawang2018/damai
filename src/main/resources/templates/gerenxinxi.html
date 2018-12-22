@@ -1,0 +1,647 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html; charset=utf-8"/>
+    <title>我的大麦-个人信息</title>
+    <link rel="stylesheet" href="css/gerenxinxi.css"/>
+    <style type="text/css">.onError {
+        color: #f52954;
+    }</style>
+    <!--<script type="text/javascript" src="//dui.damai.cn/damai_v2/common/js/jquery-1.7.2.min.js"></script>-->
+    <!--<script type="text/javascript" src="//dui.damai.cn/damai_v2/passport/ui-min.js"></script>-->
+    <!--<script src="/js/base.js" type="text/javascript"></script>-->
+    <!--<script type="text/javascript" src="/js/dateselects.js"></script>-->
+    <!--<script type="text/javascript" src="/js/formValidator.js?t=20160925"></script>-->
+    <!--<script type="text/javascript" src="/js/myinfo.js?t=20160925"></script>-->
+
+    <!--<script type="text/javascript">-->
+        <!--var currNavName = "MyInfo";-->
+    <!--</script>-->
+
+    <link rel="stylesheet" href="css/gerenxinxi1.css"/>
+    <link rel="stylesheet" href="css/gerenxinxi2.css"/>
+    <!--<script src="../static/js/jquery-3.3.1.js"></script>-->
+</head>
+
+<body>
+<!--<script>-->
+    <!--with (document) with (body) with (insertBefore(createElement("script"), firstChild)) setAttribute("exparams", "category=&userid=&aplus&yunid=&e4733119e0371&trid=0b83df9215447865206253965ebb1f&asid=AQAAAABYkhNck00scgAAAABWzqKko5mNAA==", id = "tb-beacon-aplus", src = (location > "https" ? "//g" : "//g") + ".alicdn.com/alilog/mlog/aplus_v2.js")-->
+<!--</script>-->
+
+
+<div class="dm-header-wrap">
+    <div class="dm-header-box" data-spm="top">
+        <a href="//www.damai.cn"><img class="i-logo" src="images/TB1TikIsAvoK1RjSZFDXXXY3pXa-230-104.png" alt="大麦" /></a>
+
+        <div class="recommend-header">
+            <a href="//www.damai.cn" class="type-recommend select" data-spm="dhome">首页</a>
+            <a href="//search.damai.cn/search.htm?order=1" class="type-recommend" data-spm="dcategory">分类</a>
+
+
+        </div>
+        <div class="right-header" data-spm="nick">
+            <div class="box-header user-header">
+                <a href="javascript:void(0)" class="J_userinfo_img" data-spm="duserinfo"><img class="i-box-header i-user" src="images/TB14UKCGQyWBuNjy0FpXXassXXa-54-54.png" /></a>
+                <a href="//passport.damai.cn/accountinfo/myinfo" class="J_userinfo_name" data-spm="duserinfo">
+                    <div class="span-box-header name-user"></div>
+                </a>
+                <div class="login-user show">
+                    <span class="span-box-header span-user" th:text="${session.yh.YH_NiCheng}" data-spm="dlogin">登录</span>
+                    <input type="hidden" id="yhid" th:value="${session.yh.YH_ID}"/>
+                </div>
+                <div class="list-wrap">
+                    <div class="list-login">
+                        <a href="//passport.damai.cn/accountinfo/myinfo" class="li-login select" data-spm="duserinfo">个人信息</a>
+                        <a href="//my.damai.cn/account/accountSafe" class="li-login" data-spm="daccountsetting">账号设置</a>
+                        <a href="//orders.damai.cn/orderList" class="li-login" data-spm="dordermanage">订单管理</a>
+                        <a href="//www.damai.cn/redirect.aspx?type=logout" data-spm="dexit" class="li-login out-login">退出登录</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-header download-header">
+                <img class="i-box-header i-download" src="images/TB1A9eIGKuSBuNjy1XcXXcYjFXa-54-54.png" alt="下载" />
+                <span class="span-box-header">下载</span>
+                <div class="ewm-download">
+                    <img class="i-ewm" src="images/TB1r0uFxHSYBuNjSspiXXXNzpXa-280-280.png" />
+                </div>
+            </div>
+            <div class="box-header">
+                <a href="//en.damai.cn/" data-spm="denglish">
+                    <img class="i-box-header" src="images/TB13UKCGQyWBuNjy0FpXXassXXa-54-54.png" alt="英文站" />
+                    <span class="span-box-header">English</span>
+                </a>
+            </div>
+        </div>
+        <div class="search-header" data-spm="searchtxt">
+            <img class="i-search" src="images/TB1qv3jxGmWBuNjy1XaXXXCbXXa-34-36.png" alt="搜索" />
+            <input class="input-search" placeholder="搜索明星、演出、体育赛事" data-spm="dsearchbtn" />
+            <div class="btn-search" data-spm="dsearchbtn2">搜索</div>
+            <div class="list-search-wrap">
+                <div class="list-search">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="red-line"></div>
+<!--main-->
+<div class="main">
+    <!--left of start-->
+    <div class="sidenav">
+        <div id="mydamai">
+            <h3>我的大麦</h3>
+            <dl>
+                <dt>交易中心</dt>
+                <dd><a id="nav_Order" href="http://order.damai.cn/index.aspx" title="订单管理"
+                       domain=""><span>订单管理</span></a></dd>
+
+                <dd><a id="nav_myCoupon" href="http://coupon.damai.cn/coupon-web-damai/mycoupon/myCoupon" title="我的优惠券"
+                       domain=""><span>我的优惠券</span></a></dd>
+
+
+                <dl>
+                    <!--
+                    <dt>互动中心</dt>
+                        <dd><a id="nav_MessCenter" href="http://my.damai.cn/interaction/siteMessage" title="站内消息"  domain=""><span >站内消息</span></a></dd>
+                        <dd><a id="nav_MyComment" href="http://my.damai.cn/interaction/myComment" title="我的评论"  domain=""><span >我的评论</span></a></dd>
+                        <dd><a id="nav_MyQuestion" href="http://my.damai.cn/interaction/myQuestion" title="我的提问"  domain=""><span >我的提问</span></a></dd></dl>
+                    <dl>
+                    -->
+                    <dt>账户中心</dt>
+                    <dd><a id="nav_MyAddress" href="https://passport.damai.cn/addressManage/myAddress" title="收货地址"
+                           domain=""><span>收货地址</span></a></dd>
+                    <dd><a id="nav_AccountSafty" href="https://passport.damai.cn/accountinfo/accountsetting"
+                           title="账号设置" domain=""><span>账号设置</span></a></dd>
+
+                    <dd><a id="nav_MyInfo" href="https://passport.damai.cn/accountinfo/myinfo" title="个人信息"
+                           domain=""><span>个人信息</span></a></dd>
+
+                    <dd><a id="nav_MyInfo" href="https://passport.damai.cn/customerManage/customerManageIndex"
+                           title="常用购票人" domain=""><span>常用购票人</span></a></dd>
+                </dl>
+
+                <!--<script type='text/javascript'>-->
+                    <!--(function () {-->
+                        <!--document.getElementById('mydamai').style.display = 'none';-->
+                        <!--var object = document.getElementById('nav_' + currNavName);-->
+                        <!--if (object) object.className += ' on';-->
+                        <!--document.getElementById('mydamai').style.display = '';-->
+                    <!--})();-->
+                <!--</script>-->
+        </div>
+    </div>
+
+    <!--left of end-->
+    <!--right of start-->
+    <div class="right-main">
+        <div class="breadcrumb">
+            <span>个人信息</span></div>
+        <div class="tab-mydamai">
+            <ul class="title">
+                <li><a class="on" id="jbzl" href="javascript:void(0)">基本资料</a></li>
+                <li><a class="" id="txsz" href="javascript:void(0)">头像设置</a></li>
+
+                <li class="right">资料完整度：<span>50%</span></li>
+            </ul>
+            <!--基本资料-->
+            <div class="c-n box01" id="jibenziliao">
+                <div class="per-edit-list">
+                    <form id="myinfoform" method="post" action="">
+                        <div class="per-edit-msg">完善更多个人信息，有助于我们为您提供更加个性化的服务，大麦网将尊重并保护您的隐私。</div>
+                        <dl>
+                            <dt><span class="c4" style="padding-right:3px;color:red;">*</span>昵称：</dt>
+                            <dd>
+                                <input id="nickinp" type="text" class="input-text-2" name="NickName" th:value="${session.yh.YH_NiCheng}" value=""/>
+                                <span id="nickinpTip" class="tip"></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>真实姓名：</dt>
+                            <dd>
+                                <input id="realinp" disabled="true" type="text" class="input-text-2" name="RealName"
+                                       th:value="${session.yh.YH_ZhengShiXingMing}" value=""/>
+                                <span id="realinpTip" class="tip"></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><span class="c4" style="padding-right:3px;color:red;">*</span>性别：</dt>
+                            <dd>
+                                <label class="radio">
+                                    <input style="-webkit-appearance:radio" type="radio" id="sexRadio" class="sex" value="男"
+                                           name="Sex" th:checked="${session.yh.YH_XinGBie=='男'}"/><span class="m">男</span>
+                                </label>
+                                <label class="radio">
+                                    <input style="-webkit-appearance:radio" type="radio" id="sexRadio1" class="sex" value="女" th:checked="${session.yh.YH_XinGBie=='女' }"
+                                           name="Sex"/><span class="f">女</span>
+                                </label>
+                                <span id="sexRadioTip" class="tip"></span>
+                            </dd>
+                        </dl>
+                        <dl data-spm-anchor-id="0.0.0.i1.346cd01f4NnTY8">
+                            <dt>出生日期：</dt>
+                            <dd>
+                                <!--<script type="text/javascript">-->
+                                    <!--FnCreateYearMonthDay('birthY', 1990, 'birthM', 1, 'birthD', 1);-->
+                                <!--</script>-->
+                                <select class="sel-1" id="birthY" name="birthY">
+                                    <option value="0"></option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                    <option value="1922">1922</option>
+                                    <option value="1921">1921</option>
+                                    <option value="1920">1920</option>
+                                    <option value="1919">1919</option>
+                                    <option value="1918">1918</option>
+                                    <option value="1917">1917</option>
+                                    <option value="1916">1916</option>
+                                    <option value="1915">1915</option>
+                                    <option value="1914">1914</option>
+                                    <option value="1913">1913</option>
+                                    <option value="1912">1912</option>
+                                    <option value="1911">1911</option>
+                                    <option value="1910">1910</option>
+                                    <option value="1909">1909</option>
+                                    <option value="1908">1908</option>
+                                    <option value="1907">1907</option>
+                                    <option value="1906">1906</option>
+                                    <option value="1905">1905</option>
+                                    <option value="1904">1904</option>
+                                    <option value="1903">1903</option>
+                                    <option value="1902">1902</option>
+                                    <option value="1901">1901</option>
+                                    <option value="1900">1900</option>
+                                </select>&nbsp;年&nbsp;<select class="sel-2" id="birthM" name="birthM">
+                                <option value="0"></option>
+                                <option value="1" selected="selected">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>&nbsp;月&nbsp;<select class="sel-2" id="birthD" name="birthD">
+                                <option value="0"></option>
+                                <option value="1" selected="selected">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>&nbsp;日
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>身份证号：</dt>
+                            <dd>
+                                <input id="cardinp" disabled="true" type="text" class="input-text-1" name="IdentityCard" th:value="${session.yh.YH_ShenFenZhengRiQi}"
+                                       value="431227********0033"/>
+                                <span id="cardinpTip" class="tip"></span>
+                            </dd>
+                        </dl>
+                        <button id="sumBgn" class="btn05">保存</button>
+                    </form>
+                    <script src="js/jquery-1.8.3.min.js"></script>
+                    <script>
+                        $(function(){
+                            var year1=[[${session.birth[0]}]];
+                            var month1=[[${session.birth[1]}]];
+                            var day1=[[${session.birth[2]}]];
+                            $("#birthY option[value="+year1+"]").attr("selected","selected");
+                            $("#birthM option[value="+month1+"]").attr("selected","selected");
+                            $("#birthD option[value="+day1+"]").attr("selected","selected");
+                            
+                            $("#sumBgn").click(function () {
+                                var nc=$("#nickinp").val();
+                                var xb=$(".sex").val();
+                                var cs=$("#birthY").val()+"-"+$("#birthM").val()+"-"+$("#birthD").val();
+                                var yhid=$("#yhid").val();
+                                $.post('',{YH_NiCheng:nc,YH_XinGBie:xb,YH_ChuSheng:cs,YH_ID:yhid},function (result) {
+                                    alert(result);
+                                },'json')
+                                window.location.reload();
+                            })
+                        })
+                    </script>
+                </div>
+            </div>
+            <!--头像设置-->
+            <div class="c-n box01" style="display: none" id="touxiangshezhi">
+                <div class="upload-photo-flash" id="mapFlash">
+                    <!--头像设置flash-->
+                    <div class="crop">
+                        <div class="dm-crop">
+                            <div class="dm-crop-main">
+                                <canvas class="dm-crop-canvas" width="470" height="355"></canvas>
+                                <div class="dm-crop-upload">
+                                    <div class="dm-crop-picker">
+                                        <div class="dm-crop-picker__text">请选择一张照片</div>
+                                        <a class="dm-crop-btn dm-crop-btn__upload" href="javascript:;">
+                                            选择照片
+                                            <input type="file">
+                                        </a>
+                                    </div>
+                                    <div class="dm-crop-mask"></div>
+                                </div>
+                            </div>
+                            <div class="dm-crop-side">
+                                <div class="dm-crop-row">
+                                    <div class="dm-crop-preview__text">头像预览 (150 * 150)</div>
+                                </div>
+
+                                <div class="dm-crop-row">
+                                    <div class="dm-crop-preview">
+                                        <img class="dm-crop-preview__image" src="https://perico.damai.cn/userheadphotos/597861/119572370_150_150.jpg?t=1544787681539">
+                                    </div>
+                                </div>
+
+                                <div class="dm-crop-row">
+                                    <a class="dm-crop-btn dm-crop-btn__upload" href="javascript:;">
+                                        选择照片
+                                        <input type="file" name="headImg">
+                                    </a>
+                                    <div class="dm-crop-text">支持JPG、PNG</div>
+                                </div>
+                                <div class="dm-crop-row">
+                                    <a class="dm-crop-btn dm-crop-btn__save" href="javascript:;">保存</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--right of end-->
+
+<!--<script type="text/javascript" src="//cp.damai.cn/js/Service51La/SeoFlowStatistics.js?45"></script>-->
+
+<!--<script>-->
+    <!--if (typeof JsLoader === 'undefined') {-->
+        <!--window.JsLoader = {-->
+            <!--load: function () {-->
+            <!--}, before: function () {-->
+            <!--}, complete: function () {-->
+            <!--}, completeAfter: function () {-->
+            <!--}-->
+        <!--};-->
+    <!--}-->
+<!--</script>-->
+<!--<script src="//dui.damai.cn/dm_2014/common/dui-min.js" type="text/javascript"></script>-->
+<!--<script src="//dui.damai.cn/dm_2014/common/app-min.js" type="text/javascript"></script>-->
+</div>
+<!--返回顶部及帮助中心-->
+<div class="new-fast">
+    <a onclick="jvascript:$('body,html').animate({ scrollTop: 0 }, 500);" class="fast-top" href="#">返回顶部</a>
+    <a class="fast-help" href="//www.damai.cn/helpcollect.html#selfservice" target="_blank">帮助中心</a>
+</div>
+
+<!-- 成功提示层 begin -->
+<div class="tips-y-b">
+    <div class="tips-y-b-con"><p></p></div>
+</div>
+<div class="tips-f-b">
+    <div class="tips-f-b-con"><p></p></div>
+</div>
+
+<!-- 成功提示层 start -->
+
+<!--ems start-->
+
+
+<div class="dm-footer">
+    <div class="w1200">
+        <ul class="footer__links">
+
+            <li class="footer__links__list"><a href="//help.damai.cn" target="_blank" data-spm="flink0">帮助中心</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=69&amp;categoryId=30" target="_blank"
+                    data-spm="flink1">公司介绍</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=70&amp;categoryId=30" target="_blank"
+                    data-spm="flink2">品牌识别</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=72&amp;categoryId=30" target="_blank"
+                    data-spm="flink3">公司大事记</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=40&amp;categoryId=14" target="_blank"
+                    data-spm="flink4">隐私权专项政策</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;jubao.alibaba.com&#x2F;internet&#x2F;readme.htm?spm=a2o6e.search.0.0.72f44d15Votov6&amp;site=damai"
+                    target="_blank" data-spm="flink5">廉正举报</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=58&amp;categoryId=5" target="_blank"
+                    data-spm="flink6">联系合作</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;job.alibaba.com&#x2F;zhaopin&#x2F;positionList.htm?keyWord=JXU1OTI3JXU5RUE2&amp;_input_charset=UTF-8"
+                    target="_blank" data-spm="flink7">招聘信息</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a
+                    href="&#x2F;&#x2F;x.damai.cn&#x2F;markets&#x2F;special&#x2F;fangzhapian?spm=a2o6e.home.0.0.75df48d3hqGWGD&amp;wh_ttid=pc"
+                    target="_blank" data-spm="flink8">防骗秘籍</a></li>
+
+
+        </ul>
+
+        <div class="footer__ft">
+            <div class="footer__ft_fl">
+                <a href="//www.damai.cn/?spm=a2o6e.home.0.0.591b48d3QzpG8B" target="_blank" class="footer__ft__logo">
+                    <img src="images/TB17qoDszTpK1RjSZKPXXa3UpXa-167-60.png" alt="">
+                </a>
+                <div class="footer__ft__code__box">
+                    <img class="footer__ft__code" src="images/TB1r0uFxHSYBuNjSspiXXXNzpXa-280-280.png" alt="">
+                    <span>APP下载</span>
+                </div>
+            </div>
+            <div class="footer__ft_fr">
+                <div class="footer__fr__contact">
+
+                    <a style="margin-left:0;" href="//online.damai.cn/alime/index?from=damai_pc_item&v=3" class="footer__fr__contact__btn alime">在线客服</a>
+                </div>
+                <ul class="footer__ft__words">
+                    <li class="footer__ft__certificate"><a
+                            href="http://www.miitbeian.gov.cn?spm=a2o6e.home.0.0.5b4d48d3mVzb2Z" target="_blank">京ICP证031057号</a></li>
+                    <li class="footer__ft__grep">|</li>
+                    <li class="footer__ft__certificate"><a href="http://www.miitbeian.gov.cn" target="_blank">京ICP备11043884号</a></li>
+                    <li class="footer__ft__grep">|</li>
+                    <li class="footer__ft__certificate"><a
+                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102000430" target="_blank">京公网安备11010102000430号</a>
+                    </li>
+                    <li class="footer__ft__grep">|</li>
+                    <li class="footer__ft__certificate"><a href="images/TB1K9r6xN9YBuNjy0FfXXXIsVXa-1152-799.jpg" target="_blank">广播电视节目制作经营许可证
+                        (京)字第02253号</a></li>
+                </ul>
+                <ul class="footer__ft__words">
+                    <li class="footer__ft__certificate"><a
+                            href="images/TB1AsH4xH9YBuNjy0FgXXcxcXXa-1420-1032.jpg" target="_blank">网络文化经营许可证
+                        京网文[2016]3438-413号</a></li>
+                    <li class="footer__ft__grep">|</li>
+                    <li class="footer__ft__certificate"><a href="images/TB1DfD6CxGYBuNjy0FnXXX5lpXa-1079-1527.jpg" target="_blank">营业性演出许可证
+                        京市演587号</a></li>
+                </ul>
+                <ul class="footer__ft__words">
+                    <li class="footer__ft__certificate">北京红马传媒文化发展有限公司 版权所有</li>
+                    <li class="footer__ft__certificate"><a
+                            href="//www.damai.cn/?spm=a2o6e.home.0.0.591b48d3QzpG8B">大麦网</a></li>
+                    <li>Copyright 2003-2018 All Rights Reserved</li>
+                </ul>
+                <div class="footer__ft__img">
+                    <span id="siteseal">
+                    <!--<script async="" type="text/javascript">-->
+                            <!--function verifySeal() {-->
+                                <!--var bgHeight = "null";-->
+                                <!--var bgWidth = "593";-->
+                                <!--var url = "https:\/\/seal.godaddy.com\/verifySeal?sealID=LU6rXPgk5BZ67ZEYpYS2JcN3AyCJOs6aD3HBo4dwA3iGeqp6csKFmqgB0zLL";-->
+                                <!--window.open(url, 'SealVerfication', 'menubar=no,toolbar=no,personalbar=no,location=yes,status=no,resizable=yes,fullscreen=no,scrollbars=no,width=' + bgWidth + ',height=' + bgHeight);-->
+                            <!--}-->
+                    <!--</script>-->
+                    <img style="cursor:pointer;cursor:hand" class="footer__ft__img1"
+                         src="images/TB1gw_ZxNWYBuNjy1zkXXXGGpXa-131-32.gif"
+                         onclick="verifySeal();" alt="SSL site seal - click to verify"
+                         data-spm-anchor-id="a2o6e.home.0.i1.5b4d48d3mVzb2Z">
+                    </span>
+                    <a rel="nofollow" title="电子营业执照" target="_blank"
+                       href="images/TB1CChlpwDqK1RjSZSyXXaxEVXa-1200-1672.jpg">
+                        <img class="footer__ft__img2" alt="" src="images/TB1ZO80pyOYBuNjSsD4XXbSkFXa-141-41.png">
+                    </a>
+
+                    <a rel="nofollow" target="_blank" href="https://www.pcisecuritystandards.org/">
+                        <img src="images/TB1Y580pyOYBuNjSsD4XXbSkFXa-83-50.png" class="footer__ft__img3">
+                    </a>
+                    <a rel="nofollow" target="_blank"
+                       href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/1756737221">
+                        <img src="images/TB1pM_ZxNWYBuNjy1zkXXXGGpXa-114-40.png" class="footer__ft__img4w">
+                    </a>
+                    <a target="_blank" href="https://search.szfw.org/cert/l/CX20130327002367002885"
+                       id="___szfw_logo___">
+                        <img class="footer__ft__img4" src="images/TB1C4nNxTlYBeNjSszcXXbwhFXa-114-42.png">
+                    </a>
+                    <!--<script type="text/javascript">(function () {-->
+                        <!--document.getElementById('___szfw_logo___').oncontextmenu = function () {-->
+                            <!--return false;-->
+                        <!--}-->
+                    <!--})();</script>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .sidebar {
+        top: 72.5%;
+    }
+
+    img {
+        border: 0;
+    }
+</style>
+<!--<script type="text/javascript"-->
+        <!--src="https://g.alicdn.com/dt/tracker/3.5.4/??tracker.Tracker.js,tracker.interfaceTrackerPlugin.js,tracker.performanceTrackerPlugin.js"-->
+        <!--crossorigin></script>-->
+
+
+<!--<script src="//g.alicdn.com/mtb/lib-mtop/2.3.16/mtop.js"></script>-->
+<!--<script data-config="{combine:true}" src="//g.alicdn.com/kissy/k/6.2.4/seed.js"></script>-->
+<!--<script src="//g.alicdn.com/damai/pc/1.0.3/p/head/index.js"></script>-->
+<!--ems end-->
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#jbzl").click(function () {
+            $(this).addClass('on');
+            $("#txsz").removeClass('on');
+            $("#jibenziliao").css("display","block");
+            $("#touxiangshezhi").css("display","none")
+        });
+        $("#txsz").click(function () {
+            $(this).addClass('on');
+            $("#jbzl").removeClass('on');
+            $("#jibenziliao").css("display","none");
+            $("#touxiangshezhi").css("display","block")
+        })
+    })
+</script>
+</body>
+</html>

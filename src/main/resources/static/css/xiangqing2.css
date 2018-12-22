@@ -1,0 +1,24 @@
+.wxqrcode{
+    color: #666;
+}
+
+.wxqrcode .wx-msg{
+    height: 36px;
+    line-height: 32px;
+    padding-top: 6px;
+}
+
+.wxqrcode .wx-msg .wx-red{
+    color: #EE0B74;
+}
+
+.wxqrcode .wx-msg img{
+    margin-right: 5px;
+}
+
+.wxqrcode .wx-qrcode img{
+
+    width: 160px;
+    height: 160px;
+    border: 1px solid #D5D5D5;
+}

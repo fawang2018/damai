@@ -1,0 +1,316 @@
+/*!YUI-Compressor */
+#content {
+    width: 100%
+}
+
+.act-module-header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: transparent
+}
+
+.act-module-header .guide-area, .act-module-header .rule-area {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10
+}
+
+.act-module-header .guide-area {
+    right: 60px
+}
+
+.act-module-header .J_xtpl {
+    display: none
+}
+
+.act-module-header .countdownBox {
+    position: absolute;
+    left: 358px;
+    bottom: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Heiti SC', '\534e\6587\7ec6\9ed1', 'Microsoft yahei', '\5fae\8f6f\96c5\9ed1';
+    height: 36px;
+    line-height: 36px;
+    width: auto;
+    display: none;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 0 10px;
+    color: #000
+}
+
+.act-module-header .countdownBox span {
+    width: 36px;
+    text-align: center;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 2px;
+    font-weight: 700;
+    font-family: arail
+}
+
+.act-module-header .countdownBox .cd, .act-module-header .countdownBox .inner, .act-module-header .countdownBox .prefix {
+    display: inline-block
+}
+
+.act-module-header .countdownBox span s {
+    text-decoration: none
+}
+
+.act-module-header .act-header-inner img {
+    display: block
+}
+
+.act-module-header .act-header-inner {
+    width: 990px;
+    position: relative;
+    margin: 0 auto
+}
+
+.act-module-header .header-link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden
+}
+
+.act-module-header .header-link a {
+    display: block;
+    background: url(//img.alicdn.com/tps/i3/TB1mBUDGVXXXXaUXFXX.xUdYVXX-104-104.png) no-repeat;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    text-indent: -999em;
+    overflow: hidden;
+    float: right;
+    margin-left: 2px
+}
+
+.act-module-header .header-link a:hover {
+    background-position: -52px 0
+}
+
+.act-module-header .header-link .j_ActShare {
+    background-position: 0 -52px
+}
+
+.act-module-header .header-link .j_ActShare:hover {
+    background-position: -52px -52px
+}
+
+body {
+    background-color: #F3F5F6
+}
+
+.zebra-dm-image-six a {
+    text-decoration: none
+}
+
+.zebra-dm-image-six .wrap {
+    width: 1200px;
+    margin: 30px auto 0;
+    position: relative;
+    font-size: 0
+}
+
+.zebra-dm-image-six .head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: none
+}
+
+.zebra-dm-image-six .head .head-img {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left
+}
+
+.zebra-dm-image-six .head .head-title {
+    max-width: 500px;
+    height: 100%;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #333;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .head .head-more {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 23px;
+    color: #222;
+    max-width: 450px;
+    height: 100%;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .head .head-arrow {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px
+}
+
+.zebra-dm-image-six .head .head-arrow img {
+    width: 16px;
+    margin: 1px
+}
+
+.zebra-dm-image-six .line {
+    width: 100%
+}
+
+.zebra-dm-image-six .line .box {
+    width: 185px;
+    height: 359px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 18px;
+    margin-top: 15px
+}
+
+.zebra-dm-image-six .line .box .box-head {
+    width: 100%;
+    height: 249px;
+    overflow: hidden;
+    position: relative
+}
+
+.zebra-dm-image-six .line .box .box-head-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.zebra-dm-image-six .line .box .box-head-line {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag, .zebra-dm-image-six .line .box .box-head-line .box-head-tag2, .zebra-dm-image-six .line .box .box-head-line .box-head-tag3 {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag {
+    background-color: #453e3c;
+    padding: 0 7px 0 5px;
+    max-width: 45%
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag2 {
+    background-image: -webkit-linear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: -moz- oldlinear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: linear-gradient(35deg, #ffa346 0, #ff1541 100%);
+    background-color: #ff2d42;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -3px;
+    padding: 0 5px
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag3 {
+    background-color: #6031b5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -3px;
+    padding: 0 5px
+}
+
+.zebra-dm-image-six .line .box .box-bottom {
+    width: 165px;
+    height: 90px;
+    position: relative;
+    padding: 10px
+}
+
+.zebra-dm-image-six .line .box .box-bottom-title {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: justify;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .line .box .box-bottom-date {
+    width: 100%;
+    height: 11px;
+    line-height: 11px;
+    font-size: 10px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money {
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+    position: relative
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money-tip {
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money-num {
+    color: #fa1268;
+    font-size: 21px;
+    margin-left: 16px
+}
+
+.zebra-dm-image-six .line .noMarginRight {
+    margin-right: 0
+}

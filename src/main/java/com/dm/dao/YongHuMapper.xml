@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dm.dao.YongHuMapper">
+
+    <cache />
+
+    <select id="dengLu" parameterType="YongHu" resultType="YongHu">
+        select * from YONGHU where YH_ZHANGHAO=#{YH_ZhangHao} and YH_MIMA=#{YH_MiMa}
+    </select>
+
+    <insert id="zhuce" parameterType="YongHu">
+        insert into YONGHU(YH_ZhangHao,YH_MiMa) values(#{YH_ZhangHao},#{YH_MiMa})
+    </insert>
+
+    <select id="ceshi"  resultType="YongHu">
+        select * from YONGHU where YH_ID=#{YH_ID}
+    </select>
+
+    <update id="gengxin" parameterType="YongHu">
+        update YongHu set (YH_NiCheng ,YH_XinGBie,YH_ChuSheng)=(select #{YH_NiCheng},#{YH_XinGBie,#{YH_ChuSheng} from dual) where YH_ID=#{YH_ID};
+    </update>
+</mapper>

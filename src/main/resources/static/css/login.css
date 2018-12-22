@@ -1,0 +1,84 @@
+body{
+    width: 61%;
+    height: 700px;
+    left: 0px;
+    padding-left: 0px;
+}
+.login{
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+}
+.login1{
+    width: 400px;
+    height: 50px;
+}
+.login1 a{
+    display: inline-block;
+    color: limegreen;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration:none
+
+}
+.img1{
+    width: 50px;
+    margin-left: 350px;
+    margin-top: -42px;
+}
+.login2{
+    border: 1px solid white;
+    margin-top: 102px;
+}
+.login2 img {
+    border: 1px solid white;
+    margin-left: 125px;
+
+}
+
+.login2 p{
+     border: 1px solid white;
+     width: 150px;
+     margin-left: 145px;
+     font-size: 13px;
+ }
+.login2 p:nth-child(3){
+    border: 1px solid white;
+    width: 100px;
+    margin-left: 155px;
+    font-size: 13px;
+
+}
+.login2 input{
+    vertical-align:text-bottom;
+}
+.login3 {
+    border: 1px solid white;
+    width: 400px;
+    margin-top: 130px;
+}
+.img2{
+    border: 1px solid white;
+    width: 150px;
+    margin-left: 130px;
+}
+.img2 input{
+    border:1px solid forestgreen;
+    background-color: white;
+    height: 32px;
+    width: 150px;
+    color:forestgreen;
+}
+.login3 p{
+    border: 1px solid white;
+    width: 150px;
+    margin-left: 135px;
+    margin-top: 40px;
+}
+.login3 a{
+    text-decoration:none;
+    color:darkslategray;
+    font-size: 13px;
+    margin-left: 44px;
+
+}

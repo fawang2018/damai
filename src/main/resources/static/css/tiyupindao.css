@@ -1,0 +1,723 @@
+a, a:hover {
+    text-decoration: none
+}
+
+.clear:after, .dm-header:after {
+    content: '\20';
+    clear: both
+}
+
+html {
+    color: #000;
+    background: #fff;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: none;
+    font-family: Microsoft YaHei
+}
+
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 400
+}
+
+ol, ul {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei"
+}
+
+.dm-bottom .dm-helper dt, .dm-header .dm-citys h1, .dm-header .search-main .search-btn, .top-con li.dm-site-nav.on .site-nav-c dt {
+    font-family: "Microsoft YaHei"
+}
+
+.hidden {
+    display: none
+}
+
+.clear:after {
+    display: block;
+    height: 0
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.vm {
+    vertical-align: middle
+}
+
+a {
+    color: #333;
+    outline: 0
+}
+
+a:hover {
+    color: #ed0a75
+}
+
+.dm-bottom .dm-helper dd a:hover, .dm-bottom .dm-links a:hover, .top-con li.dm-info .dm-login:hover, .top-con li.dm-info .dm-register:hover, .top-con li.dm-site-nav.on .site-nav-c dl li a:hover {
+    text-decoration: underline
+}
+
+button::-moz-focus-inner, input[type=button]::-moz-focus-inner, input[type=file] > input[type=button]::-moz-focus-inner, input[type=reset]::-moz-focus-inner, input[type=submit]::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.top-s {
+    height: 35px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.top-con {
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    height: 35px;
+    line-height: 35px
+}
+
+.top-con li {
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) right 12px no-repeat;
+    padding: 0 11px 0 10px;
+    float: left;
+    position: relative;
+    height: 35px;
+    z-index: 1000
+}
+
+.top-con li.dm-info {
+    padding-left: 0
+}
+
+.top-con li.mini-logo {
+    background: 0;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.top-con li.mini-logo img {
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-top: 5px
+}
+
+.top-con li.dm-info .dm-login {
+    color: #ed0a75;
+    padding: 0 5px
+}
+
+.top-con li.dm-info .dm-register {
+    color: #666;
+    padding-right: 5px
+}
+
+.top-con li.dm-info .dm-message {
+    color: #666;
+    padding: 0 10px
+}
+
+.top-con li b {
+    width: 7px;
+    height: 4px;
+    overflow: hidden;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) 0 -40px no-repeat;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in
+}
+
+.top-con li.on b, .top-con li:hover b {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    background-position: 0 -50px
+}
+
+.top-con li .dm-t a {
+    color: #666
+}
+
+.top-con li .dm-c {
+    display: none
+}
+
+.top-con li.on .dm-t {
+    background: #fff;
+    height: 35px;
+    line-height: 34px;
+    padding-left: 10px;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0
+}
+
+.top-con li.on .dm-c {
+    display: block;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-top: 0
+}
+
+.top-con li.dm-service, .top-con li.mydm {
+    width: 59px
+}
+
+.top-con li.dm-service.on .service-t, .top-con li.mydm.on .mydm-t {
+    width: 69px;
+    position: absolute;
+    left: -1px;
+    top: 0
+}
+
+.top-con li.dm-service.on .service-c, .top-con li.mydm.on .mydm-c {
+    width: 79px;
+    position: absolute;
+    top: 36px;
+    left: -1px;
+    padding: 5px 0
+}
+
+.top-con li.dm-service.on .service-c a, .top-con li.mydm.on .mydm-c a {
+    line-height: 22px;
+    color: #333;
+    display: block;
+    text-align: center
+}
+
+.top-con li.dm-service.on .service-c a:hover, .top-con li.mydm.on .mydm-c a:hover {
+    background: #f5f5f5;
+    color: #ed0a75
+}
+
+.top-con li.myorder {
+    background: 0
+}
+
+.top-con li.dm-app {
+    width: 40px
+}
+
+.top-con li.dm-app .app-t em {
+    width: 11px;
+    height: 16px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) 0 -60px no-repeat;
+    transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -webkit-transition: all .2s ease 0s
+}
+
+.top-con li.dm-app:hover .app-t em {
+    background-position: 0 -80px
+}
+
+.top-con li.dm-app.on .app-t {
+    width: 50px;
+    position: absolute;
+    left: -1px;
+    top: 0
+}
+
+.top-con li.dm-app.on .app-c {
+    padding: 15px 15px 0;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/app.png) 15px 15px no-repeat #fff;
+    width: 195px;
+    position: absolute;
+    top: 36px;
+    left: -1px
+}
+
+.top-con li.dm-app.on .app-c .dm-code, .top-con li.dm-app.on .app-c .dm-code-m {
+    padding-left: 98px;
+    padding-top: 35px;
+    line-height: 25px;
+    padding-bottom: 10px
+}
+
+.top-con li.dm-app.on .app-c .dm-code .t1, .top-con li.dm-app.on .app-c .dm-code-m .t1 {
+    color: #999
+}
+
+.top-con li.dm-app.on .app-c .dm-code .t2, .top-con li.dm-app.on .app-c .dm-code-m .t2 {
+    color: #e51b46;
+    font-size: 16px;
+    font-family: "Microsoft YaHei"
+}
+
+.top-con li.dm-app.on .app-c .dm-android, .top-con li.dm-app.on .app-c .dm-ipad, .top-con li.dm-app.on .app-c .dm-iphone, .top-con li.dm-app.on .app-c .dm-wp {
+    width: 195px;
+    height: 40px;
+    display: block;
+    margin-bottom: 2px
+}
+
+.top-con li.dm-app.on .app-c .dm-code-m {
+    padding-top: 38px
+}
+
+.top-con li.dm-app.on .app-c .dm-code-m .t1 {
+    line-height: 16px
+}
+
+.top-con li.dm-site-nav {
+    width: 73px
+}
+
+.top-con li.dm-site-nav .site-nav-t em {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) 0 -100px no-repeat
+}
+
+.top-con li.dm-site-nav.on .site-nav-t {
+    width: 83px;
+    position: absolute;
+    left: -1px;
+    top: 0
+}
+
+.top-con li.dm-site-nav.on .site-nav-c {
+    padding: 15px 0 20px;
+    width: 780px;
+    position: absolute;
+    top: 36px;
+    right: 0
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl {
+    border-right: 1px solid #f2f2f2;
+    float: left;
+    padding: 0 10px;
+    height: 260px;
+    overflow: hidden
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl.dm-sev01 {
+    width: 155px
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl.dm-sev02 {
+    width: 406px;
+    border-right: 0
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dt {
+    color: #999;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+.top-con li.dm-site-nav.on .site-nav-c li {
+    background: 0;
+    line-height: 30px;
+    padding-right: 0
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl.dm-sev01 li {
+    width: 60px
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl.dm-sev02 li {
+    width: 48px
+}
+
+.top-con li.dm-site-nav.on .site-nav-c dl li a {
+    display: block;
+    height: 30px;
+    overflow: hidden
+}
+
+.top-con li.dm-weixin {
+    width: 83px
+}
+
+.top-con li.dm-weixin .weixin-t em {
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-weixin.png) no-repeat;
+    transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -webkit-transition: all .2s ease 0s
+}
+
+.top-con li.dm-weixin:hover .weixin-t em {
+    background-position: 0 -16px
+}
+
+.top-con li.dm-weixin.on .weixin-t {
+    width: 93px;
+    position: absolute;
+    left: -1px;
+    top: 0
+}
+
+.top-con li.dm-weixin.on .weixin-c {
+    padding: 15px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/weixin-code.png) no-repeat #fff;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 36px;
+    left: -1px
+}
+
+.dm-header {
+    padding: 25px 0;
+    width: 1038px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 990
+}
+
+.dm-header .dm-logo, .dm-header .dm-logo .logo01, .dm-header .dm-logo .logo02 {
+    margin-right: 10px;
+    float: left
+}
+
+.dm-header:after {
+    display: block;
+    height: 0
+}
+
+.dm-header .dm-logo {
+    width: 350px
+}
+
+.dm-header .dm-logo .logo02 {
+    margin-top: 6px
+}
+
+.dm-header .dm-citys {
+    width: 79px;
+    float: left;
+    margin-top: 6px
+}
+
+.dm-header .dm-citys h1 {
+    color: #333;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.dm-header .dm-citys .change-citys {
+    width: 79px;
+    height: 21px;
+    position: relative;
+    z-index: 110;
+    margin-top: 6px
+}
+
+.dm-header .dm-citys .change-citys .city {
+    color: #666;
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 0 0 7px;
+    width: 72px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) -21px -40px no-repeat
+}
+
+.dm-header .dm-citys .change-citys.on .city, .dm-header .dm-citys .change-citys:hover .city {
+    background-position: -21px -61px;
+    color: #fff
+}
+
+.dm-header .dm-search {
+    float: left
+}
+
+.dm-header .dm-search .search-main {
+    float: left;
+    height: 35px;
+    position: relative
+}
+
+.dm-header .search-main .search-text {
+    border: 2px solid #e51b46;
+    width: 302px;
+    float: left;
+    height: 21px;
+    padding: 5px 10px;
+    overflow: hidden;
+    color: #666;
+    outline: 0
+}
+
+.dm-header .search-main .search-btn {
+    background: #e51b46;
+    width: 84px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0
+}
+
+.dm-header .search-main .search-btn:active, .dm-header .search-main .search-btn:hover {
+    background: #f42155
+}
+
+.dm-header .search-main .search-relate {
+    width: 323px;
+    border: 1px solid #e51b46;
+    border-top: 0;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #fff;
+    display: none
+}
+
+.dm-header .search-main .search-relate a {
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 10px;
+    overflow: hidden
+}
+
+.dm-header .search-main .search-relate a:hover {
+    background: #f9f9f9
+}
+
+.dm-header .search-main .search-relate a .city {
+    float: right;
+    color: #e51b46
+}
+
+.dm-header .dm-search .dm-recommend {
+    clear: left;
+    color: #b4b4b4;
+    padding-top: 5px;
+    margin-left: -10px
+}
+
+.dm-header .dm-search .dm-recommend a {
+    color: #999;
+    padding: 0 10px;
+    line-height: 20px
+}
+
+.dm-header .dm-search .dm-recommend a:hover {
+    text-decoration: underline;
+    color: #ed0a75
+}
+
+.dm-bottom-wrap {
+    border-top: 1px solid #e5e5e5;
+    background: #fafafa;
+    margin-top: 20px
+}
+
+.dm-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px
+}
+
+.dm-bottom .dm-helper {
+    border-bottom: 3px solid #ed0a75;
+    padding: 10px 0;
+    width: auto;
+    overflow: hidden
+}
+
+.dm-bottom .dm-helper dl {
+    width: 130px;
+    float: left;
+    padding-left: 20px
+}
+
+.dm-bottom .dm-helper dt {
+    line-height: 40px;
+    color: #333;
+    font-size: 16px
+}
+
+.dm-bottom .dm-helper dd {
+    line-height: 25px;
+    color: #666
+}
+
+.dm-bottom .dm-helper dd a {
+    color: #666
+}
+
+.dm-bottom .dm-helper dd a:hover {
+    color: #ed0a75
+}
+
+.dm-bottom .dm-helper dd .dm-code, .dm-bottom .dm-helper dd .dm-code-m {
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/top-bg.png) 0 -135px no-repeat no-repeat;
+    height: 89px;
+    width: 90px;
+    display: block
+}
+
+.dm-bottom .dm-helper dd .dm-code-m {
+    background-position: 0 -351px
+}
+
+.dm-bottom .dm-links {
+    text-align: center;
+    color: #d9d9d9;
+    line-height: 42px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px
+}
+
+.dm-bottom .dm-links a {
+    color: #666;
+    margin: 0 10px
+}
+
+.dm-bottom .dm-links a:hover {
+    color: #ed0a75
+}
+
+.dm-bottom .dm-copyright {
+    color: #666;
+    line-height: 20px;
+    padding-bottom: 15px;
+    text-align: center
+}
+
+.dm-bottom .dm-copyright a {
+    padding: 0 10px;
+    color: #666
+}
+
+.dm-bottom .dm-copyright a:hover {
+    color: #ed0a75
+}
+
+.dm-bottom .dm-copyright span {
+    color: #d9d9d9
+}
+
+.service-c span.xiaonengservice {
+    color: #333;
+    text-align: center;
+    line-height: 22px;
+    display: block
+}
+
+.service-c span.xiaonengservice:hover {
+    background: #f5f5f5;
+    color: #ed0a75;
+    cursor: pointer
+}
+
+.top-con li.dm-bilingual {
+    width: 45px;
+    background: 0
+}
+
+.top-con li.dm-bilingual.on .service-t {
+    width: 55px;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    z-index: 9999
+}
+
+.top-con li.dm-bilingual.on .service-c {
+    width: 108px;
+    position: absolute;
+    top: 36px;
+    left: -1px;
+    padding: 5px 0
+}
+
+.top-con li.dm-bilingual.on .service-c a {
+    line-height: 22px;
+    color: #333;
+    display: block;
+    text-align: center
+}
+
+.top-con li.dm-bilingual.on .service-c a:hover {
+    background: #f5f5f5;
+    color: #ed0a75
+}
+
+.top-con li.dm-info .vip {
+    margin-left: 5px;
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/badge_pic.png) no-repeat;
+    width: 39px;
+    height: 14px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    vertical-align: baseline
+}
+
+.top-con li.dm-info .vip.m2 {
+    background-position: 0 -20px
+}
+
+.top-con li.dm-info .vip.m3 {
+    background-position: 0 -40px
+}
+
+.top-con li.dm-info .vip.m4 {
+    background-position: 0 -60px
+}
+
+.top-con li.dm-info .vip.m5 {
+    background-position: 0 -80px
+}

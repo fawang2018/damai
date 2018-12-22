@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<link type="text/css" rel="stylesheet"  href="css/login.css"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登陆</title>
+</head>
+<body>
+<div class="login">
+    <div class="login1">
+    </div>
+    <div class="img1"></a></div>
+    <div class="login2">
+        <img src="images/pc.png">
+        <P> 大  麦  网  登  陆  确  认</P>
+
+    </div>
+    <div class="login3">
+        <div class="img2"><input id="denglu" type="submit" value="登录"></div>
+        <p><a id="quxiaodenglu" href="">取消登录</a></p>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(function(){
+        $("#quxiaodenglu").click(function(){
+            window.close();
+        })
+
+        $("#denglu").click(function(){
+            location.href="saoma"
+        })
+    })
+</script>
+</html>

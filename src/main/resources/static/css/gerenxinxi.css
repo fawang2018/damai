@@ -1,0 +1,8063 @@
+body {
+    background: #fff
+}
+
+body a {
+    outline: 0;
+    blr: expression(this.onFocus=this.blur())
+}
+
+.article01:after, .main:after, .myquestion li:after, .new-dl-3 dt:after, .option li:after, .option:after, .per-edit-list dl:after, .sift dl:after, .sift:after, .tab-mydamai p:after, .tab-myindex .c-n:after, .userinfo .status dl:after, .userinfo:after, ul.list01 li:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.article01 dd a:hover, .breadcrumb .right-help:hover, .breadcrumb a:hover, .dm-layer .changes:hover, .per-flow-msg02 .more:hover, .section .hd a:hover, .section-item01 .hd-02 .fr:hover, .section-item01 .list li a:hover, .section02 .hd a:hover, .tab-mydamai a:hover, .tab-myindex .c-n dd a:hover, .table01 h4 a:hover, .useri-tb .con-nav01 .right a:hover, .userinfo .infos .img a:hover, .userinfo .infos a:hover .user-email, .userinfo .user-msg a.c2:hover, .userinfo .user-msg a:hover, .userinfo02 li a:hover, a:hover, table a:hover, ul.list01 a:hover {
+    color: #ed0a75;
+    text-decoration: none
+}
+
+span.i1 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -38px;
+    *background-position: 0 -39px;
+    width: 1px;
+    height: 13px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 5px
+}
+
+.red-line {
+    border-bottom: 5px solid #ed0a75
+}
+
+.main {
+    width: 1000px;
+    margin: 15px auto 0;
+    *zoom: 1
+}
+
+.sidenav {
+    width: 201px;
+    float: left
+}
+
+.right-main {
+    width: 790px;
+    float: right
+}
+
+#mydamai {
+    border: 1px solid #efefef;
+    margin-bottom: 15px
+}
+
+#mydamai h3 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/side-h2.png) no-repeat;
+    width: 192px;
+    height: 33px;
+    position: relative;
+    left: -3px;
+    padding-left: 11px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: -3px
+}
+
+#mydamai h3 a {
+    color: #fff
+}
+
+#mydamai h3 a:hover {
+    text-decoration: underline
+}
+
+#mydamai dt {
+    background: url(//dui.damai.cn/damai_v2/passport/images/side-h3.png) repeat-x;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-family: "Microsoft YaHei";
+    color: #333;
+    font-weight: 700
+}
+
+#mydamai dd a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 33px 13px;
+    *background-position: 33px 12px;
+    _background-position: 33px 13px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 33px;
+    display: block
+}
+
+#mydamai dd a.on, #mydamai dd a:hover {
+    border-left: 2px solid #ed0a75;
+    background: #fafafa url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 183px 13px;
+    height: 32px;
+    margin-left: -1px;
+    position: relative;
+    padding-left: 32px;
+    text-decoration: none
+}
+
+#mydamai dd a span {
+    padding-left: 10px;
+    color: #333
+}
+
+#mydamai dd a span.new {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat right -694px;
+    padding-right: 28px
+}
+
+.table-list01 .list-box {
+    position: relative;
+    margin-top: 10px
+}
+
+.table-list01 .icon-abs, .table-list01 .icon-dj, .table-list01 .icon-jingpai {
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/spec-top.png) no-repeat;
+    width: 67px;
+    height: 67px;
+    display: block
+}
+
+.table-list01 .icon-dj {
+    background: url(//dui.damai.cn/damai_v2/passport/images/icon-b1.png) no-repeat;
+    width: 66px
+}
+
+.table-list01 .icon-jingpai {
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    background-position: 0 -68px
+}
+
+.index-table01 .table03 {
+    margin-top: 0
+}
+
+.index-table01 .table03 th {
+    border: 0;
+    text-align: center
+}
+
+.index-table01 .table03 th.tl {
+    text-align: left
+}
+
+.index-table01 .table03 .w3 {
+    width: 148px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w4 {
+    width: 100px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w5 {
+    width: 90px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w6 {
+    width: 110px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w7 {
+    width: 85px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w10, .index-table01 .table03 .w8, .index-table01 .table03 .w9 {
+    width: 80px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w11 {
+    width: 85px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w12 {
+    width: 270px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w13 {
+    width: 65px;
+    border-right: 0
+}
+
+.index-table01 .table03 .w14 {
+    width: 70px;
+    border-right: 0
+}
+
+.table-list01 .table03 {
+    margin-top: 0
+}
+
+.table-list01 .table03 td.w3 {
+    width: 270px
+}
+
+.table-list01 .table03 td.w3 .i-name {
+    width: 135px;
+    padding-right: 14px;
+    float: left
+}
+
+.table-list01 .table03 td.w3 .price {
+    width: 99px;
+    padding-left: 14px;
+    float: left
+}
+
+.table-list01 .table03 td.w3 .nm1 {
+    width: 105px;
+    padding-right: 10px;
+    float: left
+}
+
+.table-list01 .table03 td.w3 .nm2 {
+    width: 95px;
+    padding-right: 10px;
+    float: left
+}
+
+.table-list01 .table03 td.w3 .nm3 {
+    width: 50px;
+    float: left
+}
+
+.table-list01 .table03 .w4 {
+    width: 100px
+}
+
+.table-list01 .table03 .w5 {
+    width: 90px
+}
+
+.table-list01 .table03 .w6 {
+    width: 124px;
+    text-align: center
+}
+
+.table-list01 .table03 .w7 {
+    width: 85px;
+    padding: 0 5px
+}
+
+.table-list01 .table03 .w10, .table-list01 .table03 .w8, .table-list01 .table03 .w9 {
+    width: 80px
+}
+
+.table-list01 .table03 .w11 {
+    width: 85px
+}
+
+.table-list01 .table03 .w13 {
+    width: 65px
+}
+
+.table-list01 .table03 .w14 {
+    width: 70px
+}
+
+.table-share {
+    background: url(//dui.damai.cn/damai_v2/passport/images//i2.png) no-repeat scroll 0 -1389px;
+    padding-left: 16px
+}
+
+.dm-actives {
+    margin-bottom: 15px;
+    font-size: 0;
+    line-height: 0
+}
+
+.dm-actives img {
+    width: 201px
+}
+
+.dm-indagate {
+    border: 1px solid #efefef;
+    height: 444px;
+    overflow: hidden
+}
+
+.dm-indagate h3 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/side-h3.png) repeat-x;
+    border-bottom: 1px solid #efefef;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    font-weight: 700
+}
+
+.dm-indagate .c-n {
+    padding: 10px
+}
+
+.dm-indagate dl {
+    border-bottom: 1px dotted #d9d9d9;
+    padding: 2px 0 5px
+}
+
+.dm-indagate dd {
+    padding: 2px 0 2px 10px
+}
+
+.dm-indagate .r {
+    vertical-align: -3px;
+    *vertical-align: 0;
+    _vertical-align: -1px;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px
+}
+
+.dm-indagate .t {
+    width: 126px;
+    padding: 3px;
+    color: #999;
+    margin-left: 3px;
+    height: 14px;
+    line-height: 14px;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    *position: relative;
+    *top: 3px
+}
+
+.dm-indagate .t:focus, .dm-indagate .textarea:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.dm-indagate .textarea {
+    height: 60px;
+    line-height: 20px;
+    overflow: scroll-y;
+    overflow: scroll-x;
+    width: 160px;
+    padding: 3px;
+    color: #999;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef
+}
+
+.dm-indagate .submit {
+    padding: 8px 0;
+    text-align: center
+}
+
+.dm-indagate .succeed {
+    color: #ed0a75;
+    text-align: center
+}
+
+.btn01, .btn02, .btn03, .btn04, .btn05, .btn06, .btn07, .btn08, .btn09, .btn10, .btn11, .cancel-btn {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat;
+    width: 73px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+    color: #fff
+}
+
+.btn01:hover {
+    background-position: 0 -27px
+}
+
+.btn02 {
+    background-position: -223px 0;
+    width: 43px;
+    height: 20px;
+    line-height: 20px
+}
+
+.btn02:hover {
+    background-position: -223px -27px
+}
+
+.btn03, .btn04 {
+    background-position: -73px 0;
+    width: 75px;
+    height: 27px
+}
+
+.btn03:hover {
+    background-position: -73px -27px
+}
+
+.btn04 {
+    background-position: -148px 0;
+    color: #333
+}
+
+.btn04:hover {
+    background-position: -148px -27px
+}
+
+.btn05 {
+    background-position: -243px -93px;
+    width: 94px;
+    height: 32px
+}
+
+.btn05:hover {
+    background-position: -243px -125px
+}
+
+.btn06 {
+    background-position: -267px -42px;
+    width: 67px;
+    height: 21px;
+    color: #ed0a75;
+    margin: 0 5px
+}
+
+.btn06:hover {
+    background-position: -267px -63px
+}
+
+.btn07 {
+    background-position: -292px -201px;
+    width: 47px;
+    height: 21px;
+    color: #666;
+    margin: 0 5px
+}
+
+.btn07:hover {
+    background-position: -292px -222px
+}
+
+.btn08 {
+    background-position: 0 -169px;
+    width: 102px;
+    height: 32px;
+    color: #fff
+}
+
+.btn08:hover {
+    background-position: 0 -201px
+}
+
+.btn09 {
+    background-position: 0 -279px;
+    width: 132px;
+    height: 30px
+}
+
+.btn09:hover {
+    background-position: 0 -309px
+}
+
+.cancel-btn {
+    background-position: -87px -234px;
+    width: 64px;
+    height: 21px;
+    color: #666
+}
+
+.cancel-btn:hover {
+    background-position: -87px -255px
+}
+
+.btn10 {
+    background-position: 0 -641px;
+    width: 112px;
+    height: 26px;
+    color: #666;
+    margin-left: 10px;
+    *position: relative;
+    *top: -2px;
+    *left: 10px
+}
+
+.btn10:hover {
+    background-position: 0 -667px
+}
+
+.btn11 {
+    background-position: -292px -245px;
+    width: 43px;
+    height: 20px;
+    color: #666
+}
+
+.btn11:hover {
+    background-position: -292px -265px
+}
+
+#list .btn01, #list .btn02, #list .btn03, #list .btn04, #list .btn05, #list .btn06, #list .btn07, #list .btn08, #list .btn09, #list .btn10, #list .btn11, #list .cancel-btn {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat 0 0;
+    width: 94px;
+    height: 32px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    line-height: 32px;
+    display: block;
+    margin: 0 auto
+}
+
+#list .btn01:hover {
+    background-position: 0 -27px;
+    color: #fff
+}
+
+#list .btn02 {
+    background-position: -223px 0;
+    width: 43px;
+    height: 20px;
+    color: #fff;
+    line-height: 20px
+}
+
+#list .btn02:hover {
+    background-position: -223px -27px;
+    color: #fff
+}
+
+#list .btn03, #list .btn04 {
+    background-position: -73px 0;
+    width: 75px;
+    height: 27px
+}
+
+#list .btn03:hover {
+    background-position: -73px -27px;
+    color: #fff
+}
+
+#list .btn04 {
+    background-position: -148px 0;
+    color: #333
+}
+
+#list .btn04:hover {
+    background-position: -148px -27px;
+    color: #fff
+}
+
+#list .btn05 {
+    background-position: -243px -93px;
+    width: 94px;
+    height: 32px
+}
+
+#list .btn05:hover {
+    background-position: -243px -125px;
+    color: #fff
+}
+
+#list .btn06 {
+    background-position: -267px -42px;
+    width: 67px;
+    height: 21px;
+    color: #ed0a75;
+    margin: 0 5px
+}
+
+#list .btn06:hover {
+    background-position: -267px -63px;
+    color: #fff
+}
+
+#list .btn07 {
+    background-position: -292px -201px;
+    width: 47px;
+    height: 21px;
+    color: #666;
+    margin: 0 5px
+}
+
+#list .btn07:hover {
+    background-position: -292px -222px;
+    color: #fff
+}
+
+#list .btn08 {
+    background-position: 0 -169px;
+    width: 102px;
+    height: 32px;
+    color: #fff
+}
+
+#list .btn08:hover {
+    background-position: 0 -201px;
+    color: #fff
+}
+
+#list .btn09 {
+    background-position: 0 -279px;
+    width: 132px;
+    height: 30px
+}
+
+#list .btn09:hover {
+    background-position: 0 -309px;
+    color: #fff
+}
+
+#list .cancel-btn {
+    background-position: -87px -234px;
+    width: 64px;
+    height: 21px;
+    color: #666
+}
+
+#list .cancel-btn:hover {
+    background-position: -87px -255px;
+    color: #fff
+}
+
+#list .btn10 {
+    background-position: 0 -641px;
+    width: 112px;
+    height: 26px;
+    color: #666;
+    margin-left: 10px
+}
+
+#list .btn10:hover {
+    background-position: 0 -667px
+}
+
+#list .btn11 {
+    background-position: -292px -245px;
+    width: 43px;
+    height: 20px;
+    color: #666
+}
+
+#list .btn11:hover {
+    background-position: -292px -265px
+}
+
+.userinfo {
+    background: url(//dui.damai.cn/damai_v2/passport/images/userbg1.png) repeat-x #fff;
+    padding: 20px 20px 10px;
+    border: 1px solid #efefef;
+    *zoom: 1;
+    margin-bottom: 15px;
+    position: relative
+}
+
+.userinfo .infos {
+    width: 415px;
+    float: left
+}
+
+.userinfo .infos .infos-lf {
+    float: left;
+    width: 126px;
+    margin-right: 18px;
+    text-align: center
+}
+
+.userinfo .infos .infos-lf a {
+    line-height: 25px
+}
+
+.userinfo .infos .img {
+    width: 126px;
+    position: relative
+}
+
+.userinfo .infos .img img {
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    border: 1px solid #efefef
+}
+
+.userinfo .infos .img a {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    display: block;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    filter: Alpha(opacity=50);
+    opacity: .5;
+    color: #000
+}
+
+.userinfo .infos .infos-ri {
+    line-height: 25px
+}
+
+.userinfo .infos .infos-ri label {
+    font-family: '閻庣懓顑勭紞锟�'
+}
+
+.userinfo .infos .username {
+    color: #999;
+    font-weight: 700
+}
+
+.check-details .question02, .check-details .reply02, .section .hd .report, .table-message .read td .email, .table-message .unread td .email, .table03 .mylight, .tip-infos .end, .tip-infos .waiting, .userinfo .infos .user-email, .userinfo .infos .user-email-no, .userinfo .infos .user-phone, .userinfo .infos .user-phone-no {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 0 -76px;
+    padding-left: 16px;
+    margin-right: 10px
+}
+
+.userinfo .infos .user-email-no {
+    background-position: 0 -116px
+}
+
+.userinfo .infos .user-phone {
+    background-position: 0 1px;
+    padding-left: 12px
+}
+
+.userinfo .infos .user-phone-no {
+    background-position: 0 -39px;
+    padding-left: 12px
+}
+
+.userinfo .user-state {
+    width: 333px;
+    float: right
+}
+
+.userinfo .last-time {
+    color: #999;
+    text-align: right
+}
+
+.userinfo .status {
+    border-left: 1px dotted #c6c6c6;
+    margin-top: 10px
+}
+
+.userinfo .status dl {
+    padding: 5px 0;
+    *zoom: 1
+}
+
+.userinfo .status dt {
+    width: 40px;
+    float: left;
+    line-height: 36px;
+    padding-left: 20px
+}
+
+.userinfo .status dd a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -148px -55px;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    float: left;
+    margin-right: 15px;
+    _display: inline
+}
+
+.userinfo .status dd .more {
+    color: #2f97b4;
+    line-height: 32px;
+    text-align: center
+}
+
+.userinfo .status dd .more:hover {
+    background-position: -184px -55px;
+    text-decoration: none
+}
+
+.userinfo .user-msg {
+    border: 1px solid #f4e4b4;
+    background: #ffffe9;
+    line-height: 33px;
+    padding: 0 10px;
+    _padding: 9px 10px;
+    color: #666;
+    width: 585px;
+    position: absolute;
+    right: 18px;
+    bottom: 10px
+}
+
+.userinfo .user-msg a {
+    color: #ed0a75
+}
+
+.userinfo .user-msg a.c2 {
+    color: #666
+}
+
+.userinfo .user-msg a.c2:hover {
+    color: #ed0a75
+}
+
+.section, .section02 {
+    border: 1px solid #efefef;
+    margin-bottom: 15px
+}
+
+.section .hd, .section02 .hd {
+    background: url(//dui.damai.cn/damai_v2/passport/images/hd.png) no-repeat scroll 0 bottom;
+    height: 30px;
+    padding: 8px 10px 0 15px
+}
+
+.section .hd h2, .section02 .hd h2 {
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #333;
+    padding-right: 10px
+}
+
+.section .hd .nums, .section02 .hd .nums {
+    color: #666;
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px
+}
+
+.section .hd .subtit, .section02 .hd .subtit {
+    color: #999;
+    float: left;
+    padding-top: 5px
+}
+
+.section .hd .right, .section02 .hd .right {
+    float: right;
+    padding-top: 4px
+}
+
+.section .hd .i-plus, .section02 .hd .i-plus {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -172px;
+    padding-top: 4px;
+    padding-left: 12px;
+    text-decoration: underline;
+    color: #2f97b4;
+    float: right
+}
+
+.section .hd .i-plus:hover, .section02 .hd .i-plus:hover {
+    text-decoration: none
+}
+
+.section .hd .i-light {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -137px -280px;
+    width: 127px;
+    height: 21px;
+    text-align: center;
+    float: right;
+    color: #666;
+    line-height: 21px
+}
+
+.section .hd .i-light:hover {
+    background-position: -137px -310px
+}
+
+.section .hd a, .section02 .hd a {
+    color: #2f97b4
+}
+
+.section .hd .report, .section02 .hd .report {
+    background-position: 0 -551px;
+    padding-left: 20px;
+    margin-right: 0
+}
+
+.section02 {
+    border-bottom: 0
+}
+
+.section .r .right a {
+    color: #333;
+    padding: 0 5px
+}
+
+.section .r .right a.on {
+    background: #ed0a75;
+    color: #fffdee;
+    padding: 2px 5px
+}
+
+table a {
+    color: #2f97b4
+}
+
+.breadcrumb a:hover, .table01 h4 a:hover, table a:hover {
+    color: #ed0a75;
+    text-decoration: none
+}
+
+.box01 {
+    border: 1px solid #eef1f3
+}
+
+.bor {
+    border: 1px solid #eef1f3
+}
+
+.table01 {
+    text-align: center;
+    color: #666;
+    width: 100%
+}
+
+.table01 th, .table03 th {
+    height: 31px;
+    line-height: 30px;
+    font-weight: 400;
+    background: url(//dui.damai.cn/damai_v2/passport/images/th.png) repeat-x;
+    padding: 0 8px
+}
+
+.table01 td {
+    padding: 12px 8px 12px 15px;
+    line-height: 18px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/dotted.png) no-repeat scroll 50% bottom
+}
+
+.table01 td.pl20, .table01 th.pl20, .table03 th.pl20 {
+    padding-left: 15px
+}
+
+.table01 td.pr20, .table01 th.pr20, .table03 th.pr20 {
+    padding-right: 20px
+}
+
+.table01 td.bgl {
+    background-position: 0 bottom
+}
+
+.table01 td.bgr {
+    background-position: right bottom
+}
+
+.table01 tr.on td {
+    background: #fbfbfb
+}
+
+.table01 .img {
+    border: 1px solid #eaeaea;
+    padding: 1px;
+    width: 109px;
+    height: 144px;
+    display: block
+}
+
+.table01 .img:hover {
+    border: 1px solid #ed0a75
+}
+
+.table01 .img img {
+    width: 109px;
+    height: 144px
+}
+
+.table01 .w1 {
+    width: 155px
+}
+
+.table01 td.w1 {
+    text-align: left
+}
+
+.table01 .w2 {
+    width: 20px;
+    padding-right: 0
+}
+
+.table01 .w3 {
+    width: 115px;
+    vertical-align: top
+}
+
+.table01 .w4 {
+    width: 60px
+}
+
+.table01 .w5 {
+    width: 140px
+}
+
+.table01 .w6 {
+    width: 180px
+}
+
+.table01 td.w6 {
+    text-align: left
+}
+
+.table01 .w7 {
+    width: 190px
+}
+
+.table01 .w8 {
+    width: 130px
+}
+
+.table01 .w9 {
+    width: 75px;
+    padding-left: 15px
+}
+
+.table01 .w10 {
+    width: 160px
+}
+
+.table01 td.w10 {
+    text-align: left
+}
+
+.table01 .w11 {
+    width: 260px
+}
+
+.table01 td.w11 {
+    text-align: left
+}
+
+.table01 h4 a {
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700
+}
+
+.table01 p {
+    line-height: 25px
+}
+
+.table01 .vt {
+    vertical-align: top
+}
+
+.w460 {
+    width: 460px
+}
+
+.table03 {
+    border: 1px solid #eef1f3;
+    text-align: center;
+    color: #666;
+    margin-top: 15px;
+    width: 100%
+}
+
+.table03 td, .table03 th {
+    border: 1px solid #eef1f3
+}
+
+.table03 th {
+    padding: 0 16px
+}
+
+.table03 td {
+    padding: 15px 0;
+    line-height: 20px
+}
+
+.table03 td.w1 {
+    width: 225px;
+    text-align: left
+}
+
+.table03 td.w2 {
+    width: 218px
+}
+
+.table03 td.w2 img {
+    position: relative;
+    top: 3px;
+    margin-right: 5px
+}
+
+.table03 .mylight {
+    background-position: 0 -769px;
+    padding: 2px 0 2px 20px
+}
+
+.table03 .w3 {
+    width: 220px
+}
+
+.caption {
+    padding: 10px 30px;
+    border-bottom: 1px solid #eef1f3
+}
+
+.on-seat-icon, .ticket-icon {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 0 -163px;
+    *background-position: 0 -164px;
+    padding-left: 18px;
+    margin-right: 15px;
+    color: #ed0a75;
+    display: inline-block
+}
+
+.ticket-icon {
+    background-position: 0 -229px
+}
+
+.phone-gray, .phone-light, .sina-gray, .sina-light {
+    display: inline-block;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 0 -305px;
+    padding: 2px 0 2px 12px;
+    height: 12px
+}
+
+.phone-gray {
+    background-position: 0 -364px
+}
+
+.sina-light {
+    background-position: 0 -419px;
+    padding: 2px 0 2px 18px
+}
+
+.sina-gray {
+    background-position: 0 -482px;
+    padding: 2px 0 2px 18px
+}
+
+.email-gray, .email-light {
+    display: inline-block;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat 0 -461px;
+    padding: 2px 0 2px 16px;
+    height: 10px
+}
+
+.email-gray {
+    background-position: 0 -506px
+}
+
+.tab-myindex, .tab-scroll-02 {
+    margin-top: 15px;
+    overflow: hidden
+}
+
+.tab-myindex .title, .tab-scroll-02 .title {
+    border-bottom: 2px solid #ed0a75;
+    height: 29px
+}
+
+.tab-myindex .title li, .tab-scroll-02 .title li {
+    float: left;
+    width: 138px;
+    height: 29px;
+    margin-right: 2px;
+    _display: inline
+}
+
+.tab-myindex .title li a, .tab-scroll-02 .title li a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -110px;
+    display: block;
+    line-height: 29px;
+    text-align: center;
+    color: #999;
+    font-family: "Microsoft YaHei";
+    font-size: 16px
+}
+
+.tab-myindex .title li a:hover {
+    background-position: 0 -139px;
+    text-decoration: none;
+    color: #ed0a75
+}
+
+.tab-myindex .title li a.on, .tab-scroll-02 .title li a.on {
+    background-position: 0 -81px;
+    color: #fff
+}
+
+.tab-myindex .c-n, .tab-scroll-02 .c-n {
+    border-bottom: 1px solid #eef1f3;
+    border-left: 1px solid #eef1f3;
+    border-right: 1px solid #eef1f3;
+    padding: 25px 0 10px;
+    *zoom: 1;
+    height: 230px
+}
+
+.tab-myindex .c-n dl, .tab-scroll-02 .c-n dl {
+    padding: 0 16px;
+    float: left;
+    width: 168px
+}
+
+.tab-myindex .c-n dd, .tab-scroll-02 .c-n dd {
+    line-height: 22px;
+    color: #999;
+    white-space: nowrap;
+    width: 168px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis
+}
+
+.tab-myindex .c-n dd img, .tab-scroll-02 .c-n dd img {
+    width: 150px;
+    height: 202px
+}
+
+.tab-myindex .c-n dd a, .tab-scroll-02 .c-n dd a {
+    color: #333;
+    height: 22px
+}
+
+.tab-myindex, .tab-scroll-02 {
+    height: auto
+}
+
+.tab-scroll-02 .c-n {
+    height: auto;
+    *zoom: 1
+}
+
+.tab-scroll-02 .c-n:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.tab-scroll-02 .c-n dd, .tab-scroll-02 .c-n dl {
+    width: 150px
+}
+
+.tab-scroll-02 .title li {
+    width: 178px
+}
+
+.tab-scroll-02 .title li a.on {
+    background: url(//dui.damai.cn/damai_v2/passport/images/new-btn02.png) no-repeat
+}
+
+.tab-scroll-02 .items-progress {
+    clear: both;
+    width: 140px;
+    height: 7px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 10px
+}
+
+.tab-scroll-02 .items-progress .mark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    background: url(//dui.damai.cn/damai_v2/passport/images/items_progress_mark.png) no-repeat;
+    width: 140px;
+    height: 7px
+}
+
+.tab-scroll-02 .items-progress .this {
+    position: absolute;
+    left: -140px;
+    top: 0;
+    z-index: 2;
+    background: url(//dui.damai.cn/damai_v2/passport/images/items_progress_this.png) no-repeat right 0;
+    width: 140px;
+    height: 7px
+}
+
+.tab-scroll-02 .items-progress .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 140px;
+    height: 7px;
+    background-color: #666
+}
+
+.tab-scroll-02 .total {
+    display: none
+}
+
+.tab-scroll-02 .items-nums div {
+    width: 50px;
+    float: left;
+    text-align: center
+}
+
+.tab-scroll-02 dd strong {
+    display: block;
+    height: 30px;
+    line-height: 45px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #ed0a75;
+    font-weight: 700
+}
+
+.new-next, .new-prev {
+    background: url(//dui.damai.cn/damai_v2/passport/images/new-btn03.png) no-repeat;
+    width: 23px;
+    height: 46px;
+    margin-top: 90px;
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+    _display: inline
+}
+
+.new-next {
+    background-position: -23px 0;
+    margin-left: 0
+}
+
+.new-prev:hover {
+    background-position: 0 -46px
+}
+
+.new-next:hover {
+    background-position: -23px -46px
+}
+
+.tab-scroll-02 .new-show-infos {
+    width: 728px;
+    float: left;
+    overflow: hidden;
+    *position: relative;
+    *z-index: 80
+}
+
+.tab-scroll-02 .wd-box {
+    width: 10000000px
+}
+
+.myindex-bottom-banner img {
+    width: 788px;
+    border: 1px solid #d5d5d5;
+    margin-top: 15px
+}
+
+.breadcrumb {
+    border: 1px solid #efefef;
+    height: 38px;
+    overflow: hidden;
+    background: url(//dui.damai.cn/damai_v2/passport/images/breadbg.png) repeat-x;
+    padding: 0 15px;
+    line-height: 38px;
+    color: #999;
+    margin-bottom: 15px
+}
+
+.breadcrumb span {
+    padding-right: 5px
+}
+
+.breadcrumb a {
+    color: #2f97b4;
+    padding-right: 5px
+}
+
+.breadcrumb .right-help {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 0 -1109px;
+    padding-left: 20px;
+    float: right;
+    *position: relative;
+    *top: -38px
+}
+
+.sift-wrap {
+    border: 1px solid #eef1f3;
+    margin: 15px 0
+}
+
+.sift {
+    margin: 0 20px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/line-bg02.png);
+    *zoom: 1
+}
+
+.sift dl {
+    line-height: 42px;
+    *zoom: 1
+}
+
+.sift dt {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -65px;
+    padding-left: 10px;
+    width: 35px;
+    float: left
+}
+
+.sift dd .all {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat -223px -55px;
+    width: 36px;
+    height: 19px;
+    color: #fff;
+    line-height: 19px;
+    text-align: center;
+    float: left;
+    margin-top: 11px;
+    margin-right: 7px
+}
+
+.sift dd .all:hover {
+    text-decoration: none
+}
+
+.sift dd .all-no {
+    color: #333;
+    width: 36px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    float: left;
+    margin-top: 11px;
+    margin-right: 7px
+}
+
+.sift dd .in {
+    float: left;
+    width: 660px
+}
+
+.sift dd .in a {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    color: #333
+}
+
+.sift dd .in a.on {
+    background: ivory;
+    border: 1px solid #f4e4b4
+}
+
+.sift dd .in a:hover {
+    text-decoration: none;
+    color: #ed0a75
+}
+
+.c-n .sift {
+    border-bottom: 1px solid #efefef;
+    padding: 0 20px;
+    margin: 0
+}
+
+.table01 td.loading, .table01 td.no-news, .table02 td.loading, .table02 td.no-news {
+    border-bottom: 0;
+    text-align: left
+}
+
+.loading {
+    text-align: left;
+    margin-top: 20px
+}
+
+.loading img {
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.mask-layer {
+    background: url(//dui.damai.cn/damai_v2/passport/images/mask-layer-bg.png) repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200001
+}
+
+.dm-layer-box {
+    border: 5px solid #c7c7c7;
+    background: #fff;
+    position: fixed !important;
+    position: absolute;
+    left: 50%;
+    z-index: 200001;
+    top: 10%
+}
+
+.dm-layer {
+    border: 1px solid #ddd
+}
+
+.dm-layer .hd {
+    height: 32px;
+    border-bottom: 1px solid #fff;
+    background: url(//dui.damai.cn/damai_v2/passport/images/layer-h.png) repeat-x;
+    padding: 0 9px;
+    line-height: 32px
+}
+
+.dm-layer .hd h3 {
+    float: left;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei'
+}
+
+.dm-layer .hd .close {
+    background: url(//dui.damai.cn/damai_v2/passport/images/layer-close.png) no-repeat 4px -43px;
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: 5px
+}
+
+.dm-layer .hd .close:hover {
+    background-position: 4px 4px
+}
+
+.dm-layer .c-n {
+    border-top: 1px solid #ddd;
+    padding: 10px 30px 15px;
+    line-height: 30px
+}
+
+.label-list li, .label-list02 li {
+    overflow: hidden;
+    zoom: 1
+}
+
+.label-list li label, .label-list02 li label {
+    width: 5em;
+    float: left;
+    font-family: '閻庣懓顑勭紞锟�'
+}
+
+.label-list02 {
+    padding: 15px 30px 0
+}
+
+.label-list02 li {
+    padding-bottom: 15px;
+    line-height: 20px
+}
+
+.label-list02 li label {
+    width: auto;
+    padding-right: 5px;
+    color: #666
+}
+
+.label-list02 li label span {
+    padding-right: 3px
+}
+
+.label-list02 li .radio {
+    padding-right: 10px
+}
+
+.dm-layer .price strong {
+    margin-right: 10px;
+    color: #ed0a75
+}
+
+.dm-layer .t1, .dm-layer .t2, .dm-layer .t3 {
+    width: 110px;
+    padding: 3px;
+    margin-right: 5px;
+    height: 14px;
+    line-height: 14px;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    *position: relative;
+    *top: 2px
+}
+
+.dm-layer .t2 {
+    width: 70px;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    *top: 3px
+}
+
+.dm-layer .t3 {
+    width: 130px
+}
+
+.dm-layer .t2:focus, .dm-layer .t3:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.layer-dashed {
+    border-bottom: 1px dashed #b8b8b8;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    font-size: 0;
+    margin: 5px 0
+}
+
+.layer-msg {
+    border: 1px solid #fdd193;
+    background: #fdfdec;
+    padding: 10px 18px;
+    _margin-top: 5px
+}
+
+.layer-msg dl {
+    clear: both
+}
+
+.layer-msg dt {
+    width: 5em;
+    float: left
+}
+
+.layer-msg dd a {
+    text-decoration: underline
+}
+
+.layer-msg dd .check img {
+    vertical-align: middle;
+    margin: 0 10px
+}
+
+.layer-msg02 {
+    border: 1px solid #fdd193;
+    background: #fdfdec;
+    line-height: 25px;
+    padding: 3px 8px
+}
+
+.dm-layer .phone-number, .layer-msg .name02 {
+    color: #ed0a75;
+    font-weight: 700
+}
+
+.dm-layer .changes {
+    color: #2f97b4;
+    margin-left: 10px
+}
+
+.dm-layer .times span {
+    color: #ed0a75;
+    font-weight: 700;
+    margin-right: 30px;
+    float: left
+}
+
+.dm-layer-btn {
+    text-align: center;
+    padding-top: 15px;
+    clear: both
+}
+
+.dm-layer-btn button {
+    margin: 0 10px
+}
+
+.layer-w500 {
+    width: 500px !important;
+    margin-left: -250px
+}
+
+ul.list01 {
+    padding: 10px 20px 0
+}
+
+ul.list01 a {
+    color: #2f97b4
+}
+
+ul.list01 li {
+    border-bottom: 1px dotted #ccc;
+    clear: both;
+    line-height: 25px;
+    padding: 5px 0;
+    *zoom: 1;
+    color: #666
+}
+
+ul.list01 li h4 a {
+    font-size: 14px;
+    font-weight: 700
+}
+
+ul.list01 li .bt-info {
+    margin-top: 10px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.article01 {
+    border: 1px solid #eef1f3;
+    padding: 15px 20px;
+    margin-top: 15px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/line-bg.png) no-repeat scroll 47% 5px;
+    *zoom: 1
+}
+
+.article01 dl {
+    width: 374px;
+    float: left
+}
+
+.article01 dt {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #333
+}
+
+.article01 dd {
+    line-height: 25px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -122px;
+    padding-left: 10px
+}
+
+.article01 dd a {
+    color: #666
+}
+
+.myquestion li {
+    line-height: 25px;
+    color: #666;
+    *zoom: 1
+}
+
+.myquestion li .ask {
+    background: url(//dui.damai.cn/damai_v2/passport/images/w3.png) no-repeat scroll 0 7px;
+    padding-left: 23px;
+    width: 435px;
+    float: left
+}
+
+.myquestion li .time {
+    width: 135px;
+    float: right;
+    padding-left: 20px
+}
+
+.myquestion li .reply {
+    background: url(//dui.damai.cn/damai_v2/passport/images/w1.png) no-repeat scroll 0 7px;
+    color: #ed0a75;
+    padding-left: 23px;
+    width: 435px;
+    float: left
+}
+
+.myquestion li .no-reply {
+    background: url(//dui.damai.cn/damai_v2/passport/images/w2.png) no-repeat scroll 0 7px;
+    color: #999;
+    padding-left: 23px;
+    width: 435px;
+    float: left
+}
+
+.tab-mydamai {
+    margin-top: 23px
+}
+
+.tab-mydamai .title {
+    border-bottom: 2px solid #ed0a75;
+    height: 29px
+}
+
+.tab-mydamai .title li {
+    float: left;
+    width: 104px;
+    height: 29px;
+    overflow: hidden;
+    margin-left: 5px;
+    _display: inline
+}
+
+.tab-mydamai .title li a.on, .tab-mydamai .title li a.on:hover {
+    background-position: -139px -93px;
+    color: #fff;
+    font-weight: 700
+}
+
+.tab-mydamai .title li.right {
+    float: right;
+    color: #333;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    width: 180px;
+    text-align: right;
+    line-height: 20px
+}
+
+.tab-mydamai .title li.right span {
+    color: #ed0a75;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px
+}
+
+.tab-mydamai .msg {
+    color: #666;
+    line-height: 36px
+}
+
+.tab-mydamai .content {
+    border: 1px solid #eef1f3;
+    padding: 20px 20px 0
+}
+
+.tab-mydamai p {
+    *zoom: 1
+}
+
+.tab-mydamai a {
+    color: #2f97b4
+}
+
+dl.dl01 dt {
+    line-height: 27px;
+    background: #f7f7f7;
+    padding: 0 10px
+}
+
+dl.dl01 dd {
+    color: #666;
+    line-height: 25px;
+    padding: 5px 10px 15px
+}
+
+.tab-mydamai .star {
+    background: url(//dui.damai.cn/damai_v2/passport/images/star.png) repeat-x scroll 0 -23px;
+    height: 12px;
+    width: 70px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin: 0 5px
+}
+
+.tab-mydamai .star .per {
+    height: 12px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(//dui.damai.cn/damai_v2/passport/images/star.png) repeat-x;
+    z-index: 2
+}
+
+.tab-mydamai .star span.p1 {
+    width: 7px
+}
+
+.tab-mydamai .star span.p2 {
+    width: 14px
+}
+
+.tab-mydamai .star span.p3 {
+    width: 21px
+}
+
+.tab-mydamai .star span.p4 {
+    width: 28px
+}
+
+.tab-mydamai .star span.p5 {
+    width: 35px
+}
+
+.tab-mydamai .star span.p6 {
+    width: 42px
+}
+
+.tab-mydamai .star span.p7 {
+    width: 49px
+}
+
+.tab-mydamai .star span.p8 {
+    width: 56px
+}
+
+.tab-mydamai .star span.p9 {
+    width: 63px
+}
+
+.tab-mydamai .star span.p10 {
+    width: 70px
+}
+
+.tab-mydamai .grade {
+    color: #ed0a75;
+    font-weight: 700
+}
+
+.tab-mydamai .my-replay {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 0 -623px;
+    *background-position: 0 -624px;
+    padding-left: 15px;
+    margin-left: 15px
+}
+
+.review-btn {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -267px 0;
+    width: 72px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px
+}
+
+.review-btn:hover {
+    background-position: -267px -21px
+}
+
+.option {
+    padding: 20px 20px 50px;
+    width: 530px;
+    color: #666;
+    *zoom: 1
+}
+
+.option li {
+    padding: 8px 0;
+    float: left;
+    height: 20px;
+    width: 165px;
+    overflow: hidden;
+    color: #666;
+    *zoom: 1
+}
+
+.option li.w1 {
+    width: 190px
+}
+
+.option li.w2 {
+    width: 530px;
+    height: auto
+}
+
+.option li .w3 {
+    width: 440px;
+    height: auto;
+    float: left;
+    line-height: 30px
+}
+
+.option li label {
+    width: 75px;
+    float: left;
+    text-align: right
+}
+
+.option li .t1 {
+    width: 90px;
+    float: left;
+    color: #666
+}
+
+.option li .t2 {
+    width: 104px;
+    float: left;
+    color: #666;
+    padding: 3px;
+    height: 14px;
+    line-height: 14px;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef
+}
+
+.option li .t3 {
+    width: 440px;
+    height: 100px;
+    line-height: 20px;
+    color: #666;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 3px
+}
+
+.option li .t2:focus, .option li .t3:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.com-infos {
+    padding-top: 20px;
+    border: 1px solid #eef1f3
+}
+
+.com-infos a {
+    color: #666
+}
+
+.com-infos a.c4 {
+    color: #ed0a75
+}
+
+.com-infos .name {
+    font-family: '閻庣懓顑勭紞锟�';
+    font-size: 14px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -230px;
+    padding-left: 18px;
+    text-decoration: none
+}
+
+.tip-infos {
+    line-height: 35px;
+    color: #666;
+    padding: 0 18px
+}
+
+.tip-infos .end, .tip-infos .waiting {
+    background-position: 0 -834px;
+    padding-left: 25px;
+    display: inline-block
+}
+
+.tip-infos .end {
+    background-position: 0 -903px
+}
+
+.check-details table {
+    margin-top: 0
+}
+
+.check-details table tr td, .check-details table tr th {
+    border: 0;
+    border-bottom: 1px solid #eef1f3;
+    text-align: left;
+    padding-bottom: 0
+}
+
+.check-details .question02, .check-details .reply02 {
+    background-position: 0 -1117px;
+    padding-left: 25px
+}
+
+.check-details .reply02 {
+    background-position: 0 -976px
+}
+
+.check-details .time {
+    float: right
+}
+
+.table-message .unread {
+    font-weight: 700
+}
+
+.table-message tbody tr:hover {
+    background-color: #f6f6f6
+}
+
+.table-message .unread td .email {
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0 0 0 18px;
+    background-position: 0 -1185px;
+    display: block;
+    text-indent: -9999px
+}
+
+.table-message .read td .email {
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0 0 0 18px;
+    background-position: 0 -1248px;
+    display: block;
+    text-indent: -9999px
+}
+
+.table-message .unread td .time {
+    width: 155px;
+    overflow: hidden
+}
+
+.table-message .detail td {
+    padding: 0;
+    background: 0
+}
+
+.table-message .detail .tips {
+    width: 735px;
+    background: #ffffe9;
+    border: 1px solid #f4e4b4;
+    padding: 10px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    top: -1px;
+    left: 10px;
+    *left: 0;
+    display: none
+}
+
+.table-message .detail .tips .jt {
+    background: url(//dui.damai.cn/damai_v2/passport/images/itop.png) no-repeat;
+    width: 9px;
+    height: 5px;
+    overflow: hidden;
+    position: absolute;
+    left: 41px;
+    top: -5px
+}
+
+.table-message .detail .tips p {
+    width: 725px;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+.table-message .detail .tips p a {
+    color: #2f97b4
+}
+
+.table-message td .message-title {
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.table-message td .s-go-top {
+    background: url(//dui.damai.cn/damai_v2/passport/images/top.png) no-repeat scroll 0 1px;
+    padding-left: 35px;
+    width: 245px
+}
+
+.table-message a {
+    color: #666
+}
+
+.table-message a:hover {
+    text-decoration: none
+}
+
+.table-message a.c7 {
+    color: #2f97b4
+}
+
+.table-message a.c7:hover {
+    text-decoration: underline
+}
+
+.btn-message-down {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -292px -159px;
+    width: 35px;
+    height: 21px;
+    line-height: 21px;
+    display: block;
+    float: left;
+    font-weight: 400;
+    padding: 0 12px 0 0
+}
+
+.btn-message-down:hover {
+    background-position: -292px -180px
+}
+
+.btn-message-up {
+    width: 35px;
+    height: 21px;
+    line-height: 21px;
+    display: block;
+    float: left;
+    font-weight: 400;
+    padding: 0 12px 0 0;
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -245px -159px
+}
+
+.btn-message-up:hover {
+    background-position: -245px -180px
+}
+
+.table-message .close-i {
+    background: url(//dui.damai.cn/damai_v2/passport/images/t-close.png) no-repeat scroll 2px 2px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 4px;
+    display: none
+}
+
+.table-message .close-i:hover {
+    background-position: 2px -40px
+}
+
+.table-message td.wh1, .table-message th.wh1 {
+    padding-left: 30px;
+    width: 40px;
+    text-align: left
+}
+
+.table-message .wh2 {
+    width: 40px
+}
+
+.table-message .wh3 {
+    width: 285px
+}
+
+.table-message td.wh3 {
+    text-align: left
+}
+
+.table-message .wh4 {
+    width: 210px
+}
+
+.table-message .wh5 {
+    width: 100px
+}
+
+.table-message th.wh5 {
+    padding-left: 18px;
+    width: 82px;
+    text-align: left
+}
+
+.tips-f-b, .tips-y-b {
+    border: 2px solid #d3d3d3;
+    position: fixed;
+    border-radius: 3px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    margin: -39px 0 0 0;
+    box-shadow: 1px 1px 3px #f4f4f4;
+    z-index: 100;
+    display: none;
+    _position: relative;
+    _top: 10%;
+    _left: 30%;
+    _width: 140px
+}
+
+.tips-f-b-con, .tips-y-b-con {
+    border-radius: 2px;
+    height: 40px;
+    background: #fff url(//dui.damai.cn/damai_v2/passport/images/i3.png) 14px 13px no-repeat
+}
+
+.tips-f-b-con p, .tips-y-b-con p {
+    line-height: 40px;
+    color: #999;
+    font-size: 14px;
+    padding: 0 30px 0 40px
+}
+
+.tips-f-b-con {
+    background: 0
+}
+
+.tips-f-b-con p {
+    padding: 0 25px
+}
+
+.per-third {
+    padding: 30px
+}
+
+.per-third li {
+    overflow: auto;
+    zoom: 1;
+    margin-bottom: 15px
+}
+
+.per-third li span.ico {
+    display: block;
+    width: 61px;
+    height: 61px;
+    float: left;
+    background: url(//dui.damai.cn/damai_v2/passport/images/ico-third-b.gif) no-repeat;
+    text-indent: -1000em
+}
+
+.per-third li span.weibo {
+    background-position: 0 0
+}
+
+.per-third li span.un-weibo {
+    background-position: 0 -61px
+}
+
+.per-third li span.tqq {
+    background-position: -61px 0
+}
+
+.per-third li span.un-tqq {
+    background-position: -61px -61px
+}
+
+.per-third li span.tsohu {
+    background-position: -122px 0
+}
+
+.per-third li span.un-tsohu {
+    background-position: -122px -61px
+}
+
+.per-third li span.renren {
+    background-position: -183px 0
+}
+
+.per-third li span.un-renren {
+    background-position: -183px -61px
+}
+
+.per-third li span.douban {
+    background-position: -244px 0
+}
+
+.per-third li span.un-douban {
+    background-position: -244px -61px
+}
+
+.per-third li span.qq {
+    background-position: -305px 0
+}
+
+.per-third li span.un-qq {
+    background-position: -305px -61px
+}
+
+.per-third li span.txt {
+    display: block;
+    float: left;
+    line-height: 2;
+    padding-left: 15px;
+    color: #999
+}
+
+.per-third li span.txt strong {
+    font-weight: 400;
+    color: #333
+}
+
+.per-third li span.txt .cred {
+    color: #ed0a75
+}
+
+.per-third li span.zhifubao {
+    background-position: -366px 0
+}
+
+.per-third li span.un-zhifubao {
+    background-position: -366px -61px
+}
+
+.per-edit-list {
+    padding: 25px 40px;
+    color: #666
+}
+
+.per-edit-list .per-edit-msg {
+    background: #fffdee;
+    border: 1px solid #edd28b;
+    padding: 10px 20px;
+    color: #999;
+    margin-bottom: 15px
+}
+
+.per-edit-list dl {
+    margin: 0 0 20px;
+    clear: both;
+    *zoom: 1
+}
+
+.per-edit-list dl.w {
+    float: left;
+    clear: none;
+    width: 190px
+}
+
+.per-edit-list dl.w2 {
+    float: left;
+    clear: none;
+    width: 350px
+}
+
+.per-edit-list dt {
+    width: 71px;
+    float: left;
+    padding-right: 5px;
+    text-align: right;
+    font-family: '閻庣懓顑勭紞锟�'
+}
+
+.per-edit-list dt span.c4 {
+    padding-right: 5px
+}
+
+.per-edit-list dd {
+    float: left
+}
+
+.per-edit-list dd.right {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i3.png) no-repeat scroll right 3px;
+    padding-right: 25px
+}
+
+.per-edit-list dd .input-text, .per-edit-list dd .input-text-1, .per-edit-list dd .input-text-2 {
+    width: 200px;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5
+}
+
+.per-edit-list dd .input-text-1 {
+    width: 300px
+}
+
+.per-edit-list dd .input-text-2 {
+    width: 120px
+}
+
+.label-list02 li .sel-1, .per-about .info-sub .sel-1, .per-edit-list dd .sel-1, .per-edit-list dd .sel-2, .per-edit-list dd .sel-3, .per-edit-list dd .sel-4, .table-top .slect-info .sel-1, .table-top .slect-info .sel-2, .table01 .sel-1 {
+    width: 75px;
+    height: 20px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    color: #666
+}
+
+.label-list02 li .sel-2, .per-edit-list dd .sel-2 {
+    width: 50px
+}
+
+.per-edit-list dd .sel-3 {
+    width: 208px
+}
+
+.label-list02 li .sel-4, .per-edit-list dd .sel-4 {
+    width: 115px;
+    margin-right: 10px
+}
+
+.per-edit-list button {
+    border: 0;
+    margin: 0 0 0 75px
+}
+
+.per-edit-list .radio {
+    overflow: auto;
+    zoom: 1;
+    padding-right: 20px
+}
+
+.per-edit-list .radio input {
+    vertical-align: -2px;
+    *vertical-align: -3px;
+    _vertical-align: -2px
+}
+
+.per-edit-list .radio span {
+    color: #333;
+    padding-left: 4px
+}
+
+.label-list02 li span.m, .per-edit-list span.m {
+    background: url(//dui.damai.cn/damai_v2/passport/images/ico-sex.gif) right 0 no-repeat;
+    padding-right: 20px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px
+}
+
+.label-list02 li span.f, .per-edit-list span.f {
+    background: url(//dui.damai.cn/damai_v2/passport/images/ico-sex.gif) right -30px no-repeat;
+    padding-right: 20px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px
+}
+
+.per-change .per-change-nav, .per-change .per-change-nav02 {
+    width: 735px;
+    height: 29px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/step1.png) no-repeat;
+    margin: 26px
+}
+
+.per-change .per-change-nav li, .per-change .per-change-nav02 li {
+    width: 245px;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    font-size: 14px;
+    color: #666
+}
+
+.per-change .per-change-nav li.step1, .per-change .per-change-nav li.step2, .per-change .per-change-nav li.step3 {
+    color: #fff;
+    font-weight: 700;
+    background: url(//dui.damai.cn/damai_v2/passport/images/step1.png) no-repeat scroll 0 -29px
+}
+
+.per-change .per-change-nav li.step2 {
+    background-position: 0 -58px;
+    margin-left: -14px;
+    width: 259px
+}
+
+.per-change .per-change-nav li.step3 {
+    background-position: 0 -87px;
+    margin-left: -14px;
+    width: 259px
+}
+
+.per-change .per-change-nav02 {
+    background-position: 0 -116px;
+    width: 736px
+}
+
+.per-change .per-change-nav02 li {
+    width: 184px
+}
+
+.per-change .per-change-nav02 li.step1, .per-change .per-change-nav02 li.step2, .per-change .per-change-nav02 li.step3, .per-change .per-change-nav02 li.step4 {
+    color: #fff;
+    font-weight: 700;
+    background: url(//dui.damai.cn/damai_v2/passport/images/step1.png) no-repeat scroll -480px -29px
+}
+
+.per-change .per-change-nav02 li.step2, .per-change .per-change-nav02 li.step3 {
+    background-position: -480px -58px;
+    margin-left: -14px;
+    width: 198px
+}
+
+.per-change .per-change-nav02 li.step4 {
+    background-position: -480px -87px;
+    margin-left: -14px;
+    width: 198px
+}
+
+.per-change .popup-address {
+    padding: 30px 0 0 85px
+}
+
+.per-change .popup-address li, .popup-con .per-change-email-no li, .useri-tb .popup-address li {
+    padding-bottom: 20px;
+    line-height: 20px;
+    color: #666;
+    overflow: hidden;
+    zoom: 1
+}
+
+.per-change .popup-address li .caption01, .popup-con .per-change-email-no li .caption01, .useri-tb .popup-address li .caption01 {
+    width: 100px;
+    float: left;
+    text-align: right
+}
+
+.per-change .popup-address li .info, .useri-tb .popup-address li .info {
+    float: left;
+    position: relative
+}
+
+.label-list02 li .t1, .new-subscribe-li .t1, .per-about .info2 .t, .per-change .popup-address li .t, .per-change .popup-address li .t2, .popup-con .per-change-email-no li .t, .super-ri-info .t2, .t, .useri-tb .popup-address li .t {
+    width: 210px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.label-list02 li .t1:focus, .per-about .info2 .t:focus, .per-change .popup-address li .t2:focus, .per-change .popup-address li .t:focus, .popup-con .per-change-email-no li .t:focus, .t:focus, .useri-tb .popup-address li .t:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.per-change .popup-address li .info .ml100 {
+    margin-left: 100px
+}
+
+.per-change .popup-address li .info .txt {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    color: #ed0a75
+}
+
+.popup-con .per-change-email-no li .info {
+    float: left
+}
+
+.per-change .ml160 .btn09 {
+    margin-left: 184px
+}
+
+.per-change .msg {
+    background: #fffdee url(//dui.damai.cn/damai_v2/passport/images/sec.png) no-repeat scroll 12px 8px;
+    border: 1px solid #fce9b8;
+    padding: 2px 10px 2px 55px;
+    margin: 25px 15px;
+    line-height: 23px;
+    color: #666
+}
+
+.per-change .popup-address li .caption02 {
+    width: 100px;
+    float: left;
+    text-align: right;
+    font-weight: 700
+}
+
+.per-change .popup-address li .caption02.t1 {
+    line-height: 30px;
+    *line-height: 40px;
+    color: #ed0a75
+}
+
+.per-change .popup-address li .info2 {
+    float: left
+}
+
+.per-change .popup-address li .info2 span {
+    padding-right: 20px;
+    white-space: nowrap
+}
+
+.per-change .popup-address li .info2 .spec-work {
+    background: #fefae0;
+    border: 1px solid #fce9b8;
+    padding: 2px 3px
+}
+
+.per-change .popup-con {
+    padding: 30px 0 0 85px;
+    width: 400px;
+    line-height: 25px;
+    color: #666
+}
+
+.popup-con .per-change-y {
+    border-bottom: 1px dotted #bcbcbc;
+    padding-bottom: 15px
+}
+
+.popup-con .per-change-email-no, .popup-con .per-change-email-no ul {
+    padding-top: 10px
+}
+
+.popup-con .per-change-email-no li .caption01 {
+    width: 116px
+}
+
+.replay-email, .replay-phone {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -103px -181px;
+    width: 82px;
+    height: 21px;
+    line-height: 21px;
+    color: #333;
+    display: inline-block
+}
+
+.replay-email span, .replay-phone span {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 5px -1186px;
+    *background-position: 5px -1186px;
+    padding-left: 24px
+}
+
+.replay-email:hover, .replay-phone:hover {
+    text-decoration: none;
+    background-position: -103px -202px
+}
+
+.replay-phone span {
+    background-position: 5px -307px
+}
+
+.popup-succeed {
+    padding-left: 78px;
+    padding-top: 75px;
+    margin: 0 auto;
+    background: url(//dui.damai.cn/damai_v2/passport/images/right1.png) no-repeat scroll 0 85px;
+    line-height: 25px;
+    color: #666;
+    height: 190px
+}
+
+.popup-succeed .check-suc {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.mydm-userinfo .popup-succeed {
+    height: auto;
+    width: auto;
+    background: #fffdee url(//dui.damai.cn/damai_v2/passport/images/right1.png) no-repeat scroll 170px 35px;
+    border: 1px solid #f2dea9;
+    padding: 15px 25px 15px 240px;
+    line-height: 20px;
+    margin-top: 25px
+}
+
+.per-about dl {
+    border-bottom: 1px solid #eef1f3;
+    padding: 0 18px;
+    color: #666
+}
+
+.per-about dt {
+    padding: 10px 0
+}
+
+.per-about dt .txt {
+    font-weight: 700;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 0 -359px;
+    padding-left: 10px
+}
+
+.per-about dd {
+    padding: 10px 0 10px 10px
+}
+
+.per-about dd .checkbox {
+    margin-right: 15px;
+    white-space: nowrap
+}
+
+.per-about .con-list {
+    overflow: hidden
+}
+
+.per-about .con-list .checkbox {
+    width: 150px;
+    font-weight: 700;
+    float: left
+}
+
+.per-about .info-sub {
+    padding: 10px 0 0 19px
+}
+
+.per-about .info-sub .t {
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    width: 80px
+}
+
+.per-about .info-sub02 ul {
+    overflow: hidden;
+    zoom: 1
+}
+
+.per-about .info-sub02 li {
+    color: #2f97b4;
+    padding: 0 5px;
+    margin: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #fff
+}
+
+.per-about .info-sub02 li.on {
+    background: #fefae0;
+    border: 1px solid #fce9b8;
+    *width: 70px
+}
+
+.per-about .info-sub02 li.on span {
+    float: left;
+    display: inline-block;
+    *width: 55px;
+    *text-align: center
+}
+
+.per-about .info-sub02 li.on a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 6px -408px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    float: right
+}
+
+.per-about .caption03 {
+    width: 85px;
+    float: left
+}
+
+.per-change .popup-address li .t2 {
+    width: 110px
+}
+
+.msg-safety {
+    background: #fffdee;
+    border: 1px solid #edd28b;
+    line-height: 20px;
+    padding: 8px 10px;
+    margin: 15px auto 0;
+    overflow: hidden;
+    zoom: 1
+}
+
+.msg-safety .tit {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333
+}
+
+.msg-safety .tit span {
+    color: #ed0a75
+}
+
+.msg-safety .txt {
+    color: #999;
+    padding-left: 63px
+}
+
+.info-safety {
+    border: 1px solid #eef1f3;
+    padding: 25px 20px 25px 25px;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 15px
+}
+
+.info-safety li {
+    float: left
+}
+
+.info-safety .spc-title, .info-safety .suc-title {
+    width: 90px;
+    border-right: 1px solid #eef1f3;
+    height: 30px;
+    line-height: 30px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/right2.png) no-repeat;
+    padding-left: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Microsoft YaHei'
+}
+
+.info-safety .spc-title {
+    background: url(//dui.damai.cn/damai_v2/passport/images/sec2.png) no-repeat;
+    margin-top: 7px
+}
+
+.info-safety .infos-con {
+    width: 445px;
+    padding: 0 10px;
+    color: #999;
+    line-height: 30px
+}
+
+.info-safety .infos-con span {
+    float: left
+}
+
+.info-safety .infos-con .static01, .info-safety .infos-con .static02, .info-safety .infos-con .static03, .per-change .popup-address .static01, .per-change .popup-address .static02, .per-change .popup-address .static03 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/step1.png) no-repeat scroll -292px -30px;
+    width: 137px;
+    height: 15px;
+    display: inline-block;
+    margin: 7px 10px 0 5px
+}
+
+.info-safety .infos-con .static02, .per-change .popup-address .static02 {
+    background-position: -292px -45px
+}
+
+.info-safety .infos-con .static03, .per-change .popup-address .static03 {
+    background-position: -292px -60px
+}
+
+.per-change .popup-address .static01, .per-change .popup-address .static02, .per-change .popup-address .static03 {
+    margin: 0;
+    position: relative;
+    top: 2px;
+    *top: -3px
+}
+
+.info-safety .right {
+    float: right;
+    width: 130px;
+    text-align: center;
+    line-height: 30px
+}
+
+.info-safety .right .spry-btn, .sup-btn {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -234px;
+    width: 72px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #ed0a75;
+    display: inline-block
+}
+
+.info-safety .right .spry-btn:hover, .sup-btn:hover {
+    background-position: 0 -255px;
+    text-decoration: none
+}
+
+.info-safety .infos-con.lh {
+    line-height: 16px
+}
+
+.item-s01 {
+    border: 1px solid #eef1f3;
+    margin-top: 15px
+}
+
+.item-s01 .title {
+    padding: 0 25px;
+    line-height: 40px;
+    border-bottom: 1px solid #eef1f3
+}
+
+.item-s01 .title h4 {
+    color: #666;
+    float: left
+}
+
+.item-s01 .title span {
+    color: #999
+}
+
+.per-wd02 {
+    padding: 25px
+}
+
+.per-wd02 dt {
+    width: 85px
+}
+
+.per-wd02 dd {
+    position: relative
+}
+
+.per-wd02 .per-txt {
+    color: #999;
+    padding-left: 15px
+}
+
+.per-wd02 .tips-c4 {
+    color: #ed0a75;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 650px
+}
+
+.per-wd02 .per-all-t {
+    padding: 7px 0 7px 90px
+}
+
+.per-wd02 .per-all-t .btn05 {
+    margin-left: 0
+}
+
+.save-address .table01 th.w6 {
+    width: 180px;
+    text-align: center
+}
+
+.no-getting-infos {
+    padding: 25px;
+    color: #666;
+    text-align: left
+}
+
+.getting-infos {
+    background: url(//dui.damai.cn/damai_v2/passport/images/loading.gif) no-repeat scroll 25px 25px;
+    line-height: 25px;
+    padding: 25px 25px 25px 55px;
+    text-align: left
+}
+
+.per-fest-con {
+    width: 645px;
+    overflow: hidden;
+    zoom: 1;
+    padding: 25px 30px
+}
+
+.per-fest-con dt {
+    width: 65px;
+    float: left
+}
+
+.per-fest-con dd {
+    width: 580px;
+    float: left
+}
+
+.per-fest-con dd .textarea {
+    width: 580px;
+    height: 80px;
+    line-height: 20px;
+    overflow: scroll-y;
+    overflow: scroll-x;
+    padding: 3px;
+    color: #999;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef
+}
+
+.per-fest-con dd .textarea:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.per-fest-con dd .per-fest-info {
+    background: #fffdee;
+    border: 1px solid #edd28b;
+    padding: 5px 15px 10px;
+    line-height: 30px;
+    color: #666
+}
+
+.per-fest-con dd .per-fest-info .tit {
+    font-weight: 700
+}
+
+.per-fest-con dd .per-fest-info .take-k-btn {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -103px -181px;
+    width: 82px;
+    height: 21px;
+    color: #666;
+    display: inline-block;
+    margin-right: 5px
+}
+
+.per-fest-con dd .per-fest-info .take-k-btn:hover {
+    text-decoration: none;
+    background-position: -103px -202px
+}
+
+.per-fest-con dd .per-fest-info .take-k-btn span {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i2.png) no-repeat scroll 5px -1320px;
+    padding-left: 17px;
+    line-height: 21px
+}
+
+.per-fest-con dd .per-fest-info .y-a {
+    background: #fefae0;
+    border: 1px solid #fce9b8;
+    margin-right: 2px;
+    color: #666;
+    padding: 1px 2px
+}
+
+.per-flow-msg, .per-flow-msg02 {
+    background: #fffdee;
+    border: 1px solid #f2dea9;
+    padding: 5px 10px;
+    color: #666;
+    line-height: 25px;
+    margin: 20px 25px 0
+}
+
+.per-flow-msg02 .more {
+    float: right;
+    color: #2f97b4;
+    _position: relative;
+    _top: -30px;
+    _right: 10px
+}
+
+.agreement-text {
+    border: 1px solid #d9d9d9;
+    color: #000;
+    line-height: 25px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 260px;
+    margin: 30px 25px 0
+}
+
+.per-flow-msg02 {
+    margin: 20px 26px 0
+}
+
+.e-system .title {
+    background: url(//dui.damai.cn/damai_v2/passport/images/side-h3.png) repeat-x;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #333;
+    font-weight: 700;
+    border-top: 1px solid #eef1f3;
+    border-bottom: 1px solid #eef1f3
+}
+
+.activation-e-sys .per-change .popup-address {
+    padding-left: 200px
+}
+
+.activation-e-sys .per-change .popup-con .popup-address {
+    padding-left: 110px
+}
+
+.activation-e-sys .per-change .ml300 {
+    margin-left: 300px;
+    margin-bottom: 20px
+}
+
+.per-change .next-btn .btn05 {
+    margin-left: 300px;
+    margin-bottom: 30px
+}
+
+.activation-e-sys .c-ol, .useri-tb .c-ol {
+    color: #acacac
+}
+
+.per-change .sel-3, .useri-tb .sel-3 {
+    width: 216px;
+    height: 20px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    color: #7c7c7c
+}
+
+.activation-e-sys .per-change .popup-succeed, .popup-failing {
+    background: #fffdee;
+    border: 1px solid #f2dea9;
+    padding: 25px 25px 25px 225px;
+    width: auto;
+    margin: 50px 26px 25px;
+    height: auto
+}
+
+.activation-e-sys .per-change .popup-succeed-con, .useri-tb .popup-succeed-con {
+    background: url(//dui.damai.cn/damai_v2/passport/images/right1.png) no-repeat scroll 5px 10px;
+    padding-left: 75px;
+    line-height: 35px
+}
+
+.popup-failing {
+    margin-top: 25px
+}
+
+.popup-failing-con {
+    background: url(//dui.damai.cn/damai_v2/passport/images/right1.png) no-repeat scroll 5px -186px;
+    padding-left: 80px;
+    line-height: 20px
+}
+
+.popup-failing .check-suc, .useri-tb .popup-succeed-con .check-suc {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.mydm-userinfo .popup-failing {
+    margin: 25px auto 0;
+    padding: 25px 25px 25px 180px
+}
+
+.phone-sub-box {
+    padding: 5px 50px 35px 80px
+}
+
+.phone-sub-box dl {
+    overflow: hidden;
+    zoom: 1;
+    padding-bottom: 20px
+}
+
+.phone-sub-box dt {
+    width: 180px;
+    padding-right: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.phone-sub-box dt .top-icon {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll right 0;
+    padding: 0 40px 0 0;
+    display: inline-block
+}
+
+.phone-sub-box .next-btn .btn05 {
+    margin: 0 0 0 190px
+}
+
+.activation-e-sys .per-left-tit {
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333
+}
+
+.activation-e-sys .per-change .popup-con {
+    width: auto;
+    padding-bottom: 20px
+}
+
+.activation-e-sys .per-change-email-no, .activation-e-sys .per-change-y {
+    margin-left: 165px;
+    width: 405px
+}
+
+.activation-e-sys .per-change-y {
+    *float: left
+}
+
+.per-change .next-btn02 .btn05 {
+    margin-left: 208px
+}
+
+.per-change .next-btn03 .btn05 {
+    margin-left: 285px
+}
+
+.mydm-userinfo {
+    margin: 30px 25px 25px
+}
+
+.useri-tb .con-nav01 {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eef1f3;
+    display: block;
+    overflow: hidden
+}
+
+.useri-tb .con-nav01 li {
+    width: auto;
+    height: 31px;
+    position: relative;
+    bottom: -1px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.useri-tb .con-nav01 li.on {
+    font-weight: 700;
+    background: #ed0a75;
+}
+
+.useri-tb .con-nav01 li a {
+    color: #333
+}
+
+.useri-tb .con-nav01 li.on a {
+    font-weight: 700;
+    color: #fff;
+}
+
+.useri-tb .con-nav01 .right {
+    float: right;
+    width: auto;
+    background: 0;
+    cursor: default;
+    color: #666
+}
+
+.useri-tb .con-nav01 .right a {
+    color: #2f97b4
+}
+
+.useri-tb .c-con {
+    border-right: 1px solid #eef1f3;
+    border-bottom: 1px solid #eef1f3;
+    border-left: 1px solid #eef1f3
+}
+
+.useri-tb .getting-infos, .useri-tb .no-getting-infos {
+    border: 1px solid #eef1f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0
+}
+
+.useri-tb .getting-infos {
+    background-position: 25px 10px
+}
+
+.useri-msg02:after, .useri-msg03:after, .useri-msg:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.useri-msg, .useri-msg02, .useri-msg03 {
+    background: #fffdee;
+    border: 1px solid #f2dea9;
+    padding: 5px 10px 5px 30px;
+    color: #666;
+    line-height: 25px;
+    margin-top: 30px;
+    *zoom: 1
+}
+
+.useri-msg .fr {
+    margin-top: 10px
+}
+
+.col-green {
+    color: #68cc76;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.col-red {
+    color: #ed0a75;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.useri-msg .d-w {
+    margin-right: 80px;
+    float: left
+}
+
+.useri-msg .spec-i {
+    background: url(//dui.damai.cn/damai_v2/passport/images/spec1.png) no-repeat scroll 0 center;
+    padding: 10px 0 10px 30px;
+    margin-top: 5px;
+    line-height: 25px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.useri-msg .r-icon {
+    padding-right: 30px;
+    float: left;
+    white-space: nowrap;
+    width: 220px;
+    _width: 210px
+}
+
+.useri-msg .r-icon .r1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ed0a75;
+    padding-left: 10px
+}
+
+.useri-msg .r-icon .r2 {
+    font-family: Arial;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #ed0a75
+}
+
+.useri-msg .right {
+    float: right;
+    _margin-top: 7px;
+    white-space: nowrap
+}
+
+.useri-msg02 {
+    line-height: 20px
+}
+
+.useri-msg .fl01 {
+    width: 192px;
+    float: left
+}
+
+.useri-msg .fl .btn03 {
+    float: left
+}
+
+.useri-msg .tips-infos-i {
+    float: left;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -220px;
+    padding-left: 25px;
+    margin-left: 10px;
+    height: 27px;
+    display: inline-block;
+    position: relative
+}
+
+.useri-msg .tips-infos-i span {
+    border: 1px solid #edd38d;
+    width: 132px;
+    padding: 0 5px;
+    line-height: 25px;
+    background: #fffdee;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    display: none
+}
+
+.useri-msg .more {
+    float: right;
+    color: #2f97b4;
+    _position: relative;
+    _top: -30px;
+    _right: 10px
+}
+
+.useri-tb .popup-address {
+    padding: 30px 0 0 150px
+}
+
+.useri-tb .popup-address li .caption01 {
+    width: 132px
+}
+
+.useri-tb .popup-succeed-con {
+    margin: 10px 0 10px 170px;
+    line-height: 25px;
+    background-position: 5px 22px
+}
+
+.useri-tb .popup-succeed-con p.c3 {
+    line-height: 20px
+}
+
+.useri-no-infos {
+    background: url(//dui.damai.cn/damai_v2/passport/images/sec3.png) no-repeat scroll 0 0;
+    padding-left: 75px;
+    line-height: 55px;
+    margin: 15px 0 0 200px
+}
+
+.batch-append, .batch-append02 {
+    padding: 20px 0 0;
+    clear: both;
+    *zoom: 1;
+    *overflow: hidden
+}
+
+.batch-append02:after, .batch-append:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.batch-append dt {
+    float: left;
+    line-height: 30px
+}
+
+.batch-append .t, .batch-append02 .t1 {
+    width: 210px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin-right: 10px;
+    *position: relative;
+    *top: -4px
+}
+
+.useri-tb .sel-4 {
+    width: 385px;
+    height: 160px;
+    padding: 5px;
+    line-height: 25px;
+    border: 1px solid #f1f1f1;
+    color: #999
+}
+
+.batch-append li {
+    line-height: 25px;
+    padding-bottom: 5px
+}
+
+.batch-append02 .t1 {
+    width: 70px;
+    vertical-align: middle;
+    *vertical-align: top
+}
+
+.batch-append02 dt {
+    width: 16em;
+    float: left;
+    text-align: right;
+    line-height: 20px
+}
+
+.batch-append02 dd {
+    line-height: 20px;
+    width: 540px;
+    float: left
+}
+
+.batch-append02 dd p {
+    height: 20px
+}
+
+.batch-append02 .ri-cd p {
+    height: 25px
+}
+
+.batch-append02 .code-img img {
+    cursor: pointer;
+    height: 20px;
+    width: 80px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.batch-append02 label {
+    width: 50px;
+    text-align: right;
+    float: left
+}
+
+.batch-append02 .ri-cd {
+    width: 640px;
+    float: left
+}
+
+.table01 .i-up {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i3.png) no-repeat scroll right -59px;
+    padding-right: 20px;
+    color: #666
+}
+
+.table01 .i-down {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i3.png) no-repeat scroll right -125px;
+    padding-right: 20px;
+    color: #666
+}
+
+.table01 .sel-1 {
+    width: auto
+}
+
+.result-noinfos {
+    border: 1px solid #eed48f;
+    color: #666;
+    line-height: 20px;
+    padding: 5px 20px;
+    background: #fffdee;
+    text-align: left
+}
+
+.section-item01 {
+    border: 1px solid #eef1f3;
+    margin-top: 20px
+}
+
+.section-item01 .hd-02 {
+    height: 31px;
+    line-height: 30px;
+    font-weight: 400;
+    background: url(//dui.damai.cn/damai_v2/passport/images/th.png) repeat-x;
+    padding: 0 30px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #eef1f3
+}
+
+.section-item01 .hd-02 h3 {
+    font-size: 14px;
+    float: left
+}
+
+.section-item01 .hd-02 .fr {
+    color: #2f97b4
+}
+
+.section-item01 .list {
+    padding: 5px 0;
+    overflow: hidden;
+    zoom: 1
+}
+
+.section-item01 .list li {
+    float: left;
+    width: 335px;
+    padding-left: 30px;
+    line-height: 35px;
+    color: #666
+}
+
+.section-item01 .list li a {
+    color: #2f97b4;
+    padding-left: 10px
+}
+
+.section-item01 .list li span {
+    padding-right: 10px
+}
+
+.userinfo02 {
+    margin-top: 10px
+}
+
+.userinfo02 h3 {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #333;
+    line-height: 35px;
+    border-bottom: 2px solid #d9d9d9
+}
+
+.userinfo02 .u-con {
+    padding: 30px 0
+}
+
+.userinfo02 li {
+    line-height: 25px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.userinfo02 li .fl {
+    width: 270px
+}
+
+.userinfo02 li label {
+    width: 85px;
+    text-align: right;
+    float: left
+}
+
+.userinfo02 li a {
+    color: #2f97b4;
+    margin: 0 5px
+}
+
+.userinfo02 li .email-val, .userinfo02 li .phone-val {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -74px;
+    padding-left: 20px;
+    display: inline-block
+}
+
+.userinfo02 li .phone-val {
+    background-position: 0 -147px
+}
+
+.table-top {
+    border: 1px solid #eef1f3;
+    border-top: 0
+}
+
+.table-top .slect-info {
+    padding: 10px 13px 8px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.table-top .slect-info .sel-1 {
+    width: 90px;
+    margin-right: 10px;
+    float: left
+}
+
+.table-top .slect-info .sel-2 {
+    width: 120px;
+    float: left
+}
+
+.table-top .slect-info .t {
+    width: 210px;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 3px;
+    color: #666;
+    margin-right: 10px;
+    vertical-align: middle;
+    *position: relative;
+    *top: -2px
+}
+
+.table-top .table03 {
+    margin-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0
+}
+
+.table-top .table03 th {
+    border: 0
+}
+
+.from-admin .wh1 {
+    width: 145px
+}
+
+.from-admin td.wh1 {
+    text-align: left
+}
+
+.from-admin .wh2 {
+    width: 85px
+}
+
+.from-admin .wh3, .from-admin .wh4, .from-admin .wh5 {
+    width: 80px
+}
+
+.from-admin .wh6 {
+    width: 85px
+}
+
+.pagebox {
+    border: 1px solid #eef1f3;
+    background: url(//dui.damai.cn/damai_v2/passport/images/th.png) repeat-x;
+    height: 31px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding: 0 15px
+}
+
+.pagebox .pagination {
+    padding: 0;
+    text-align: right;
+    float: right;
+    clear: none
+}
+
+.pagebox .pagination a {
+    border: 1px solid #d5d5d5;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+    background: #fff;
+    padding: 0 10px
+}
+
+.pagebox .pagination a.on, .pagebox .pagination a:hover {
+    color: #fff;
+    background: #ed0a75
+}
+
+.pagebox .pagination .t {
+    height: 14px;
+    line-height: 14px
+}
+
+.pagebox .pagination button {
+    height: 20px;
+    line-height: 18px
+}
+
+.table03 .nums03 {
+    margin-right: 30px
+}
+
+.msg-safety .ts {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333
+}
+
+.msg-safety .green {
+    color: #12a000
+}
+
+.in-tel {
+    color: #ed0a75;
+    font-weight: 700
+}
+
+.pay-step-a {
+    border: 1px solid #eef1f3;
+    height: 75px;
+    margin-top: 15px;
+    padding-top: 20px;
+    position: relative
+}
+
+.pay-step-a ul {
+    position: absolute;
+    z-index: 2
+}
+
+.pay-step-a li {
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    text-align: center
+}
+
+.pay-step-a li.n {
+    width: 129px;
+    padding-top: 5px
+}
+
+.pay-step-a li.s1, .pay-step-a li.s2, .pay-step-a li.s3, .pay-step-a li.s4 {
+    width: 100px;
+    font-weight: 700;
+    padding-bottom: 46px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/stp.png) no-repeat scroll -136px 27px
+}
+
+.pay-step-a li.s2 {
+    background-position: -136px -51px
+}
+
+.pay-step-a li.s3 {
+    background-position: -136px -129px
+}
+
+.pay-step-a li.s4 {
+    background-position: -136px -207px
+}
+
+.pay-step-a li.on1 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/stp.png) no-repeat scroll 37px 27px;
+    color: #ed0a75
+}
+
+.pay-step-a li.on2 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/stp.png) no-repeat scroll 37px -51px
+}
+
+.pay-step-a li.on3 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/stp.png) no-repeat scroll 37px -129px
+}
+
+.pay-step-a li.on4 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/stp.png) no-repeat scroll 37px -207px
+}
+
+.pay-step-a .line, .pay-step-a2 .line {
+    height: 8px;
+    overflow: hidden;
+    border-top: 1px solid #d8d6d5;
+    background: #eaeaea;
+    position: absolute;
+    width: 690px;
+    z-index: 1;
+    top: 55px;
+    left: 50px
+}
+
+.pay-step-a .line div {
+    height: 8px;
+    overflow: hidden;
+    border-top: 1px solid #ed0a75;
+    background: #ed0a75;
+    position: absolute;
+    left: 0;
+    top: -1px
+}
+
+.pay-step-a .step-4-1 div {
+    width: 229px
+}
+
+.pay-step-a .step-4-2 div {
+    width: 458px
+}
+
+.pay-step-a .step-4-3 div {
+    width: 687px
+}
+
+.pay-step-a2 ul {
+    left: 105px
+}
+
+.pay-step-a2 .line {
+    width: 460px;
+    left: 169px
+}
+
+.pay-step-a2 li.s1, .pay-step-a2 li.s2, .pay-step-a2 li.s3, .pay-step-a2 li.s4 {
+    width: 105px
+}
+
+.pay-step-a3 ul {
+    left: 229px
+}
+
+.pay-step-a3 .line {
+    width: 229px;
+    left: 280px
+}
+
+.detail-infos-a {
+    background: #fafafa;
+    border: 1px solid #eef1f3;
+    margin-top: 15px;
+    padding: 15px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.detail-infos-a h4 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px
+}
+
+.detail-infos-a h5 {
+    font-weight: 700
+}
+
+.detail-infos-a .cont {
+    background: #fff;
+    padding: 15px;
+    color: #666;
+    line-height: 25px
+}
+
+.detail-infos-a .p-infos {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+
+.detail-infos-a .d-infos span {
+    padding-right: 20px
+}
+
+.detail-infos-a .sum-account {
+    width: 280px;
+    float: right;
+    text-align: right
+}
+
+.detail-infos-a .sum-account .s-top {
+    border-bottom: 1px dotted #ccc;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px
+}
+
+.detail-infos-a .sum-account .s-bt {
+    color: #666
+}
+
+.detail-infos-a .sum-account .s-price {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.detail-infos-a .sum-account .s-price .m {
+    color: #ed0a75;
+    font-size: 24px;
+    font-weight: 400
+}
+
+.detail-infos-a .s-btn1, .detail-infos-a .s-btn2, .detail-infos-a .s-btn3, .detail-infos-a .s-btn4, .detail-infos-a .s-btn5, .detail-infos-a .s-btn6, .detail-infos-a .s-btn7, .s-btn8 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -350px;
+    width: 139px;
+    height: 34px;
+    border: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    margin: 10px 0
+}
+
+.detail-infos-a .s-btn1:hover {
+    background-position: 0 -384px
+}
+
+.detail-infos-a .s-btn2 {
+    background-position: 0 -496px
+}
+
+.detail-infos-a .s-btn2:hover {
+    background-position: 0 -530px
+}
+
+.detail-infos-a .s-btn3 {
+    background-position: 0 -569px
+}
+
+.detail-infos-a .s-btn3:hover {
+    background-position: 0 -603px
+}
+
+.detail-infos-a .s-btn4 {
+    background-position: 0 -423px
+}
+
+.detail-infos-a .s-btn4:hover {
+    background-position: 0 -457px
+}
+
+.detail-infos-a .s-btn5 {
+    background-position: -150px -350px
+}
+
+.detail-infos-a .s-btn5:hover {
+    background-position: -150px -384px
+}
+
+.detail-infos-a .s-btn6 {
+    background-position: -150px -423px
+}
+
+.detail-infos-a .s-btn6:hover {
+    background-position: -150px -457px
+}
+
+.detail-infos-a .s-btn7 {
+    background-position: -150px -569px
+}
+
+.detail-infos-a .s-btn7:hover {
+    background-position: -150px -603px
+}
+
+.s-btn8 {
+    background-position: -150px -700px
+}
+
+.s-btn8:hover {
+    background-position: -150px -734px
+}
+
+.s-helper {
+    background: #fffdee;
+    border: 1px solid #edd28b;
+    padding: 15px;
+    margin-top: 15px
+}
+
+.s-helper h4 {
+    border-bottom: 1px dotted #edd28b;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px
+}
+
+.s-helper .s-con {
+    padding: 10px 10px 0 5px;
+    line-height: 22px;
+    color: #666
+}
+
+.s-helper .table04 {
+    text-align: left;
+    color: #666
+}
+
+.s-helper .table04 th {
+    line-height: 35px;
+    font-weight: 700;
+    padding-right: 15px
+}
+
+.s-helper .table04 td {
+    padding: 3px 0;
+    vertical-align: top;
+    padding-right: 15px
+}
+
+.s-helper .table04 .w1 {
+    width: 190px
+}
+
+.s-helper .table04 .w2 {
+    width: 400px
+}
+
+.s-helper .s-tips {
+    border: 1px solid #fec8c8;
+    background: #fff url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 3px -297px;
+    padding-left: 20px;
+    line-height: 22px
+}
+
+.table01 .s-block .s-no, .table01 .s-block .s-right {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) scroll -200px -508px;
+    width: 50px;
+    height: 15px;
+    color: #666;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    *top: 2px
+}
+
+.table01 .s-block .s-no {
+    background-position: -200px -544px
+}
+
+.e_ticket {
+    padding-bottom: 10px;
+    width: 482px;
+    border: #ececec solid 1px;
+    margin: 30px auto
+}
+
+.e_ticket h4 {
+    height: 37px;
+    margin-bottom: 10px;
+    border-bottom: #ececec solid 1px;
+    line-height: 37px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/icon_logo.png) no-repeat 18px 5px #fafafa;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-right: 10px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.e_ticket p {
+    padding-left: 28px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/icon_pt_black.png) no-repeat 18px 9px;
+    margin-top: 5px;
+    line-height: 22px
+}
+
+.e_ticket_t {
+    padding: 0 20px
+}
+
+.e_ticket_t h2.e_t {
+    background: #fff;
+    border-bottom: 0;
+    color: #535353;
+    height: 31px;
+    line-height: 31px;
+    font-weight: 700
+}
+
+.e_ticket_t h2.e_t a {
+    font-weight: 400
+}
+
+.e_tiket_info {
+    border: solid 1px #ededed;
+    padding: 10px 2px 10px 8px;
+    background: #fafafa
+}
+
+.e_tiket_info p {
+    line-height: 24px;
+    color: #535353
+}
+
+.t_ticket_detail .t_ticket_text {
+    float: left
+}
+
+.e_ticket.t1 {
+    width: 602px
+}
+
+.t_ticket_text p {
+    line-height: 16px
+}
+
+.e_ticket_print {
+    text-align: center;
+    height: 30px;
+    border-top: dashed 1px #bfbfbf;
+    padding-top: 30px;
+    margin-top: 20px
+}
+
+.btns_04, .btns_05, .btns_06 {
+    display: inline-block;
+    width: 68px;
+    height: 22px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg.png) no-repeat scroll -292px -351px;
+    text-align: center;
+    color: #559dc0;
+    line-height: 21px;
+    border: 0;
+    cursor: pointer
+}
+
+.btns_04:hover {
+    background-position: -292px -373px;
+    text-decoration: none
+}
+
+.btns_05, .btns_06 {
+    width: 124px;
+    height: 29px;
+    background-position: 0 -404px;
+    color: #fff;
+    line-height: 26px;
+    font-weight: 400;
+    position: relative;
+    bottom: 2px;
+    *position: static
+}
+
+.btns_05 {
+    width: 68px;
+    background-position: -341px -289px
+}
+
+.btns_05:hover {
+    background-position: -341px -318px;
+    color: #fff
+}
+
+.btns_06:hover {
+    background-position: -124px -404px;
+    color: #fff;
+    text-decoration: none
+}
+
+.fixLoss {
+    margin: 10px 20px 0;
+    padding-bottom: 15px
+}
+
+.fixLoss li {
+    padding: 5px 0
+}
+
+.fixLoss h2 {
+    position: relative;
+    top: 1px;
+    height: 28px;
+    font-weight: 400;
+    padding-left: 25px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/arrow.png) 0 11px no-repeat;
+    line-height: 28px;
+    z-index: 200
+}
+
+.fixLoss .in {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    background: #fafafa;
+    line-height: 24px;
+    z-index: 100
+}
+
+.fixLoss li.on h2 {
+    background-position: 0 -22px
+}
+
+.fixLoss li.on h2 a:hover {
+    text-decoration: none
+}
+
+.fixLoss ul {
+    border-bottom: 1px dotted #a4a4a4;
+    margin-bottom: 10px;
+    padding-bottom: 15px
+}
+
+.order_off {
+    width: 690px;
+    margin: 0 auto;
+    padding: 25px 0
+}
+
+.order_off .info li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 32%
+}
+
+.order_off .info .d1 {
+    width: 300px
+}
+
+.order_off .detal {
+    padding: 15px 0
+}
+
+.order_off .detal .img {
+    float: left;
+    padding: 1px;
+    border: 1px solid #eaeaea
+}
+
+.order_off .detals {
+    float: right;
+    width: 490px
+}
+
+.order_off .detals table {
+    width: 488px;
+    border: 1px solid #ececec;
+    text-align: center
+}
+
+.order_off .detals th {
+    padding: 8px;
+    background: #fafafa;
+    font-weight: 400
+}
+
+.order_off .detals td {
+    padding: 8px;
+    border: 1px solid #ececec
+}
+
+.order_off .tips {
+    position: relative;
+    margin: 15px 0;
+    border: 1px solid #ffefbe;
+    background: #fffff9;
+    padding: 15px 30px;
+    line-height: 24px
+}
+
+.order_off .tips .close {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer
+}
+
+.order_off .tips h4 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px
+}
+
+.order_off .tips h2 {
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.order_off .i_n {
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg.png) no-repeat scroll0 -61px;
+    height: 22px;
+    padding: 0 3px;
+    line-height: 22px;
+    border: 1px solid #dcdcdc
+}
+
+.subscribe {
+    padding: 20px 25px;
+    margin-top: 15px
+}
+
+.top-sub-msg {
+    background: #fffdee;
+    border: 1px solid #efd48f;
+    padding: 10px;
+    line-height: 25px;
+    color: #676769;
+    margin-bottom: 35px
+}
+
+.top-sub-msg .pd {
+    padding: 0 25px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.top-sub-msg a {
+    color: #2f97b4
+}
+
+.top-sub-msg a:hover {
+    color: #ed0a75
+}
+
+.top-sub-msg .ml80 {
+    margin-left: 80px
+}
+
+.top-sub-msg .old-email, .top-sub-msg .old-phone {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -357px;
+    padding-left: 20px;
+    color: #989898
+}
+
+.top-sub-msg .old-phone {
+    background-position: 0 -406px
+}
+
+.top-sub-msg p {
+    clear: both
+}
+
+.table-list02 {
+    border: 1px solid #e4e4e4;
+    line-height: 31px;
+    color: #676769
+}
+
+.table-list02 th {
+    line-height: 38px;
+    background: #fafafa;
+    border: 1px solid #e4e4e4
+}
+
+.table-list02 td {
+    border: 1px solid #e4e4e4
+}
+
+.table-list02 .w1 {
+    color: #2f97b4;
+    text-align: left;
+    padding: 0 10px
+}
+
+.table-list02 .wh80 {
+    width: 80px;
+    text-align: center
+}
+
+.subscribe .bt {
+    text-align: right;
+    padding: 10px 0 10px 10px
+}
+
+.building-a1 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/jianshe2.png) no-repeat scroll 150px 84px;
+    height: 520px
+}
+
+.building-a2 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/jianshe2.png) no-repeat scroll 158px 82px;
+    height: 210px;
+    padding: 310px 0 0 210px;
+    font-size: 14px;
+    color: #999
+}
+
+.building-a2 a {
+    color: #2f97b4;
+    margin-right: 10px
+}
+
+.building-a2 a:hover {
+    text-decoration: none;
+    color: #ed0a75
+}
+
+.bg-layer-cover {
+    position: fixed;
+    _position: absolute;
+    width: 100%;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg-cover.png);
+    top: 0;
+    z-index: 110000
+}
+
+.step1-img {
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide1.png) no-repeat;
+    width: 408px;
+    height: 203px;
+    position: absolute;
+    left: 50%;
+    margin-left: -202px;
+    z-index: 110001;
+    top: 361px
+}
+
+.step1-img a.guide-next {
+    width: 80px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 155px;
+    left: 185px
+}
+
+.step1-img a.guide-close {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5px
+}
+
+.step2-img {
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide2.png) no-repeat;
+    width: 711px;
+    height: 739px;
+    position: absolute;
+    left: 50%;
+    margin-left: -505px;
+    z-index: 110001;
+    top: 143px
+}
+
+.step2-img a.guide-next {
+    width: 80px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 372px;
+    left: 490px
+}
+
+.step2-img a.guide-close {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 220px;
+    right: 5px
+}
+
+.step3-img {
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide3.png) no-repeat;
+    width: 448px;
+    height: 411px;
+    position: absolute;
+    left: 50%;
+    margin-left: -154px;
+    z-index: 110001;
+    top: 153px
+}
+
+.step3-img a.guide-next {
+    width: 80px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 365px;
+    left: 138px
+}
+
+.step3-img a.guide-close {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 208px;
+    right: 94px
+}
+
+.step4-img {
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide4.png) no-repeat;
+    width: 700px;
+    height: 268px;
+    position: absolute;
+    left: 50%;
+    margin-left: -219px;
+    z-index: 110001;
+    top: 298px
+}
+
+.step4-img a.guide-next {
+    width: 95px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    top: 215px;
+    left: 183px
+}
+
+.step4-img a.guide-close {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 278px
+}
+
+.left-mydamai-img {
+    width: 203px;
+    height: 736px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide-left.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -502px;
+    _margin-left: -500px;
+    z-index: 109999;
+    top: 142px
+}
+
+.guide-right-img {
+    background: url(//dui.damai.cn/damai_v2/passport/images/guide-ri-top.png) no-repeat;
+    width: 790px;
+    height: 212px;
+    position: absolute;
+    left: 50%;
+    margin-left: -290px;
+    z-index: 109999;
+    top: 142px
+}
+
+.layers {
+    padding: 4px;
+    clear: both;
+    background: #d4d3d3;
+    position: relative;
+    margin: 0 auto
+}
+
+.layers b {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg_layers.png) no-repeat;
+    display: block;
+    line-height: 0;
+    font-size: 0
+}
+
+.layers b.La {
+    left: 0;
+    top: 0;
+    background-position: left top
+}
+
+.layers b.Lb {
+    right: 0;
+    top: 0;
+    background-position: right top
+}
+
+.layers b.Lc {
+    left: 0;
+    bottom: 0;
+    background-position: left bottom
+}
+
+.layers b.Ld {
+    right: 0;
+    bottom: 0;
+    background-position: right bottom
+}
+
+.layers h2 {
+    width: 100%;
+    text-indent: 10px;
+    height: 27px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg_layer_h2.png) repeat-x;
+    line-height: 27px
+}
+
+.layers .inner {
+    background: #fff
+}
+
+.layers a.close {
+    width: 9px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    background: url(//dui.damai.cn/damai_v2/passport/images/layer1_close.png) no-repeat;
+    right: 15px;
+    top: 14px;
+    line-height: 0;
+    font-size: 0;
+    z-index: 999
+}
+
+.new-subscribe-down-li, .new-subscribe-li {
+    padding: 10px 20px
+}
+
+.new-subscribe-li li {
+    clear: both;
+    padding: 5px 0 15px;
+    line-height: 20px
+}
+
+.new-subscribe-li li label {
+    color: #666;
+    width: 7em;
+    float: left;
+    text-align: right
+}
+
+.new-subscribe-li li .ri-infos {
+    _width: 220px;
+    _float: left
+}
+
+.new-subscribe-li li .fi-infos {
+    width: 660px;
+    float: left
+}
+
+.new-subscribe-li .t {
+    color: #999
+}
+
+.new-subscribe-li .t1 {
+    width: 60px
+}
+
+.new-subscribe-li li .ri-infos .code-img img {
+    width: 80px;
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+.new-subscribe-down-li {
+    color: #666
+}
+
+.new-subscribe-down-li dd, .new-subscribe-down-li dt {
+    padding: 7px 0
+}
+
+.new-subscribe-down-li dd {
+    overflow: hidden;
+    zoom: 1
+}
+
+.new-subscribe-down-li .sort-1 {
+    margin-right: 20px
+}
+
+.new-subscribe-down-li .sort-1 label {
+    width: 3em
+}
+
+.new-subscribe-down-li .sort-2 label {
+    width: 10em;
+    float: left;
+    line-height: 23px
+}
+
+.new-subscribe-down-li .ri-infos {
+    width: 625px;
+    float: left
+}
+
+.new-dl-3 dd .ri-infos a, .new-subscribe-down-li .ri-infos a {
+    border: 1px solid #fce9b8;
+    color: #666;
+    line-height: 21px;
+    padding: 0 10px;
+    margin: 0 2px 5px;
+    display: inline-block;
+    background: #fefae0
+}
+
+.new-update-dl dl {
+    padding: 10px 20px 0;
+    border: 0
+}
+
+.new-update-dl dl:hover {
+    background: #fbfbfb
+}
+
+.new-update-dl dt {
+    padding: 5px 0
+}
+
+.new-update-dl dd {
+    border-bottom: 1px dashed #ccc;
+    padding-left: 5em;
+    padding-bottom: 10px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.new-update-dl dd label {
+    width: 70px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    float: left;
+    _display: inline
+}
+
+.new-update-dl .new-dl-2 dd label {
+    width: 270px
+}
+
+.new-dl-3 dt label {
+    width: 5em;
+    display: inline-block;
+    text-align: right
+}
+
+.new-dl-3 dd .up-li {
+    line-height: 23px;
+    overflow: hidden;
+    zoom: 1;
+    padding-bottom: 10px
+}
+
+.new-dl-3 dd label {
+    width: 10em;
+    float: left;
+    text-align: right
+}
+
+.new-dl-3 dd .ri-infos {
+    width: 565px;
+    float: left
+}
+
+.new-dl-3 dd .t {
+    color: #999
+}
+
+.new-dl-3 dd .btn07 {
+    margin-left: 0
+}
+
+.new-update-dl .new-dl-3 dd label {
+    margin-bottom: 0
+}
+
+.new-update-dl dd.no-bor {
+    border-bottom: 0
+}
+
+.new-wd2 {
+    overflow: hidden;
+    zoom: 1;
+    padding-top: 10px
+}
+
+.new-wd2 .new-subscribe-li {
+    width: 353px;
+    padding: 10px 10px 10px 20px;
+    float: left
+}
+
+.new-right-txt {
+    background: url(//dui.damai.cn/damai_v2/passport/images/new-1.png) no-repeat scroll 0 center;
+    margin-top: 8px;
+    _margin-top: 4px;
+    padding-left: 35px;
+    line-height: 20px;
+    color: #ed0a75;
+    width: 580px;
+    float: left
+}
+
+.new-right-txt a {
+    color: #2f97b4;
+    margin: 0 5px
+}
+
+.new-right-txt a:hover {
+    text-decoration: underline
+}
+
+.new-wd2 .new-dl-2 dd label {
+    width: 209px
+}
+
+.new-wd2 .new-dl-3 dd {
+    padding-left: 0
+}
+
+.new-wd2 .new-dl-3 dd .ri-infos {
+    width: 820px
+}
+
+.new-bt-copyright-txt {
+    text-align: center;
+    line-height: 40px
+}
+
+.new-bt-copyright-txt a {
+    color: #2f97b4
+}
+
+.new-bt-copyright-txt a:hover {
+    text-decoration: underline
+}
+
+.new-out-box {
+    margin: 50px auto 0;
+    width: 580px;
+    color: #666
+}
+
+.new-out-tp {
+    border: 1px solid #ecedee;
+    padding: 10px 0 20px
+}
+
+.new-out-tp-con {
+    width: 285px;
+    margin: 0 auto
+}
+
+.new-out-tp-con dl {
+    padding-top: 20px
+}
+
+.new-out-tp-con dt {
+    font-size: 14px;
+    padding-bottom: 15px
+}
+
+.new-out-tp-con dd {
+    padding-bottom: 15px
+}
+
+.new-out-tp-con dd li {
+    padding-bottom: 10px
+}
+
+.new-out-tp-con .t {
+    width: 210px;
+    margin-right: 0;
+    color: #999
+}
+
+.new-out-tp-con .btn05 {
+    margin-left: 5em
+}
+
+.new-dash-line {
+    border-bottom: 1px dashed #ccc;
+    margin: 0 20px
+}
+
+.new-dl-3 dt {
+    *zoom: 1
+}
+
+.new-dl-3 dt .lf-t {
+    width: 125px;
+    float: left
+}
+
+.new-dl-3 dt ul {
+    display: inline-block;
+    width: 620px;
+    float: left
+}
+
+.new-dl-3 dt li {
+    background: #fefae0;
+    border: 1px solid #fce9b8;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    white-space: nowrap
+}
+
+.new-dl-3 dt li span {
+    padding-left: 5px;
+    white-space: nowrap
+}
+
+.new-dl-3 dt li a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i.png) no-repeat scroll 6px -408px;
+    *background-position: 6px -409px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    padding-right: 5px
+}
+
+.new-wd2 .new-dl-3 dt ul {
+    width: 830px
+}
+
+.slide {
+    position: relative;
+    width: 962px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.slide ul {
+    position: relative;
+    z-index: 0;
+    width: 2000px;
+    height: 312px
+}
+
+.slide li {
+    position: absolute;
+    width: 210px;
+    height: 312px;
+    overflow: hidden;
+    float: left
+}
+
+.slide .next, .slide .prev {
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    width: 50px;
+    height: 90px
+}
+
+.slide .prev {
+    left: 85px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/left.png) no-repeat
+}
+
+.slide .next {
+    right: 85px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/right.png) no-repeat
+}
+
+.slide .box {
+    position: relative;
+    height: 278px;
+    background: #e0e0e0
+}
+
+.slide .mark, .slide .title {
+    position: absolute;
+    bottom: 0
+}
+
+.slide .pic {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.slide .title {
+    z-index: 2;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none
+}
+
+.slide .title:hover {
+    color: #e2fd2e
+}
+
+.slide .mark {
+    z-index: 1;
+    width: 100%;
+    height: 36px;
+    background: #121212;
+    filter: alpha(opacity=52);
+    opacity: .52
+}
+
+.slide .shadow {
+    padding-top: 0
+}
+
+.slide .box-01 {
+    z-index: 0;
+    top: 8px;
+    left: 0;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    width: 137px;
+    height: 204px
+}
+
+.slide .box-01 .box {
+    height: 182px
+}
+
+.slide .box-01 .pic img {
+    width: 137px;
+    height: 182px;
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.slide .box-01 .title {
+    height: 20px;
+    line-height: 20px;
+    font-size: 8px
+}
+
+.slide .box-01 .mark {
+    height: 20px
+}
+
+.slide .box-01 .shadow img {
+    width: 137px;
+    height: 22px
+}
+
+.slide .box-02 {
+    z-index: 1;
+    top: 12px;
+    left: 63px;
+    filter: alpha(opacity=90);
+    opacity: .9;
+    width: 150px;
+    height: 224px
+}
+
+.slide .box-02 .box {
+    height: 200px
+}
+
+.slide .box-02 .pic img {
+    width: 150px;
+    height: 200px
+}
+
+.slide .box-02 .title {
+    height: 26px;
+    line-height: 26px;
+    font-size: 10px
+}
+
+.slide .box-02 .mark {
+    height: 26px
+}
+
+.slide .box-02 .shadow img {
+    width: 150px;
+    height: 24px
+}
+
+.slide .box-03 {
+    z-index: 2;
+    top: 0;
+    left: 160px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    width: 210px;
+    height: 312px
+}
+
+.slide .box-03 .box {
+    height: 278px
+}
+
+.slide .box-03 .pic img {
+    width: 210px;
+    height: 278px
+}
+
+.slide .box-03 .title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px
+}
+
+.slide .box-03 .mark {
+    height: 36px
+}
+
+.slide .box-03 .shadow img {
+    width: 210px;
+    height: 33px
+}
+
+.slide .box-04 {
+    z-index: 2;
+    top: 0;
+    left: 380px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    width: 210px;
+    height: 312px
+}
+
+.slide .box-04 .box {
+    height: 278px
+}
+
+.slide .box-04 .pic img {
+    width: 210px;
+    height: 278px
+}
+
+.slide .box-04 .title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px
+}
+
+.slide .box-04 .mark {
+    height: 36px
+}
+
+.slide .box-04 .shadow img {
+    width: 210px;
+    height: 33px
+}
+
+.slide .box-05 {
+    z-index: 2;
+    top: 0;
+    left: 600px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    width: 210px;
+    height: 312px
+}
+
+.slide .box-05 .box {
+    height: 278px
+}
+
+.slide .box-05 .pic img {
+    width: 210px;
+    height: 278px
+}
+
+.slide .box-05 .title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px
+}
+
+.slide .box-05 .mark {
+    height: 36px
+}
+
+.slide .box-05 .shadow img {
+    width: 210px;
+    height: 33px
+}
+
+.slide .box-06 {
+    z-index: 1;
+    top: 12px;
+    left: 753px;
+    filter: alpha(opacity=90);
+    opacity: .9;
+    width: 150px;
+    height: 224px
+}
+
+.slide .box-06 .box {
+    height: 200px
+}
+
+.slide .box-06 .pic img {
+    width: 150px;
+    height: 200px
+}
+
+.slide .box-06 .title {
+    height: 26px;
+    line-height: 26px;
+    font-size: 10px
+}
+
+.slide .box-06 .mark {
+    height: 26px
+}
+
+.slide .box-06 .shadow img {
+    width: 150px;
+    height: 24px
+}
+
+.slide .box-07 {
+    z-index: 0;
+    top: 8px;
+    left: 826px;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    width: 137px;
+    height: 204px
+}
+
+.slide .box-07 .box {
+    height: 182px
+}
+
+.slide .box-07 .pic img {
+    width: 137px;
+    height: 182px
+}
+
+.slide .box-07 .title {
+    height: 20px;
+    line-height: 20px;
+    font-size: 8px
+}
+
+.slide .box-07 .mark {
+    height: 20px
+}
+
+.slide .box-07 .shadow img {
+    width: 137px;
+    height: 22px
+}
+
+.per-about .info-sub .sel-1 {
+    width: 90px
+}
+
+.inp-tel {
+    width: 200px;
+    padding: 3px 5px;
+    border: 1px solid #f5f5f5;
+    border-top: 1px solid #e2e2e2;
+    color: #ed0a75;
+    height: 18px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.inp-tel:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.infos-sec {
+    width: 230px;
+    margin: 20px auto 0;
+    color: #666
+}
+
+.infos-sec .sec-pl {
+    padding-left: 75px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/right.png) no-repeat;
+    padding-bottom: 10px
+}
+
+.infos-sec .txt {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700
+}
+
+.infos-sec .txt2 {
+    line-height: 14px
+}
+
+.tab-mydamai .title li a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -139px -122px;
+    display: block;
+    line-height: 29px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    padding: 0 2px
+}
+
+.tab-mydamai .title li a:hover {
+    background-position: -139px -151px;
+    text-decoration: none
+}
+
+.tab-mydamai .title li.fr {
+    float: right;
+    width: auto
+}
+
+.tab-mydamai .title li.fr a {
+    background: 0;
+    color: #2f97b4
+}
+
+.tab-mydamai .title li.fr a:hover {
+    color: #ed0a75
+}
+
+.r-attention01 dt {
+    width: 50px;
+    padding-right: 10px;
+    float: left
+}
+
+.r-attention01 dt .imgs img {
+    width: 50px;
+    height: 50px
+}
+
+.r-attention01 dt .r-state {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-i1.png) no-repeat;
+    width: 40px;
+    height: 15px;
+    display: block;
+    margin: 3px auto 0
+}
+
+.r-attention01 dd {
+    width: 305px;
+    float: left
+}
+
+.r-attention01 dd .r-user-name {
+    color: #2f97b4;
+    font-size: 14px
+}
+
+.r-attention01 dd .r-user-name:hover, .r-each-fun a:hover, .r-more-btn a:hover {
+    color: #ed0a75
+}
+
+.r-attention01 dd .r-per-atten {
+    color: #ccc
+}
+
+.r-attention01 dd .r-per-atten span {
+    padding: 0 5px;
+    color: #666
+}
+
+.r-attention01 dd .r-per-atten span strong {
+    font-weight: 400;
+    padding-left: 8px
+}
+
+.r-each-fun a {
+    color: #2f97b4
+}
+
+.r-each-fun .r-each-btn01 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-b1.png) no-repeat;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 15px
+}
+
+.r-each-fun .r-each-btn01 .r-ribg {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-b2.png) no-repeat scroll right 0;
+    display: block;
+    padding: 0 7px;
+    color: #ccc
+}
+
+.r-each-fun .r-each-btn01 .r-each-state01, .r-each-fun .r-each-btn01 .r-each-state02 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-icon-1.png) no-repeat scroll 0 1px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: #333
+}
+
+.r-each-fun .r-each-btn01 .r-each-state02 {
+    background-position: 0 -49px
+}
+
+.r-each-fun .r-each-state03 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-i1.png) no-repeat scroll 0 -40px;
+    width: 61px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    *display: block;
+    *float: left;
+    text-indent: -9999px
+}
+
+.r-each-fun .r-each-state03:hover {
+    background-position: 0 -60px
+}
+
+.bt-fun {
+    text-align: right;
+    padding: 15px 0
+}
+
+.bt-fun a {
+    margin-right: 25px
+}
+
+.bt-fun .btn05 {
+    vertical-align: middle
+}
+
+.r-msg-board {
+    padding: 0 30px
+}
+
+.r-msglist {
+    padding: 15px 0;
+    border-bottom: 1px dashed #ccc;
+    *zoom: 1
+}
+
+.r-active-list .r-buy-info:after, .r-active-list dt:after, .r-msglist .r-selfinfo p:after, .r-msglist:after {
+    display: block;
+    height: 0;
+    clear: both;
+    content: '\20'
+}
+
+.r-msglist a {
+    color: #2f97b4
+}
+
+.r-msglist a:hover {
+    color: #ed0a75
+}
+
+.r-msglist dt .img img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    display: block;
+    float: left
+}
+
+.r-msglist dd {
+    padding-left: 60px
+}
+
+.r-msglist .r-selfinfo {
+    line-height: 25px;
+    color: #666
+}
+
+.r-msglist .r-selfinfo p {
+    *zoom: 1
+}
+
+.r-active-list .r-reply-info, .r-msglist .r-replyinfo {
+    position: relative;
+    background: #fcfcfc;
+    border: 1px solid #f1f1f1;
+    padding: 10px 15px;
+    margin-top: 10px
+}
+
+.r-active-list .r-reply-info strong.r-top, .r-msglist .r-replyinfo strong.r-top {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-i2.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: -7px
+}
+
+.r-msglist dd .r-replyinfo dt .img img {
+    _position: relative;
+    _z-index: 5
+}
+
+.r-msglist .r-filltxt {
+    padding-left: 0
+}
+
+.r-msglist .r-filltxt .r-seltxt {
+    border: 1px solid #efefef;
+    background: #fff;
+    height: 100px;
+    line-height: 20px;
+    padding: 5px;
+    width: 625px
+}
+
+.r-msglist .r-filltxt .clear {
+    padding-top: 10px
+}
+
+.r-msglist .r-filltxt .clear .fr .r-msg {
+    color: #ed0a75;
+    margin-right: 10px
+}
+
+.r-msglist .r-filltxt .clear .fr .btn05 {
+    vertical-align: middle
+}
+
+.r-sendleave {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -560px;
+    padding-left: 20px
+}
+
+.r-msglist .r-nums {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-icon-1.png) no-repeat scroll 0 -100px;
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    padding-bottom: 3px;
+    line-height: 12px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -3px;
+    margin: 0 2px 0 4px;
+    font-weight: 700
+}
+
+.r-dialog-myself, .r-dialog-other {
+    border: 0;
+    padding-bottom: 0
+}
+
+.r-dialog-other .r-replyinfo {
+    margin-left: 70px
+}
+
+.r-dialog-myself dt .img img, .r-dialog-other dt .img img {
+    margin-top: 10px;
+    *margin-top: 0
+}
+
+.r-replyinfo strong.r-left {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-i2.png) no-repeat scroll 0 -17px;
+    width: 8px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    left: -7px;
+    _left: -23px;
+    top: 16px
+}
+
+.r-replyinfo strong.r-right {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-i2.png) no-repeat scroll 0 -37px;
+    width: 8px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    right: -7px;
+    top: 16px;
+    _left: 641px
+}
+
+.r-dialog-myself dt {
+    float: right
+}
+
+.r-dialog-myself .r-replyinfo {
+    margin-right: 70px
+}
+
+.r-top-text dt .img img {
+    margin-top: 23px
+}
+
+.r-top-text .r-send-name {
+    color: #666;
+    padding-bottom: 5px
+}
+
+.r-top-text .r-filltxt {
+    margin-right: 70px
+}
+
+.r-top-text .r-filltxt .r-seltxt {
+    width: 643px
+}
+
+.r-more-btn {
+    border-top: 1px solid #eef1f3;
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-bg01.png) repeat-x;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin-top: 40px
+}
+
+.r-more-btn a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/r-icon-1.png) no-repeat scroll right -163px;
+    padding-right: 15px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.r-friend-active .hd {
+    border-bottom: 2px solid #ed0a75;
+    height: 29px;
+    background: 0
+}
+
+.r-friend-active .hd .title {
+    float: left
+}
+
+.r-friend-active .hd .title li {
+    float: left;
+    width: 138px;
+    height: 29px;
+    margin-right: 2px;
+    _display: inline
+}
+
+.r-friend-active .hd .title li a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -110px;
+    display: block;
+    line-height: 29px;
+    text-align: center;
+    color: #999;
+    font-family: "Microsoft YaHei";
+    font-size: 16px
+}
+
+.r-friend-active .hd .title li a:hover {
+    background-position: 0 -139px;
+    text-decoration: none;
+    color: #ed0a75
+}
+
+.r-friend-active .hd .title li a.on {
+    background-position: 0 -81px;
+    color: #fff
+}
+
+.r-friend-active .hd .fr {
+    line-height: 29px
+}
+
+.r-friend-active .c-n {
+    padding: 0 20px
+}
+
+.r-active-list {
+    border-bottom: 1px dotted #f1f1f1;
+    padding: 20px 0
+}
+
+.r-active-list a {
+    color: #ed0a75
+}
+
+.r-active-list a:hover {
+    text-decoration: underline
+}
+
+.r-active-list dt {
+    *zoom: 1;
+    margin-bottom: 5px
+}
+
+.r-active-list dt .fl {
+    color: #444;
+    font-size: 14px
+}
+
+.r-active-list dt .fr {
+    color: #999;
+    font-family: '閻庣懓顑勭紞锟�'
+}
+
+.r-active-list dd {
+    color: #777;
+    line-height: 25px
+}
+
+.r-active-list dd .r-tit {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.r-active-list .r-buy-info {
+    *zoom: 1
+}
+
+.r-active-list .r-buy-info .img img {
+    width: 100px;
+    height: 135px;
+    float: left
+}
+
+.r-active-list .r-buy-info .r-right {
+    margin-left: 120px
+}
+
+.r-active-list .r-buy-info .r-attention01 dd .r-user-name, .r-active-list .r-buy-info .r-right strong {
+    color: #ed0a75
+}
+
+.r-active-list .r-buy-info .r-attention01 .r-per-atten span a {
+    padding-left: 10px
+}
+
+.section .star {
+    background: url(//dui.damai.cn/damai_v2/passport/images/star.png) repeat-x scroll 0 -23px;
+    height: 12px;
+    width: 70px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin: 0 5px
+}
+
+.section .star .per {
+    height: 12px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(//dui.damai.cn/damai_v2/passport/images/star.png) repeat-x;
+    z-index: 2
+}
+
+.section .star span.p1 {
+    width: 7px
+}
+
+.section .star span.p2 {
+    width: 14px
+}
+
+.section .star span.p3 {
+    width: 21px
+}
+
+.section .star span.p4 {
+    width: 28px
+}
+
+.section .star span.p5 {
+    width: 35px
+}
+
+.section .star span.p6 {
+    width: 42px
+}
+
+.section .star span.p7 {
+    width: 49px
+}
+
+.section .star span.p8 {
+    width: 56px
+}
+
+.section .star span.p9 {
+    width: 63px
+}
+
+.section .star span.p10 {
+    width: 70px
+}
+
+.section .grade {
+    color: #ed0a75;
+    font-weight: 700
+}
+
+.new-box01 {
+    border: 1px solid #eef1f3;
+    padding: 10px 20px;
+    line-height: 20px;
+    color: #666;
+    margin: 20px 0
+}
+
+.useri-msg03 {
+    margin: 0 40px 15px;
+    padding-left: 15px
+}
+
+.info-safety .infos-coned {
+    line-height: 22px
+}
+
+.info-safety .verific {
+    padding-top: 7px
+}
+
+.col-grey {
+    color: #888;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.new3-gift {
+    background: url(//dui.damai.cn/damai_v2/passport/images/new-i.png) no-repeat scroll 0 5px;
+    padding-left: 20px;
+    color: #2f97b4;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    _display: inline
+}
+
+.m-movie .pagebox {
+    margin-bottom: 15px
+}
+
+.m-movie .table-list01 .list-box {
+    margin-bottom: 10px;
+    margin-top: 0
+}
+
+.m-movie .table03 td {
+    padding: 15px 0
+}
+
+.m-movie .m-w3 {
+    width: 155px
+}
+
+.btn05_none, .btn05_none:hover {
+    background: url(//dui.damai.cn/damai_v2/passport/images/movie_btn.png) no-repeat 0 -408px;
+    cursor: default
+}
+
+.m-homepage {
+    color: #328ac7;
+    font-weight: 400;
+    margin-left: 5px
+}
+
+.caption {
+    *zoom: 1
+}
+
+.caption:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.caption .nums {
+    color: #666;
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px
+}
+
+.caption .right {
+    float: right;
+    padding-top: 4px
+}
+
+.ball_tab .img, .ball_tab .img img {
+    width: 165px;
+    height: 100px
+}
+
+.ball_tab .w3 {
+    width: 170px
+}
+
+.ball_tab .myquestion li .time {
+    width: 120px
+}
+
+.ball_tab .myquestion li .ask, .ball_tab .myquestion li .no-reply, .ball_tab .myquestion li .reply {
+    width: 395px
+}
+
+.j_yellow {
+    color: #ff5c30
+}
+
+.mai_bar dd a.on span {
+    color: #ed0a75 !important
+}
+
+.sound_infor {
+    border: 1px solid #eef1f3;
+    padding: 20px
+}
+
+.sound_infor h2 {
+    height: 40px;
+    color: #333
+}
+
+.sound_list {
+    padding: 10px;
+    margin-top: 10px;
+    color: #666
+}
+
+.sound_infor strong {
+    color: #666
+}
+
+.sound_infor ul {
+    padding: 10px
+}
+
+.sound_infor ul li {
+    line-height: 35px
+}
+
+.sound_infor ul li input {
+    width: 118px;
+    height: 14px;
+    line-height: 12px;
+    padding: 5px;
+    border: 1px solid #efefef;
+    margin-right: 10px;
+    _margin: 5px 10px 5px 0;
+    vertical-align: middle
+}
+
+.sound_infor ul li span {
+    color: #999
+}
+
+.update {
+    color: #2f97b4
+}
+
+.sound_btn {
+    margin: 10px 0 0 70px
+}
+
+.sound_line {
+    border-bottom: 1px dashed #ccc
+}
+
+.sound_infor .sound_items ul {
+    overflow: hidden;
+    zoom: 1;
+    padding: 0 5px
+}
+
+.sound_infor .sound_items ul li {
+    line-height: 22px;
+    width: 280px;
+    float: left
+}
+
+.layer-news {
+    line-height: 22px;
+    padding: 15px 0 0 18px
+}
+
+.layer-news dl {
+    overflow: hidden;
+    *zoom: 1;
+    padding-bottom: 12px
+}
+
+.layer-news dt {
+    width: 75px;
+    float: left
+}
+
+.layer-news dd {
+    float: left
+}
+
+.layer-news dd .t1 {
+    width: 150px;
+    height: 20px;
+    border-color: #ccc;
+    padding: 0 3px
+}
+
+.layer-news .layer-news-g {
+    color: #999
+}
+
+.layer-news .layer-news-r {
+    color: #ed0a75;
+    padding-left: 75px
+}
+
+.layer-btn-p {
+    padding: 20px 0
+}
+
+.layer-w360 {
+    width: 360px;
+    margin-left: -180px
+}
+
+.c-n .layer-txt {
+    text-align: center;
+    padding: 20px 0 20px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/right2.png) no-repeat 50px 20px
+}
+
+.credit-card {
+    text-align: right;
+    line-height: 25px;
+    padding-top: 5px
+}
+
+.credit-card .col1 {
+    color: #2f97b4;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -617px;
+    padding-left: 20px
+}
+
+.credit-card .col1:hover {
+    color: #ed0a75
+}
+
+.credit-card .col2 {
+    color: #333;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -667px;
+    padding-left: 20px
+}
+
+.super-mod dt {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+.super-mod dd {
+    line-height: 20px;
+    padding-bottom: 10px;
+    *zoom: 1;
+    padding-left: 30px;
+    color: #666
+}
+
+.super-mod dd:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.super-mod dd.super-ri-btn {
+    padding-left: 130px
+}
+
+.super-mod .radio {
+    width: 85px;
+    float: left
+}
+
+.super-mod .super-ri-info {
+    padding-left: 100px
+}
+
+.super-mod .super-subri .fl {
+    width: 85px
+}
+
+.super-mod .super-subri .super-subri02 {
+    padding-left: 90px
+}
+
+.super-mod .super-subri .super-subri02 p {
+    padding-bottom: 10px
+}
+
+.super-ri-info .t2 {
+    width: 110px
+}
+
+.super-mod .fon-col {
+    color: #999
+}
+
+.yellow-msg-box {
+    background: #fffdee;
+    border: 1px solid #f2dea9;
+    padding: 8px 25px;
+    color: #666;
+    line-height: 25px;
+    _zoom: 1;
+    _overflow: hidden
+}
+
+.yellow-msg-box a {
+    color: #2f97b4
+}
+
+.yellow-msg-box a:hover {
+    color: #ed0a75
+}
+
+.useri-msg .fl-lists {
+    width: 500px;
+    float: left;
+    padding-left: 10px
+}
+
+.useri-msg .fl-lists .tie-txt {
+    width: 100px;
+    text-align: right;
+    display: inline-block
+}
+
+.new-tb01 {
+    margin-bottom: 15px
+}
+
+.new-tb01 .con-nav01 {
+    border-bottom: 2px solid #ed0a75;
+    height: 29px;
+    line-height: 29px
+}
+
+.new-tb01 .con-nav01 li {
+    position: inherit;
+    height: 29px;
+    bottom: 0
+}
+
+.new-tb01 .con-nav01 li a:hover {
+    color: #ed0a75
+}
+
+.new-tb01 .con-nav01 li.on {
+    background-position: -150px -640px
+}
+
+.new-tb01 .con-nav01 li.on a, .new-tb01 .con-nav01 li.on a:hover {
+    color: #fff
+}
+
+.new-tb01 .con-nav02 {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #eef1f3;
+    padding-left: 15px
+}
+
+.new-tb01 .con-nav02 li {
+    line-height: 32px;
+    float: left
+}
+
+.new-tb01 .con-nav02 li a {
+    color: #333;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.new-tb01 .con-nav02 li a:hover {
+    color: #ed0a75
+}
+
+.new-tb01 .con-nav02 li a.on {
+    font-weight: 700;
+    color: #ed0a75
+}
+
+.new-tb01 .con-nav02 li span {
+    color: #ddd
+}
+
+.pd_3_t1 {
+    padding-left: 27px
+}
+
+.pd_send_code {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3.0_5.png) no-repeat scroll 0 -54px;
+    height: 21px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.popup-address .check02 img {
+    vertical-align: middle;
+    margin: 0 5px
+}
+
+.pd_send_code {
+    background-position: 0 -96px;
+    width: 107px;
+    text-align: center
+}
+
+.pd_send_code:hover {
+    background-position: 0 -117px;
+    color: #333
+}
+
+.popup_failing03 {
+    padding: 100px 25px 100px 225px
+}
+
+.popup_failing03 .check-suc {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.email_send_code_gray, .phone_send_code_gray {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat;
+    height: 21px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: inherit;
+    vertical-align: middle
+}
+
+.email_send_code_gray span, .pd_send_code_gray span, .phone_send_code_gray span {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat scroll right -126px;
+    padding-right: 6px;
+    height: 21px;
+    display: inline-block;
+    padding-left: 25px;
+    color: #989898
+}
+
+.email_send_code, .phone_send_code {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat;
+    height: 21px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.phone_send_code:hover {
+    background-position: 0 -21px
+}
+
+.email_send_code, .email_send_code_gray {
+    background-position: 0 -42px
+}
+
+.email_send_code:hover {
+    background-position: 0 -63px
+}
+
+.email_send_code span, .phone_send_code span {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat scroll right -126px;
+    color: #333;
+    padding-right: 6px;
+    height: 21px;
+    display: inline-block;
+    padding-left: 25px;
+    line-height: 21px
+}
+
+.email_send_code:hover span, .phone_send_code:hover span {
+    background-position: right -147px
+}
+
+.s_btn_10 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -768px;
+    width: 139px;
+    height: 34px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Microsoft YaHei"
+}
+
+.s_btn_10:hover {
+    background-position: 0 -802px
+}
+
+.right-main .main-wireless a {
+    display: block;
+    width: 790px;
+    overflow: hidden
+}
+
+.right-main .main-wireless img {
+    width: 790px
+}
+
+.order_con {
+    padding: 20px 20px 10px
+}
+
+.order_con li {
+    height: 22px;
+    line-height: 22px;
+    padding-bottom: 12px;
+    position: relative
+}
+
+.order_con li strong {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/order_bg.png) no-repeat;
+    padding-right: 10px;
+    float: left
+}
+
+.order_con li .order_icon2 {
+    background-position: 0 -25px
+}
+
+.order_con li .order_icon3 {
+    background-position: 0 -50px
+}
+
+.order_con li .order_icon4 {
+    background-position: 0 -75px
+}
+
+.order_con li span {
+    display: block;
+    color: #666;
+    padding-right: 5px;
+    float: left
+}
+
+.order_con li a {
+    display: block;
+    color: #2f97b4;
+    float: left
+}
+
+.order_con li a:hover {
+    color: #ed0a75
+}
+
+.order_con li .order_img {
+    display: none;
+    width: 105px;
+    height: 105px;
+    padding: 10px;
+    border: 1px solid #cbcaca;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2
+}
+
+.tab_order {
+    margin: 0 0 15px
+}
+
+.order_btn {
+    display: block;
+    height: 21px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat 0 -84px;
+    float: right
+}
+
+.order_btn:hover {
+    background-position: 0 -105px
+}
+
+.order_btn span {
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat right -126px;
+    padding: 0 12px;
+    color: #666;
+    cursor: pointer
+}
+
+.order_btn:hover span {
+    background-position: right -147px
+}
+
+.order_btn span em {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    padding-right: 5px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/order_bg.png) no-repeat 0 -125px;
+    float: left;
+    margin-top: 6px
+}
+
+.tab_order .order_txt {
+    color: #666;
+    line-height: 21px;
+    float: left
+}
+
+.tab_order .order_txt2 {
+    color: #666;
+    line-height: 21px;
+    float: right;
+    padding-right: 10px
+}
+
+.order_box {
+    border: 1px solid #eef1f3;
+    border-top: 0
+}
+
+.order_box tbody td {
+    line-height: 24px;
+    background: 0;
+    border-top: 1px dotted #ccc
+}
+
+.order_box tbody .first td {
+    border-top: 1px solid #eef1f3
+}
+
+.order_box tbody .w220 {
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.order_box tbody td span.i1 {
+    margin: 0 6px
+}
+
+.order_box tbody td .order_cho {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/order_bg.png) no-repeat 0 -100px;
+    vertical-align: -4px;
+    *vertical-align: -1px;
+    _vertical-align: 1px
+}
+
+.order_check li {
+    line-height: 30px;
+    padding: 6px 0;
+    border-bottom: 1px dashed #b8b8b8;
+    overflow: hidden;
+    *zoom: 1
+}
+
+.order_check li .order_title {
+    display: block;
+    width: 86px;
+    float: left
+}
+
+.order_check li .order_title .checkbox span {
+    padding: 0
+}
+
+.order_check li p {
+    display: block;
+    width: 652px;
+    float: left
+}
+
+.order_check li p .checkbox {
+    display: block;
+    width: 88px;
+    float: left
+}
+
+.order_check li p .checkbox span {
+    padding: 0
+}
+
+.order_tips {
+    color: #ed0a75
+}
+
+.order_list li {
+    line-height: 36px
+}
+
+.order_list li .order_text {
+    display: inline-block;
+    width: 200px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #efefef;
+    padding: 0 3px
+}
+
+.order_layer li {
+    padding-bottom: 10px;
+    overflow: hidden;
+    *zoom: 1
+}
+
+.order_layer li .layer_title {
+    display: block;
+    width: 60px;
+    line-height: 23px;
+    padding-right: 5px;
+    color: #333;
+    float: left;
+    text-align: right
+}
+
+.order_layer li .layer_con {
+    width: 353px;
+    float: left
+}
+
+.order_layer li .layer_con p {
+    height: 23px;
+    line-height: 23px;
+    padding-bottom: 8px;
+    overflow: hidden;
+    *zoom: 1;
+    color: #888
+}
+
+.order_layer li .layer_con p .layer_text {
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 3px;
+    border: 1px solid #efefef;
+    border-top-color: #d5d5d5;
+    float: left;
+    margin-right: 10px
+}
+
+.order_layer li .layer_con p a {
+    float: left
+}
+
+.order_layer li .layer_con p strong {
+    color: #ed0a75;
+    font-weight: 400
+}
+
+.order_layer li .layer_con p em {
+    color: #333
+}
+
+.order_layer li .layer_con p .order_a {
+    float: none;
+    color: #2f97b4;
+    margin-left: 15px
+}
+
+.pop_email, .pop_phone {
+    display: inline-block;
+    height: 21px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat
+}
+
+.pop_email {
+    background-position: 0 -42px
+}
+
+.pop_phone:hover {
+    background-position: 0 -21px
+}
+
+.pop_email:hover {
+    background-position: 0 -63px
+}
+
+.pop_email span, .pop_phone span {
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/i_3_2.png) no-repeat right -126px;
+    padding: 0 10px 0 25px;
+    color: #989898
+}
+
+.pop_email:hover span, .pop_phone:hover span {
+    background-position: right -147px
+}
+
+.layer-w588 {
+    width: 588px;
+    margin-left: -294px
+}
+
+.per-change .popup-address02 li .caption01 {
+    width: 132px
+}
+
+.popup-address .c-ol {
+    color: #acacac
+}
+
+.useri-msg.mt0 {
+    margin-top: 0
+}
+
+.useri-no-infos02 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -302px -473px;
+    padding: 10px 0 10px 60px;
+    margin: 30px 0 30px 200px;
+    font-weight: 700;
+    color: #666;
+    font-size: 14px
+}
+
+.per-change-ms .g1, .per-change-ms .g2, .per-change-ms .g3, .per-change-ms .g4 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -306px -287px;
+    height: 44px;
+    display: inline-block;
+    padding-left: 55px;
+    margin-left: 60px
+}
+
+.per-change-ms .g2 {
+    background-position: -306px -333px
+}
+
+.per-change-ms .g3 {
+    background-position: -306px -379px
+}
+
+.per-change-ms .g4 {
+    background-position: -306px -424px
+}
+
+.per-change-ms .wh01 {
+    width: 560px;
+    text-align: left
+}
+
+.per-change-ms .tex1 {
+    color: #666;
+    font-weight: 700
+}
+
+.per-change-ms .tex2 {
+    color: #999
+}
+
+.per-change-ms .tex3 {
+    font-size: 14px;
+    color: #666
+}
+
+.per-change-ms .tex4 {
+    color: #666;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 60px;
+    padding-bottom: 10px
+}
+
+.btn-grey, .btn-grey-u, .btn-yellow-u {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -150px -769px;
+    width: 57px;
+    height: 21px;
+    border: 0;
+    cursor: default;
+    text-align: center;
+    line-height: 21px;
+    color: #999;
+    display: inline-block
+}
+
+.btn-grey {
+    color: #666;
+    cursor: pointer
+}
+
+.btn-grey:hover {
+    background-position: -207px -769px;
+    color: #666
+}
+
+.btn-grey-u:hover {
+    color: #999
+}
+
+.btn-yellow-u {
+    background-position: -150px -790px;
+    cursor: pointer;
+    color: #ed0a75
+}
+
+.btn-yellow-u:hover {
+    background-position: -150px -811px;
+    color: #ed0a75
+}
+
+.per-change-ms .table01 td {
+    padding-top: 20px;
+    padding-bottom: 25px
+}
+
+.tit-t1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    padding: 20px
+}
+
+.mode-sel {
+    width: 540px;
+    padding-top: 40px;
+    margin: 0 auto
+}
+
+.mode-sel dl {
+    width: 180px;
+    float: left;
+    background: url(//dui.damai.cn/damai_v2/passport/images/line05.png) no-repeat scroll right 10px;
+    cursor: pointer
+}
+
+.mode-sel dl dt {
+    width: 79px;
+    height: 79px;
+    display: block;
+    margin: 0 auto 15px
+}
+
+.mode-sel dl dt a {
+    width: 79px;
+    height: 79px;
+    display: block
+}
+
+.mode-sel .sel-a dt a, .mode-sel .sel-a-b dt a, .mode-sel .sel-b dt a {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll 0 -840px
+}
+
+.mode-sel .sel-a-b dt a:hover {
+    background-position: -80px -840px
+}
+
+.mode-sel .sel-a-b.on dt a {
+    background-position: -160px -840px
+}
+
+.mode-sel dl dd {
+    text-align: center;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 30px
+}
+
+.mode-sel dl.on dd span {
+    background: url(//dui.damai.cn/damai_v2/passport/images/b.png) no-repeat scroll -334px -534px;
+    color: #017ea0;
+    padding-left: 20px
+}
+
+.mode-sel .sel-a dt a {
+    background-position: 0 -924px
+}
+
+.mode-sel .sel-a dt a:hover {
+    background-position: -80px -924px
+}
+
+.mode-sel .sel-a.on dt a {
+    background-position: -160px -924px
+}
+
+.mode-sel .sel-b {
+    background: 0
+}
+
+.mode-sel .sel-b dt a {
+    background-position: 0 -1008px
+}
+
+.mode-sel .sel-b dt a:hover {
+    background-position: -80px -1008px
+}
+
+.mode-sel .sel-b.on dt a {
+    background-position: -160px -1008px
+}
+
+.u-upload {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    overflow: hidden
+}
+
+.u-upload input {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    font-size: 100px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.u-upload button {
+    margin: 0
+}
+
+.textarea02 {
+    height: 100px;
+    line-height: 20px;
+    overflow: scroll-y;
+    overflow: scroll-x;
+    padding: 3px;
+    color: #999;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef
+}
+
+.textarea02:focus {
+    border: 1px solid #9bcfdd;
+    background: #fbfbfb
+}
+
+.getting-infos02 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/loading.gif) no-repeat scroll 0 0;
+    line-height: 25px;
+    padding: 0 25px 0 30px;
+    text-align: left
+}
+
+.current-msg {
+    background: #f9f9f9;
+    border-bottom: 1px solid #eff1f3;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    color: #333
+}
+
+.current-msg .wh02 {
+    width: 175px;
+    float: left
+}
+
+.txt-msg .wh02 {
+    width: 170px;
+    float: left
+}
+
+.e-wallet-msg .table01 {
+    text-align: left;
+    color: #333
+}
+
+.e-wallet-msg .tex3 {
+    font-size: 14px;
+    padding-bottom: 10px
+}
+
+.txt-msg {
+    overflow: hidden;
+    zoom: 1
+}
+
+.txt-msg .wh03 {
+    width: 450px;
+    float: left
+}
+
+.txt-msg .wh04 {
+    width: 128px;
+    float: left;
+    text-align: right
+}
+
+.table05 {
+    border: 1px solid #eef1f3;
+    width: 100%;
+    margin-bottom: 15px
+}
+
+.table05 td {
+    padding: 10px;
+    border-bottom: 1px solid #eef1f3
+}
+
+.table05 tr.bg td {
+    background: #f9f9f9
+}
+
+.table05 .wh01 {
+    width: 155px;
+    padding-left: 15px
+}
+
+.table05 .wh02 {
+    width: 115px;
+    text-align: right;
+    padding-right: 15px
+}
+
+.e-curr .e-i1, .e-curr .e-i2, .e-curr .e-i3, .e-curr .e-i4 {
+    background: url(//dui.damai.cn/damai_v2/passport/images/i4.png) no-repeat scroll 0 -719px;
+    color: #666;
+    font-weight: 700
+}
+
+.e-curr .e-i3 {
+    background-position: 0 -817px
+}
+
+.e-curr .e-i4 {
+    background-position: 0 -867px
+}
+
+.zs-icon {
+    vertical-align: middle;
+    margin-right: 3px;
+    height: 21px
+}
+
+.table01 .no-bg td {
+    background: 0
+}
+
+.table01 .mt35 {
+    margin-top: 35px
+}
+
+.table03 .btn01 {
+    padding: 0
+}
+
+.e-curr .e-i1, .e-curr .e-i2, .e-curr .e-i3, .e-curr .e-i4 {
+    padding-left: 23px
+}
+
+.e-curr .e-i1 {
+    padding-top: 5px
+}
+
+.e-curr .e-i2 {
+    background-position: 0 -763px;
+    padding-top: 5px
+}
+
+.tit-t1 {
+    padding-left: 30px
+}
+
+.m_w300 {
+    width: 300px
+}
+
+.textarea02 {
+    width: 280px
+}
+
+.popup-succeed {
+    width: 270px
+}
+
+.din {
+    display: none
+}
+
+.ljj-mask {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    z-index: 10000
+}
+
+.dm-layer-box {
+    width: 800px
+}
+
+.t-c {
+    text-align: center
+}
+
+.popup-address .info .t2 {
+    height: 14px;
+    line-height: 14px;
+    margin-right: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    width: 130px
+}
+
+.underLayer {
+    left: 0;
+    width: 100%
+}
+
+.m_coupon {
+    padding: 15px
+}
+
+.m_t_250 {
+    width: 250px;
+    height: 24px;
+    line-height: 23px;
+    padding: 0 5px
+}
+
+.m_coupon_one {
+    width: 789px;
+    height: auto;
+    border: 1px solid #efefef;
+    margin-bottom: 20px
+}
+
+.m_coupon_one h2 {
+    width: 100%;
+    height: 33px;
+    background: #ededed url(//dui.damai.cn/damai_v2/passport/images/coupon_pic1.png) no-repeat
+}
+
+.m_bj_one {
+    width: 661px;
+    height: 62px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/coupon_pic2.png) no-repeat;
+    margin: 30px 0 0 60px
+}
+
+.m_bj_two {
+    width: 760px;
+    height: 240px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/coupon_pic4.png) no-repeat;
+    margin: 10px 0 15px 15px
+}
+
+.c-n-one {
+    margin: 40px;
+    text-align: center
+}
+
+.c-n-two {
+    margin: 20px 20px 20px 30px;
+    text-align: left
+}
+
+.c-n-two li {
+    line-height: 30px
+}
+
+.c-n-two dd {
+    margin-left: 60px
+}
+
+.m_pass_one {
+    width: 59px;
+    height: 60px;
+    background: url(//dui.damai.cn/damai_v2/passport/images//coupon_pic3.png) no-repeat;
+    display: block
+}
+
+.c-n-three {
+    padding: 50px 0 50px 128px
+}
+
+.m_pos {
+    position: relative
+}
+
+.m_pos_one {
+    position: absolute;
+    right: 10px;
+    top: 5px
+}
+
+.ml60 {
+    margin-left: 60px
+}
+
+.pb35 {
+    padding-bottom: 35px
+}
+
+.userinfo .infos .user-grade {
+    display: inline-block;
+    width: 120px;
+    height: 11px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg_grade.png) no-repeat;
+    vertical-align: middle
+}
+
+.userinfo .infos .user-min {
+    background-position: 0 -11px
+}
+
+.userinfo .infos .user-mid {
+    background-position: 0 -22px
+}
+
+.userinfo .infos .user-max {
+    background-position: 0 -33px
+}
+
+.userinfo .infos .user-tips {
+    color: #ed0a75;
+    margin-left: 5px
+}
+
+.new-fast {
+    width: 44px;
+    height: 87px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px
+}
+
+.new-fast .fast-help, .new-fast .fast-top {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: url(//dui.damai.cn/damai_v2/passport/images/bg_return.png) no-repeat;
+    text-indent: -9999px
+}
+
+.new-fast .fast-help {
+    height: 43px;
+    background-position: 0 -45px
+}
+
+.new-fast .fast-top:hover {
+    background-position: 0 -90px
+}
+
+.new-fast .fast-help:hover {
+    background-position: 0 -135px
+}
+
+.rec_tips {
+    height: 20px;
+    line-height: 20px;
+    padding: 20px 0
+}
+
+.rec_list .section02 {
+    margin: 0
+}
+
+.rec_list .rec_con {
+    padding: 20px 6px 32px;
+    border: 1px solid #efefef;
+    border-top: 0;
+    overflow: hidden;
+    *zoom: 1
+}
+
+.rec_list .rec_con li {
+    width: 150px;
+    padding: 0 22px;
+    float: left
+}
+
+.rec_list .rec_con li .rec_img {
+    display: block;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 8px
+}
+
+.rec_list .rec_con li .rec_txt {
+    width: 150px;
+    height: 26px;
+    line-height: 26px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.rec_list .rec_con li .rec_txt a {
+    color: #333
+}
+
+.rec_list .rec_con li .rec_txt a:hover {
+    text-decoration: underline
+}
+
+.rec_list .rec_con li .rec_txt strong {
+    padding-right: 5px
+}
+
+.mr40 {
+    margin-right: 40px
+}
+
+.per-third li span.weixin {
+    background-position: -427px 0
+}
+
+.per-third li span.un-weixin {
+    background-position: -427px -61px
+}
+
+.per-list {
+    padding: 25px 10px
+}
+
+.per-oth dt {
+    width: 80px
+}
+
+.per-oth .oth-btn {
+    margin: 0 10px
+}
+
+.per-oth button {
+    margin: 0 0 0 85px
+}
+
+.vm {
+    line-height: 32px
+}
+
+.ce {
+    width: 70px;
+    background-position: 0 -138px;
+    text-align: center;
+    cursor: pointer
+}
+
+.ce:hover {
+    background-position: 0 -138px;
+    color: #333;
+    cursor: pointer
+}
+
+.oe {
+    width: 70px;
+    background: #dfdfdf !important;
+    text-align: center;
+    display: inline-block;
+    height: 21px;
+    border: 1px solid #b8b8ba !important
+}
+
+.text {
+    color: #c3c3c3
+}
+
+.safety {
+    width: 790px;
+    margin-top: 16px;
+    height: 232px;
+    border: 1px solid #eef1f3
+}
+
+.safety .safety-tt {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin: 78px 0 30px
+}
+
+.safety .u-bt {
+    margin-left: 360px
+}
+
+.safety .u-bt1 {
+    margin-left: 280px
+}
+
+.mess {
+    margin: 170px 0 0 80px
+}
+
+.gif {
+    background: url(//dui.damai.cn/damai_v2/passport/images/loading.gif) no-repeat;
+    display: inline-block;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 24px
+}
+
+.input-text-v {
+    width: 120px;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5
+}
+
+.layer-w800 {
+    width: 800px;
+    margin-left: -294px
+}
+
+.color4 {
+    color: #ed0a75;
+    margin: 10px 0 0 280px;
+    display: block
+}
+
+.anew {
+    color: #0594ee;
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: middle
+}
+
+.m_c1 {
+    color: #ed0a75
+}
+
+.per-change .popup-address li .caption04 {
+    width: 120px;
+    float: left;
+    text-align: right
+}
+
+.t3 {
+    width: 150px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.m_yzm {
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+.m_yzm img {
+    width: 46px;
+    height: 20px;
+    border: 1px solid #d5d5d5
+}
+
+.m_bankpic {
+    width: 245px;
+    padding-left: 78px;
+    padding-top: 75px;
+    margin: 0 auto;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/m_bankpic.png) no-repeat scroll 0 75px;
+    line-height: 25px;
+    color: #666;
+    height: 100px
+}
+
+.m_timepic {
+    width: 245px;
+    padding-left: 65px;
+    padding-top: 75px;
+    margin: 0 auto;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/m_time.png) no-repeat scroll 0 75px;
+    line-height: 25px;
+    color: #666;
+    height: 100px
+}
+
+.m_bj1 {
+    background: #f9f9f9
+}
+
+.per-edit-list dd .m_bdred {
+    border: 1px solid #ed0a75
+}
+
+.m_pos_two {
+    position: absolute;
+    top: -35px;
+    left: 0
+}
+
+.m_pb60 {
+    padding-bottom: 60px
+}
+
+.m_pos_three {
+    position: absolute;
+    top: 5px;
+    right: 117px
+}
+
+.line {
+    position: absolute;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/line.png) no-repeat;
+    width: 1px;
+    height: 7px;
+    top: 10px;
+    right: 105px
+}
+
+.m-coupon .list {
+    position: relative;
+    display: block;
+    height: 100%;
+    border: 1px solid #eef1f3;
+    border-top: 0;
+    overflow: hidden;
+    *zoom: 100%;
+    padding: 20px 0
+}
+
+.m-coupon .list .itm {
+    position: relative;
+    width: 374px;
+    height: 146px;
+    margin: 0 0 20px 13px;
+    float: left;
+    font-family: Microsoft YaHei
+}
+
+.m-coupon .list .itm .itm-left {
+    width: 255px;
+    float: left;
+    padding-left: 15px;
+    color: #fff
+}
+
+.m-coupon .list .itm .itm-left .expre {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.m-coupon .list .itm .itm-left .expre .money {
+    font-size: 65px;
+    float: left;
+    margin-right: 20px
+}
+
+.m-coupon .list .itm .itm-left .expre .money i {
+    font-style: normal;
+    font-size: 30px
+}
+
+.m-coupon .list .itm .itm-left .c-name {
+    padding-top: 18px
+}
+
+.m-coupon .list .itm .itm-left .c-name .tt {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.m-coupon .list .itm .itm-left .c-name .txt {
+    display: block;
+    color: #fff;
+    height: 40px;
+    overflow: hidden
+}
+
+.m-coupon .list .itm .itm-left .time {
+    padding-top: 10px;
+    font-size: 16px
+}
+
+.m-coupon .list .itm .itm-right {
+    float: left;
+    padding: 10px
+}
+
+.m-coupon .list .itm .itm-right .u-btn-user {
+    display: block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-state.png) no-repeat;
+    background-position: 0 0;
+    width: 81px;
+    height: 69px;
+    text-indent: -999em
+}
+
+.m-coupon .list .itm .itm-right .u-btn {
+    display: block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-btn-get.png) no-repeat;
+    width: 71px;
+    height: 28px;
+    text-indent: -999em;
+    margin: 24px 6px 0
+}
+
+.m-coupon .list .itm .itm-right .u-btn-look {
+    background-position: 0 0
+}
+
+.m-coupon .list .itm .itm-right .u-btn-use {
+    background-position: 0 -32px
+}
+
+.m-coupon .list .itm .itm-right .u-btn-get {
+    background-position: 0 -65px
+}
+
+.m-coupon .list .itm .itm-right .u-btn-used {
+    background-position: 0 -103px
+}
+
+.m-coupon .list .itm .itm-right .u-btn-state {
+    display: block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-state.png) no-repeat;
+    background-position: 0 -72px;
+    width: 64px;
+    height: 68px;
+    margin: 0 10px;
+    text-align: center
+}
+
+.m-coupon .list .itm .itm-right .u-btn-state strong {
+    color: #d97f06;
+    padding-top: 35px;
+    display: inline-block
+}
+
+.m-coupon .list .itm .itm-right .u-btn-tget {
+    display: block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-state.png) no-repeat;
+    background-position: 0 -155px;
+    width: 81px;
+    height: 69px;
+    text-indent: -999em
+}
+
+.m-coupon .list .itm .itm-right .u-btn-fail {
+    display: block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-state.png) no-repeat;
+    background-position: 0 -234px;
+    width: 81px;
+    height: 69px;
+    text-indent: -999em
+}
+
+.m-safety {
+    margin: 15px 0;
+    padding: 14px;
+    border: 1px solid #efefef
+}
+
+.m-safety .m-tip {
+    background: #ffffe9;
+    border: 1px solid #ffe2c4;
+    padding: 15px;
+    color: #d3af76
+}
+
+.m-safety .m-tip .light {
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/light.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.m-safety .m-from {
+    margin: 20px 0 15px;
+    color: #666;
+    padding-left: 135px
+}
+
+.m-safety .m-from .hint {
+    margin-bottom: 10px;
+    color: #666
+}
+
+.m-safety .m-from .row {
+    float: left
+}
+
+.disabled {
+    pointer-events: none;
+    color: #ccc !important
+}
+
+.z-show {
+    display: block
+}
+
+.z-hide {
+    display: none
+}
+
+.input-text-t {
+    width: 120px;
+    height: 18px;
+    padding: 3px;
+    line-height: 18px;
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5
+}
+
+.pt {
+    position: relative;
+    top: 3px
+}
+
+.warn {
+    margin-top: 5px;
+    color: #ed0a75
+}
+
+.m-time {
+    margin: 22px 0 32px;
+    color: #999;
+    line-height: 25px
+}
+
+.btn12 {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/num.png) no-repeat;
+    width: 110px;
+    height: 25px;
+    border: 0;
+    margin: 0 10px;
+    color: #999
+}
+
+.btn13 {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/u-code.png) no-repeat;
+    width: 110px;
+    height: 25px;
+    border: 0;
+    margin: 0 10px;
+    color: #666
+}
+
+.m-warn {
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/warn.png) no-repeat right bottom;
+    color: #666;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 10px
+}
+
+.m-warn span {
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/warn.png) no-repeat left top;
+    float: left;
+    line-height: 28px;
+    padding: 0 10px 0 38px
+}
+
+.ml205 {
+    margin-left: 205px
+}
+
+.c999 {
+    color: #999
+}
+
+.ml145 {
+    margin-left: 145px
+}
+
+.vip {
+    display: inline-block;
+    width: 38px;
+    height: 19px;
+    text-indent: -999em;
+    background: url(//dui.damai.cn/damai_v2/passport/images/badge_pic.png) no-repeat 0 0;
+    vertical-align: middle
+}
+
+.vip.v2 {
+    background-position: 0 -20px
+}
+
+.vip.v3 {
+    background-position: 0 -40px
+}
+
+.vip.v4 {
+    background-position: 0 -60px
+}
+
+.vip.v5 {
+    background-position: 0 -80px
+}
+
+.m-eva {
+    border: 1px solid #eef1f3
+}
+
+.m-eva::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0
+}
+
+.m-eva .eva-lt {
+    float: left;
+    padding: 20px 10px;
+    width: 290px
+}
+
+.m-eva .eva-lt::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0
+}
+
+.m-eva .eva-lt .e-list {
+    margin-bottom: 18px;
+    color: #666
+}
+
+.m-eva .eva-lt .e-list .txt {
+    float: left;
+    width: 120px;
+    text-align: right
+}
+
+.m-eva .eva-lt .e-list .m-check {
+    float: left;
+    color: #ed0a75;
+    word-wrap: break-word
+}
+
+.m-eva .eva-lt .e-list .m-check1 {
+    width: 620px
+}
+
+.cf8 {
+    color: #ed0a75
+}
+
+.m-eva .eva-lt .e-list .m-tt {
+    float: right;
+    margin-right: 20px
+}
+
+.m-eva .eva-lt .e-list .m-star {
+    height: 15px;
+    width: 100px;
+    float: left
+}
+
+.m-eva .eva-lt .e-list .m-star b {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/star-1.png) no-repeat 0 0;
+    height: 15px;
+    float: left;
+    width: 20px;
+    cursor: pointer
+}
+
+.m-eva .eva-lt .e-list .m-star b.z-sel {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/star-1.png) no-repeat 0 -25px;
+    height: 15px;
+    float: left;
+    width: 20px;
+    cursor: pointer
+}
+
+.m-eva .eva-lt .e-list .tt {
+    color: #999;
+    padding: 0 30px 0 15px
+}
+
+.m-eva .eva-lt .e-list .tt1 {
+    color: #999
+}
+
+.m-eva .eva-lt .e-list .tips {
+    padding-left: 25px;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/tips.png) no-repeat;
+    height: 14px;
+    color: #ed0a75;
+    margin-left: 120px
+}
+
+.m-eva .eva-lr {
+    position: relative;
+    overflow: hidden;
+    height: 170px;
+    padding-top: 20px
+}
+
+.m-eva .eva-lr::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0
+}
+
+.m-eva .eva-lr .evr-tt {
+    border: 1px solid #efefef;
+    border-top: 1px solid #d5d5d5;
+    width: 450px
+}
+
+.m-eva .eva-lr textarea {
+    width: 440px;
+    height: 82px;
+    padding: 5px;
+    line-height: 20px;
+    border: 0;
+    outline: 0;
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.color1 {
+    color: #000
+}
+
+.m-eva .eva-lr .text-counter {
+    text-align: right;
+    color: #999;
+    padding: 0 14px 10px 0
+}
+
+.m-eva .eva-lr .text-counter span {
+    color: #ed0a75
+}
+
+.m-eva .eva-lr .tips {
+    padding-left: 25px;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/tips.png) no-repeat;
+    height: 14px;
+    color: #ed0a75;
+    float: right;
+    margin: 20px 30px 0 0
+}
+
+.m-eva .tip {
+    border-top: 1px dashed #dbdbdb;
+    padding: 20px 40px;
+    color: #999;
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.m-layer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -109px;
+    margin-left: -166px;
+    z-index: 200002;
+    background: #fff;
+    width: 332px;
+    height: 218px
+}
+
+.m-layer-fail .hd .u-btn-close, .m-layer-succ .hd .u-btn-close {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/m-layer-close.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    text-indent: -999em
+}
+
+.m-layer-fail .bd, .m-layer-succ .bd {
+    margin: 75px auto 42px;
+    color: #333;
+    font-size: 14px
+}
+
+.m-layer-fail .bd .tt, .m-layer-succ .bd .tt {
+    display: block;
+    text-align: center
+}
+
+.m-layer-succ .bd .tt i {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/m-layer-succ.png) no-repeat;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.m-layer-fail .bd .tt i {
+    display: inline-block;
+    background: url(//dui.dmcdn.cn/damai_v2/passport/images/m-layer-fail.png) no-repeat;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.m-layer-fail .ft, .m-layer-succ .ft {
+    text-align: center
+}
+
+.m-layer-fail .ft .u-btn, .m-layer-succ .ft .u-btn {
+    display: inline-block;
+    width: 124px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    text-align: center
+}
+
+.m-layer-fail .ft .u-btn.u-btn-look, .m-layer-succ .ft .u-btn.u-btn-look {
+    background: #ed0a75;
+    color: #fff
+}
+
+.m-layer-succ .ft .u-btn.u-btn-return {
+    background: #fff;
+    color: #999;
+    border: 1px solid #d9d9d9;
+    margin-left: 16px
+}
+
+.fn {
+    float: none !important
+}
+
+.ml310 {
+    margin-left: 310px
+}
+
+.ml40 {
+    margin-left: 40px
+}
+
+.msg-safety1 {
+    padding: 12px 15px
+}
+
+.msg-safety .txt1 {
+    color: #999
+}
+
+.msg-safety .txt2 {
+    color: #999;
+    padding-left: 30px
+}
+
+.msg-safety .txt3 {
+    color: #999;
+    padding-left: 30px;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.m-ip {
+    width: 25px;
+    height: 16px;
+    display: inline-block;
+    background: url(//dui.damai.cn/damai_v2/passport/images/sfz-pic.png) no-repeat 0 0;
+    vertical-align: sub;
+    text-indent: -999em
+}
+
+.user-ip {
+    width: 15px;
+    height: 11px;
+    display: inline-block;
+    background: url(//dui.damai.cn/damai_v2/passport/images/sfz.png) no-repeat 0 0;
+    vertical-align: middle;
+    padding-left: 5px;
+    line-height: 25px
+}

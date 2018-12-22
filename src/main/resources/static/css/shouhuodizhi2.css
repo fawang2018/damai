@@ -1,0 +1,1997 @@
+/* 颜色相关 */
+/* 背景颜色 */
+/* 边框相关 */
+/* 文字颜色 */
+/* 圆角 */
+/* 边距相关 */
+/* 声明 WebFont */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/layout\/_layout\.less
+    }
+
+    line {
+        font-family: \000031
+    }
+}
+
+.g-doc {
+    position: relative;
+    max-width: 790px;
+    margin: 0 auto;
+    font-family: 'Microsoft YaHei', '\5fae\8f6f\96c5\9ed1', arial, '\5b8b\4f53';
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/layout\/_layout\.less
+    }
+
+    line {
+        font-family: \000036
+    }
+}
+
+.g-doc-border {
+    border: 1px solid #efefef;
+}
+
+/* function */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/helpers\/_functions\.less
+    }
+
+    line {
+        font-family: \00003171
+    }
+}
+
+.z-hide {
+    display: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/helpers\/_functions\.less
+    }
+
+    line {
+        font-family: \00003175
+    }
+}
+
+.z-show {
+    display: block;
+}
+
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+	Eric Meyer					:: http://meyerweb.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images/customer and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000320
+    }
+}
+
+img,
+object,
+embed {
+    max-width: 100%;
+}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images/customer as sprites.
+	In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+#map img {
+		max-width: none;
+}
+*/
+/* force a vertical scrollbar to prevent a jumpy page */
+/* we use a lot of ULs that aren't bulleted.
+	you'll have to restore the bullets within content,
+	which is fine because they're probably customized anyway */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000339
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000341
+    }
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000343
+    }
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000348
+    }
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000350
+    }
+}
+
+del {
+    text-decoration: line-through;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000352
+    }
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000355
+    }
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000356
+    }
+}
+
+th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000357
+    }
+}
+
+td {
+    font-weight: normal;
+    vertical-align: top;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000359
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000361
+    }
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000363
+    }
+}
+
+pre {
+    white-space: pre;
+    /* CSS2 */
+    white-space: pre-wrap;
+    /* CSS 2.1 */
+    white-space: pre-line;
+    /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word;
+    /* IE */
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000370
+    }
+}
+
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000371
+    }
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000372
+    }
+}
+
+.ie7 input[type="checkbox"] {
+    vertical-align: baseline;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000373
+    }
+}
+
+.ie6 input {
+    vertical-align: text-bottom;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000375
+    }
+}
+
+select,
+input,
+textarea {
+    font: 99% sans-serif;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000377
+    }
+}
+
+table {
+    font-size: inherit;
+    font: 100%;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000379
+    }
+}
+
+small {
+    font-size: 85%;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000381
+    }
+}
+
+strong {
+    font-weight: bold;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000383
+    }
+}
+
+td,
+td img {
+    vertical-align: top;
+}
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000386
+    }
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000387
+    }
+}
+
+sup {
+    top: -0.5em;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000388
+    }
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* standardize any monospaced elements */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000391
+    }
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, sans-serif;
+}
+
+/* hand cursor on clickable elements */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \0000394
+    }
+}
+
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+    cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003102
+    }
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+/* make buttons play nice in IE */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003105
+    }
+}
+
+button,
+input[type=button] {
+    overflow: visible;
+}
+
+/* scale images/customer in IE7 more attractively */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003109
+    }
+}
+
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+
+/* prevent BG images flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+/* let's clear some floats */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003117
+    }
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003121
+    }
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003125
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003128
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/base\/_reset\.less
+    }
+
+    line {
+        font-family: \00003132
+    }
+}
+
+button {
+    border: none;
+}
+
+/* 其它 */
+/* 通用组件 */
+/* button */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \000032
+    }
+}
+
+.u-btn {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    zoom: 1;
+    text-decoration: none;
+    overflow: hidden;
+    /* 红底 - 白字 */
+    /* 红底 - 白字 - 红框 */
+    /* 灰底 - 灰字 - 灰边 */
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \000039
+    }
+}
+
+.u-btn-r,
+.u-btn-g {
+    width: 92px;
+    height: 28px;
+    line-height: 25px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000317
+    }
+}
+
+.u-btn-r {
+    background: url(../images/customer/u-btn.png) no-repeat 0 0;
+    color: #fff;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000320
+    }
+}
+
+.u-btn-r:hover {
+    background: url(../images/customer/u-btn-on.png) no-repeat 0 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000323
+    }
+}
+
+.u-btn-r-tb {
+    float: right;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000328
+    }
+}
+
+.u-btn-g {
+    background: url(../images/customer/u-btn-g.png) no-repeat 0 0;
+    color: #666666;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000332
+    }
+}
+
+.u-btn-g:hover {
+    background: url(../images/customer/u-btn-g-on.png) no-repeat 0 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000338
+    }
+}
+
+.u-btn-c1 {
+    color: #fff;
+    background-color: #e41b45;
+    padding: 7px 46px;
+    font-size: 16px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000343
+    }
+}
+
+.u-btn-c1:hover {
+    color: #fff;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000349
+    }
+}
+
+.u-btn-c2 {
+    color: #fff;
+    background-color: #f24b6f;
+    border: 1px solid #e9234d;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000353
+    }
+}
+
+.u-btn-c2:hover {
+    color: #fff;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000356
+    }
+}
+
+.u-btn-c2.z-dis {
+    color: #666666;
+    cursor: default;
+    background: #999999;
+    border: 1px solid #999;
+    box-shadow: inset 1px 1px 0 #999999, inset -1px -1px 0 #999999;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000366
+    }
+}
+
+.u-btn-c3 {
+    color: #999999;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 8px 46px;
+    vertical-align: 1px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000372
+    }
+}
+
+.u-btn-c3:hover {
+    color: #999999;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000376
+    }
+}
+
+.u-btn-entry,
+.u-btn-back {
+    padding: 8px 30px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_button\.less
+    }
+
+    line {
+        font-family: \0000379
+    }
+}
+
+.u-btn-back {
+    margin-left: 20px;
+}
+
+/* mask */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_mask\.less
+    }
+
+    line {
+        font-family: \000033
+    }
+}
+
+.m-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_mask\.less
+    }
+
+    line {
+        font-family: \0000314
+    }
+}
+
+.m-mask.z-show {
+    display: block;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_mask\.less
+    }
+
+    line {
+        font-family: \0000318
+    }
+}
+
+.m-mask.z-hide {
+    display: none;
+}
+
+/* pop */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \000032
+    }
+}
+
+.m-modal {
+    font-family: "微软雅黑";
+    position: relative;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    /* 弹窗尺寸 begin */
+    /* 大号 */
+    /* 中号 */
+    /* 中号 */
+    /* 小号 */
+    /* 弹窗宽度 end */
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \000039
+    }
+}
+
+.m-modal > .box {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    z-index: 2001;
+    border: 5px solid #eeeeee;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000319
+    }
+}
+
+.m-modal-lg > .box {
+    width: 700px;
+    margin-left: -350px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000326
+    }
+}
+
+.m-modal-xl > .box {
+    width: 400px;
+    margin-left: -200px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000333
+    }
+}
+
+.m-modal-sm > .box {
+    width: 500px;
+    margin-left: -250px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000340
+    }
+}
+
+.m-modal-xs > .box {
+    width: 300px;
+    margin-left: -150px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000347
+    }
+}
+
+.m-modal .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 21px;
+    height: 21px;
+    background: url('../images/customer/layer-close.png') no-repeat 4px -43px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000355
+    }
+}
+
+.m-modal .close:hover {
+    background: url('../images/customer/layer-close.png') no-repeat 4px 3px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000360
+    }
+}
+
+.m-modal .hd .tt {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e6e6e6;
+    background: url(../images/customer/layer-h.png) repeat-x;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000367
+    }
+}
+
+.m-modal .hd .tt .utt {
+    display: block;
+    width: 147px;
+    height: 30px;
+    font-size: 13px;
+    text-indent: 10px;
+    float: left;
+    color: #000;
+    font-weight: bold;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000380
+    }
+}
+
+.m-modal .bd .t1 {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000388
+    }
+}
+
+.m-modal > .box {
+    background: #ffffff;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000392
+    }
+}
+
+.m-modal > .box .m-pop-btn {
+    text-align: center;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000396
+    }
+}
+
+.m-modal button {
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \0000399
+    }
+}
+
+.m-modal button.u-btn-c3 {
+    margin-left: 17px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003104
+    }
+}
+
+.m-modal-delivery > .box {
+    padding-bottom: 40px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003109
+    }
+}
+
+.m-modal-verify > .box {
+    padding-bottom: 30px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003112
+    }
+}
+
+.m-modal-verify .ico {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003118
+    }
+}
+
+.m-modal-verify .ico-s {
+    background: url('../images/customer/f-ico.png') no-repeat 0 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003122
+    }
+}
+
+.m-modal-verify .ico-l {
+    background: url('../images/customer/loading.gif') no-repeat 0 0;
+    background-size: 100%;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003126
+    }
+}
+
+.m-modal-verify .ico-o {
+    background: url('../images/customer/f-ico.png') no-repeat 0 -39px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003130
+    }
+}
+
+.m-modal-verify .ico-f {
+    background: url('../images/customer/f-ico.png') no-repeat 0 -73px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003136
+    }
+}
+
+.m-modal-verify-error .bd .t1 {
+    padding: 0;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003139
+    }
+}
+
+.m-modal-verify-error .bd .t2 {
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_popup\.less
+    }
+
+    line {
+        font-family: \00003145
+    }
+}
+
+.m-modal-verify-error .bd .t2 .c1 {
+    color: #e41b45;
+}
+
+/* title */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_title\.less
+    }
+
+    line {
+        font-family: \000033
+    }
+}
+
+.m-title {
+    border-bottom: 2px solid #cfcdcd;
+    height: 36px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_title\.less
+    }
+
+    line {
+        font-family: \000036
+    }
+}
+
+.m-title .tt {
+    width: 136px;
+    line-height: 36px;
+    border-bottom: 2px solid #f81c5a;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* input */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \000033
+    }
+}
+
+.m-form .row {
+    zoom: 1;
+    margin-bottom: 12px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/helpers\/_functions\.less
+    }
+
+    line {
+        font-family: \000035
+    }
+}
+
+.m-form .row:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \000037
+    }
+}
+
+.m-form .row .lab {
+    display: block;
+    float: left;
+    width: 60px;
+    text-align: right;
+    color: #333333;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "宋体";
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \0000317
+    }
+}
+
+.m-form .row .ipt,
+.m-form .row .set {
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    color: #999999;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \0000322
+    }
+}
+
+.m-form .row .ipt {
+    padding: 0 8px;
+    height: 22px;
+    line-height: 22px;
+    line-height: 24px \0;
+    *padding: 2px 8px 0px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \0000330
+    }
+}
+
+.m-form .row .set {
+    padding: 2px 5px;
+    *height: 20px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_input\.less
+    }
+
+    line {
+        font-family: \0000334
+    }
+}
+
+.m-form .row .err {
+    font-size: 12px;
+    color: #f00;
+}
+
+/* title */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_tips\.less
+    }
+
+    line {
+        font-family: \000033
+    }
+}
+
+.m-tips {
+    border: 1px solid #ffcc8b;
+    background: #fffaed;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/common\/_tips\.less
+    }
+
+    line {
+        font-family: \000038
+    }
+}
+
+.m-tips .tt1 {
+    line-height: 20px;
+    color: #888;
+}
+
+/* 模块 */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \000031
+    }
+}
+
+.m-table {
+    font-size: 12px;
+    border-left: 1px solid #e3e3e3;
+    color: #666666;
+    margin-top: 10px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \000036
+    }
+}
+
+.m-table th {
+    border-top: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+    background: #f8f8f8;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000316
+    }
+}
+
+.m-table td {
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000322
+    }
+}
+
+.m-table td a {
+    color: #2f97b4;
+    text-decoration: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000327
+    }
+}
+
+.m-table .w1 {
+    width: 40px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000331
+    }
+}
+
+.m-table .w2 {
+    width: 165px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000334
+    }
+}
+
+.m-table .w3 {
+    width: 166px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000337
+    }
+}
+
+.m-table .w4 {
+    width: 258px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_table\.less
+    }
+
+    line {
+        font-family: \0000340
+    }
+}
+
+.m-table .w5 {
+    width: 155px;
+}
+
+/* noInfor */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_noInfor\.less
+    }
+
+    line {
+        font-family: \000032
+    }
+}
+
+.m-noinfor {
+    height: 398px;
+    text-align: center;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_noInfor\.less
+    }
+
+    line {
+        font-family: \000035
+    }
+}
+
+.m-noinfor .pic {
+    margin-top: 36px;
+    margin-bottom: 18px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_noInfor\.less
+    }
+
+    line {
+        font-family: \0000310
+    }
+}
+
+.m-noinfor .t1 > .add {
+    color: #2f97b4;
+    text-decoration: none;
+}
+
+/* addinfor */
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \000032
+    }
+}
+
+.m-addinfor {
+    padding: 30px 30px 22px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \000035
+    }
+}
+
+.m-addinfor .m-tips {
+    margin-bottom: 20px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \000039
+    }
+}
+
+.m-addinfor .m-form .row {
+    zoom: 1;
+    margin-bottom: 12px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/helpers\/_functions\.less
+    }
+
+    line {
+        font-family: \000035
+    }
+}
+
+.m-addinfor .m-form .row:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000312
+    }
+}
+
+.m-addinfor .m-form .row .ipt {
+    width: 196px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000315
+    }
+}
+
+.m-addinfor .m-form .row .ipt-sm {
+    width: 90px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000319
+    }
+}
+
+.m-addinfor .m-form .row .set {
+    width: 214px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000322
+    }
+}
+
+.m-addinfor .m-form .row .code {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000325
+    }
+}
+
+.m-addinfor .m-form .row .code-pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000328
+    }
+}
+
+.m-addinfor .m-form .row .code-pic img {
+    border: none;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000332
+    }
+}
+
+.m-addinfor .m-form .row .code-pic-txt {
+    color: #2f97b4;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000336
+    }
+}
+
+.m-addinfor .m-form .row .code-mess {
+    background: #e41b45;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/E\:\/xampp\/htdocs\/20161026-常用观演人\/2016-1129pc\/html\/less\/components\/home\/_addinfor\.less
+    }
+
+    line {
+        font-family: \0000343
+    }
+}
+
+.m-addinfor .m-form-btn {
+    margin-left: 60px;
+}
+
+/*单独对外提供添加页面20161111 start*/
+.error {
+    width: 320px;
+    height: 220px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -160px;
+}
+
+.error p {
+    font-size: 14px;
+    color: #333;
+    margin: 43px 0 20px 0;
+}
+
+.error p img {
+    vertical-align: middle;
+}
+
+.error .ico-s {
+    background: url('../images/customer/f-ico.png') no-repeat 0 0;
+}
+
+.error .ico-l {
+    background: url('../images/customer/loading.gif') no-repeat 0 0;
+    background-size: 100%;
+}
+
+.error .ico-f {
+    background: url('../images/customer/f-ico.png') no-repeat 0 -39px;
+}
+
+.error span {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.error span i {
+    font-style: normal;
+    font-size: 12px;
+    color: #e41b45;
+}
+
+.error-btn {
+    margin-top: 28px;
+}
+
+.error-btn a {
+    display: inline-block;
+    width: 124px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #e41b45;
+    font-size: 16px;
+    color: #fff;
+}
+
+.error-btn a.mr20 {
+    margin-right: 20px;
+}
+
+/*单独对外提供添加页面20161111 end*/

@@ -1,0 +1,1232 @@
+.zebra-dm-pc-search a {
+    color: #333;
+    text-decoration: none;
+    outline: 0
+}
+
+.zebra-dm-pc-search .header-w {
+    position: relative;
+    z-index: 100
+}
+
+.zebra-dm-pc-search .dm-bottom {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.zebra-dm-pc-search .dm-bottom .dm-helper {
+    width: auto
+}
+
+.zebra-dm-pc-search .dm-bottom .dm-helper dl {
+    width: 130px
+}
+
+.zebra-dm-pc-search .top-con {
+    width: 1200px
+}
+
+.zebra-dm-pc-search .top-ad {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10
+}
+
+.zebra-dm-pc-search .top-ad .ad-close {
+    background: url(//dui.dmcdn.cn/dm_2015/index/img/top-ad-close.png) 10px 7px no-repeat;
+    width: 27px;
+    height: 21px;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    right: 5px;
+    display: block;
+    overflow: hidden
+}
+
+.zebra-dm-pc-search .header-w {
+    width: 1200px;
+    height: 62px;
+    margin: 30px auto
+}
+
+.zebra-dm-pc-search .header-w .dm-logo {
+    margin-right: 10px;
+    float: left;
+    display: inline-block;
+    width: 167px;
+    height: 60px
+}
+
+.zebra-dm-pc-search .header-w .dm-logo img {
+    height: 60px;
+    width: auto
+}
+
+.zebra-dm-pc-search .header-w .dm-extend {
+    margin: 8px 9px 0 3px;
+    float: left
+}
+
+.zebra-dm-pc-search .ri-close {
+    background: url(//dui.dmcdn.cn/dm_2015/index/img/index-icon.png) -46px 1px no-repeat;
+    width: 30px;
+    height: 35px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: right
+}
+
+.zebra-dm-pc-search .header-w .dm-rec {
+    border: 1px solid #eee;
+    background: url(//dui.dmcdn.cn/dm_2015/index/img/index-icon.png) -186px 6px no-repeat;
+    line-height: 24px;
+    padding: 0 5px 0 20px;
+    color: #888;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 9
+}
+
+.zebra-dm-pc-search .header-w .dm-search {
+    float: left;
+    margin-left: 191px
+}
+
+.zebra-dm-pc-search .header-w .dm-search .search-main {
+    float: left;
+    height: 40px;
+    position: relative;
+    z-index: 80
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-text {
+    border: 3px solid #ed0a75;
+    width: 520px;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 5px 10px;
+    overflow: hidden;
+    color: #666;
+    outline: 0
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-btn {
+    background: #ed0a75;
+    width: 90px;
+    height: 40px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    border: none
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-btn:active, .zebra-dm-pc-search .header-w .search-main .search-btn:hover {
+    background: #ce0865
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate {
+    width: 542px;
+    border: 1px solid #e51b46;
+    border-top: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #fff;
+    display: none
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate a {
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 10px;
+    overflow: hidden
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate a:hover {
+    background: #f9f9f9
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate a .city {
+    float: right;
+    color: #e51b46
+}
+
+.zebra-dm-pc-search .header-w .dm-search .dm-recommend {
+    max-width: 636px;
+    height: 20px;
+    clear: left;
+    color: #b4b4b4;
+    padding-top: 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-pc-search .header-w .dm-search .dm-recommend a {
+    color: #999;
+    padding-right: 10px;
+    line-height: 20px
+}
+
+.zebra-dm-pc-search .header-w .dm-search .dm-recommend a:hover {
+    text-decoration: underline;
+    color: #ed0a75
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate .dm-appimg {
+    padding: 50px 0 0 156px;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/app-sear.png) no-repeat;
+    height: 42px;
+    line-height: 20px;
+    border-bottom: none;
+    display: block
+}
+
+.zebra-dm-pc-search .header-w .search-main .search-relate .dm-appimg:hover {
+    background: url(//dui.dmcdn.cn/dm_2014/common/img/app-sear.png) no-repeat
+}
+
+.zebra-dm-pc-search .c4 {
+    color: #e51a45 !important
+}
+
+.zebra-dm-pc-nav a {
+    color: #333;
+    text-decoration: none;
+    outline: 0
+}
+
+.zebra-dm-pc-nav .c4 {
+    color: #e51a45 !important
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-mn a, .zebra-dm-pc-nav .m-nav .m-nav-sd a {
+    color: #fff
+}
+
+.zebra-dm-pc-nav .m-nav {
+    width: 100%;
+    height: 53px;
+    background: #333;
+    overflow: hidden
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-bd {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-bd .on {
+    background: #ee2d2e;
+    cursor: pointer
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-mn {
+    max-width: 950px;
+    float: left
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-mn li {
+    font-size: 14px;
+    float: left;
+    padding: 16px 30px
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-sd {
+    float: right;
+    height: 53px;
+    max-width: 240px
+}
+
+.zebra-dm-pc-nav .m-nav .m-nav-sd li {
+    font-size: 14px;
+    float: left;
+    padding: 16px 30px
+}
+
+.zebra-dm-sports-one .slide-main {
+    position: relative;
+    z-index: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    overflow: hidden
+}
+
+.zebra-dm-sports-one .slide-main .mn {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 6px
+}
+
+.zebra-dm-sports-one .slide-main .mn .itm {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center 0
+}
+
+.zebra-dm-sports-one .slide-main .mn .itm .lnk {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.zebra-dm-sports-one .slide-main .sd {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url(//dui.dmcdn.cn/dm_2015/index/img/main-player-bar-bg.png) repeat-x;
+    display: none
+}
+
+.zebra-dm-sports-one .slide-main .sd .box {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center
+}
+
+.zebra-dm-sports-one .slide-main .sd .lst {
+    display: inline-block;
+    margin-top: 11px
+}
+
+.zebra-dm-sports-one .slide-main .sd .itm {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 8px
+}
+
+.zebra-dm-sports-one .slide-main .sd .itm a {
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #828896;
+    zoom: 1
+}
+
+.zebra-dm-sports-one .slide-main .sd .itm .num {
+    display: inline-block;
+    overflow: hidden;
+    color: #FFF;
+    margin: 0 0 0 20px;
+    font-size: 12px;
+    font-weight: 700
+}
+
+.zebra-dm-sports-one .slide-main .sd .on {
+    z-index: 1;
+    margin-left: -1px;
+    padding-left: 1px;
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.zebra-dm-sports-one .slide-main .sd .on a {
+    display: none
+}
+
+.zebra-dm-sports-one .slide-main .skip {
+    position: absolute;
+    z-index: 2;
+    top: -190px;
+    left: 50%;
+    width: 60px;
+    height: 42px;
+    background-image: url(//dui.damai.cn/damai_sports_2016/images/common/slide-main-btns.png);
+    background-repeat: no-repeat;
+    background-position: 9999px 9999px;
+    line-height: 9999px;
+    overflow: hidden;
+    display: none
+}
+
+.zebra-dm-sports-one .slide-main .prev {
+    margin-left: -570px;
+    background-position: 0 0
+}
+
+.zebra-dm-sports-one .slide-main .next {
+    margin-left: 525px;
+    background-position: -70px 0
+}
+
+.zebra-dm-sports-two a {
+    text-decoration: none
+}
+
+.zebra-dm-sports-two .wrap {
+    width: 1200px;
+    height: 144px;
+    margin: 30px auto 0;
+    font-size: 0;
+    overflow: hidden
+}
+
+.zebra-dm-sports-two .wrap .box, .zebra-dm-sports-two .wrap .box-one {
+    height: 100%;
+    display: inline-block;
+    float: left
+}
+
+.zebra-dm-sports-two .wrap .box-one {
+    width: 205px;
+    margin-right: 30px
+}
+
+.zebra-dm-sports-two .wrap .box-img {
+    width: 100%
+}
+
+.zebra-dm-sports-two .wrap .box {
+    width: 96px;
+    position: relative;
+    margin-right: 24px
+}
+
+.zebra-dm-sports-two .wrap .box .box-head {
+    width: 100%;
+    height: 96px;
+    overflow: hidden;
+    margin-top: 14px
+}
+
+.zebra-dm-sports-two .wrap .box .box-bottom {
+    width: 100%;
+    margin-top: 10px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333
+}
+
+.zebra-dm-sports-two .wrap .noMarginRight {
+    margin-right: 0 !important
+}
+
+.zebra-dm-image-seven {
+    background-color: #f5f5f5
+}
+
+.zebra-dm-image-seven a {
+    text-decoration: none
+}
+
+.zebra-dm-image-seven .wrap {
+    width: 1200px;
+    margin: 30px auto 0;
+    position: relative;
+    font-size: 0
+}
+
+.zebra-dm-image-seven .head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: none
+}
+
+.zebra-dm-image-seven .head .head-img {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left
+}
+
+.zebra-dm-image-seven .head .head-title {
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #333;
+    width: 500px;
+    height: 40px;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .head .head-more {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 23px;
+    color: #222;
+    max-width: 450px;
+    height: 100%;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .head .head-arrow {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px
+}
+
+.zebra-dm-image-seven .head .head-arrow img {
+    width: 16px;
+    margin: 1px
+}
+
+.zebra-dm-image-seven .box {
+    margin-top: 15px
+}
+
+.zebra-dm-image-seven .box .box-left {
+    display: inline-block;
+    width: 274px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    -webkit-background-size: 274px auto;
+    -moz-background-size: 274px auto;
+    background-size: 274px auto;
+    background-position: center
+}
+
+.zebra-dm-image-seven .box .box-left img {
+    height: 370px
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__city {
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #312c2c;
+    opacity: .8;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__bg {
+    width: 274px;
+    height: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://img.alicdn.com/tfs/TB1J21uisrI8KJjy0FhXXbfnpXa-274-370.png);
+    background-repeat: no-repeat
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    padding: 0 20px
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info .title {
+    font-size: 16px;
+    color: #fefefe;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info .showtime {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 4px;
+    height: 12px;
+    overflow: hidden;
+    color: #c9c9c9
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info .itemtags {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    background-image: -webkit-linear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: -moz- oldlinear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: linear-gradient(35deg, #ffa346 0, #ff1541 100%);
+    color: #fefefe;
+    display: inline-block;
+    padding: 0 6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 12px;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info .label {
+    background-image: none;
+    background-color: #6031b5 !important
+}
+
+.zebra-dm-image-seven .box .box-left .box-left__info .details {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #fefefe
+}
+
+.zebra-dm-image-seven .box .box-right {
+    display: inline-block;
+    width: 924px;
+    padding-left: 2px;
+    height: 370px;
+    vertical-align: top;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item {
+    width: 288px;
+    height: 175px;
+    background-color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #000
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .itemimg {
+    width: 130px;
+    height: 176px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .itemimg img {
+    width: 130px
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .itemimg .box-left__city {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #312c2c;
+    opacity: .8;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo {
+    width: 134px;
+    padding: 10px 12px 0;
+    display: inline-block;
+    vertical-align: top
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .title {
+    font-size: 16px;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .venue {
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    overflow: hidden;
+    color: #666;
+    margin-top: 14px
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .showtime {
+    margin-top: 4px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    overflow: hidden;
+    color: #666
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .itemtags {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    background-image: -webkit-linear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: -moz- oldlinear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: linear-gradient(35deg, #ffa346 0, #ff1541 100%);
+    color: #fefefe;
+    display: inline-block;
+    padding: 0 6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 14px;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .label {
+    background-image: none;
+    background-color: #6031b5 !important
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .price {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 14px;
+    position: relative;
+    overflow: hidden
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .price-tip {
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.zebra-dm-image-seven .box .box-right .box-right__item .iteminfo .price-money {
+    font-size: 20px;
+    color: #fa1268;
+    margin-left: 16px
+}
+
+.zebra-dm-image-four a {
+    text-decoration: none
+}
+
+.zebra-dm-image-four .wrap {
+    width: 1200px;
+    margin: 30px auto 0;
+    position: relative;
+    font-size: 0
+}
+
+.zebra-dm-image-four .head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: none
+}
+
+.zebra-dm-image-four .head .head-img {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left
+}
+
+.zebra-dm-image-four .head .head-title {
+    max-width: 500px;
+    height: 100%;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #333;
+    overflow: hidden
+}
+
+.zebra-dm-image-four .head .head-more {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 23px;
+    color: #222;
+    max-width: 450px;
+    height: 100%;
+    overflow: hidden
+}
+
+.zebra-dm-image-four .head .head-arrow {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    -webkit-border-radius: 9px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 9px;
+    -moz-background-clip: padding;
+    border-radius: 9px;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px
+}
+
+.zebra-dm-image-four .head .head-arrow img {
+    width: 16px;
+    margin: 1px
+}
+
+.zebra-dm-image-four .line {
+    width: 100%;
+    margin-top: 15px
+}
+
+.zebra-dm-image-four .line .box {
+    width: 285px;
+    height: 250px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px
+}
+
+.zebra-dm-image-four .line .box .box-head {
+    width: 100%;
+    height: 170px;
+    overflow: hidden
+}
+
+.zebra-dm-image-four .line .box .box-head-img {
+    width: 100%
+}
+
+.zebra-dm-image-four .line .box .box-bottom {
+    width: 100%;
+    margin-top: 20px;
+    position: relative
+}
+
+.zebra-dm-image-four .line .box .box-bottom-left {
+    width: 55px;
+    height: 55px;
+    float: left;
+    text-align: center
+}
+
+.zebra-dm-image-four .line .box .box-bottom-img {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.zebra-dm-image-four .line .box .box-bottom-right {
+    width: 230px;
+    height: 55px;
+    float: right
+}
+
+.zebra-dm-image-four .line .box .box-bottom-team, .zebra-dm-image-four .line .box .box-bottom-title {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-image-four .line .box .box-bottom-team {
+    font-size: 12px;
+    color: #999
+}
+
+.zebra-dm-image-four .line .noMarginRight {
+    margin-right: 0
+}
+
+body {
+    background-color: #F3F5F6
+}
+
+.zebra-dm-image-six a {
+    text-decoration: none
+}
+
+.zebra-dm-image-six .wrap {
+    width: 1200px;
+    margin: 30px auto 0;
+    position: relative;
+    font-size: 0
+}
+
+.zebra-dm-image-six .head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: none
+}
+
+.zebra-dm-image-six .head .head-img {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left
+}
+
+.zebra-dm-image-six .head .head-title {
+    max-width: 500px;
+    height: 100%;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #333;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .head .head-more {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 23px;
+    color: #222;
+    max-width: 450px;
+    height: 100%;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .head .head-arrow {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px
+}
+
+.zebra-dm-image-six .head .head-arrow img {
+    width: 16px;
+    margin: 1px
+}
+
+.zebra-dm-image-six .line {
+    width: 100%
+}
+
+.zebra-dm-image-six .line .box {
+    width: 185px;
+    height: 359px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 18px;
+    margin-top: 15px
+}
+
+.zebra-dm-image-six .line .box .box-head {
+    width: 100%;
+    height: 249px;
+    overflow: hidden;
+    position: relative
+}
+
+.zebra-dm-image-six .line .box .box-head-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.zebra-dm-image-six .line .box .box-head-line {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag, .zebra-dm-image-six .line .box .box-head-line .box-head-tag2, .zebra-dm-image-six .line .box .box-head-line .box-head-tag3 {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag {
+    background-color: #453e3c;
+    padding: 0 7px 0 5px;
+    max-width: 45%
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag2 {
+    background-image: -webkit-linear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: -moz- oldlinear-gradient(55deg, #ffa346 0, #ff1541 100%);
+    background-image: linear-gradient(35deg, #ffa346 0, #ff1541 100%);
+    background-color: #ff2d42;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -3px;
+    padding: 0 5px
+}
+
+.zebra-dm-image-six .line .box .box-head-line .box-head-tag3 {
+    background-color: #6031b5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -3px;
+    padding: 0 5px
+}
+
+.zebra-dm-image-six .line .box .box-bottom {
+    width: 165px;
+    height: 90px;
+    position: relative;
+    padding: 10px
+}
+
+.zebra-dm-image-six .line .box .box-bottom-title {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: justify;
+    overflow: hidden
+}
+
+.zebra-dm-image-six .line .box .box-bottom-date {
+    width: 100%;
+    height: 11px;
+    line-height: 11px;
+    font-size: 10px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money {
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+    position: relative
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money-tip {
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.zebra-dm-image-six .line .box .box-bottom-money-num {
+    color: #fa1268;
+    font-size: 21px;
+    margin-left: 16px
+}
+
+.zebra-dm-image-six .line .noMarginRight {
+    margin-right: 0
+}
+
+body {
+    background-color: #F5F5F5
+}
+
+.zebra-dm-sports-cooperative .m-advertise {
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto
+}
+
+.zebra-dm-sports-cooperative .m-advertise embed, .zebra-dm-sports-cooperative .m-advertise img, .zebra-dm-sports-cooperative .m-advertise object {
+    max-width: 100%
+}
+
+.zebra-dm-sports-cooperative .m-advertise a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+
+.zebra-dm-sports-cooperative .m-advertise .hd {
+    position: relative;
+    border-bottom: 2px solid #f5d03d;
+    height: 50px
+}
+
+.zebra-dm-sports-cooperative .m-advertise .hd .ltt {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: #333;
+    font-size: 20px
+}
+
+.zebra-dm-sports-cooperative .m-advertise .bd {
+    height: 110px;
+    margin-top: 10px;
+    background-color: #fff;
+    font-size: 0
+}
+
+.zebra-dm-sports-cooperative .m-advertise .box, .zebra-dm-sports-cooperative .m-advertise .box1 {
+    position: relative;
+    overflow: hidden;
+    width: 1200px
+}
+
+.zebra-dm-sports-cooperative .m-advertise .pic-title {
+    position: absolute;
+    width: 154px;
+    height: 110px;
+    left: 0;
+    top: 0;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    line-height: 110px
+}
+
+.zebra-dm-sports-cooperative .m-advertise .pic-title .line {
+    right: 0
+}
+
+.zebra-dm-sports-cooperative .m-advertise .featureBox {
+    width: 164px;
+    height: 110px;
+    background-position: center;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%
+}
+
+.zebra-dm-sports-cooperative .m-advertise .featureBox a {
+    display: inline-block;
+    width: 100%;
+    height: 100%
+}
+
+.zebra-dm-sports-cooperative .m-advertise .picbox {
+    width: 1024px;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    left: 175px
+}
+
+.zebra-dm-sports-cooperative .m-advertise .arrow {
+    background-repeat: no-repeat;
+    float: left;
+    width: 154px;
+    height: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer
+}
+
+.zebra-dm-sports-cooperative .m-advertise .arrow .line {
+    left: 0
+}
+
+.zebra-dm-sports-cooperative .m-advertise .arrow .og_prev {
+    width: 75px;
+    height: 110px;
+    background: url(//dui.damai.cn/damai_sports_2016/images/common/arrow-l.png) center no-repeat;
+    display: block;
+    float: left
+}
+
+.zebra-dm-sports-cooperative .m-advertise .arrow .og_next {
+    width: 75px;
+    height: 110px;
+    background: url(//dui.damai.cn/damai_sports_2016/images/common/arrow-r.png) center no-repeat;
+    display: block;
+    float: left
+}
+
+.zebra-dm-sports-cooperative .m-advertise .line {
+    position: absolute;
+    width: 2px;
+    height: 35px;
+    top: 37.5px;
+    background-color: #e0e0e0
+}

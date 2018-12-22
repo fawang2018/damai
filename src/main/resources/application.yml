@@ -1,0 +1,44 @@
+mybatis:
+  type-aliases-package: com.dm.pojo
+  mapper-locations: classpath:com/dm/dao/*.xml
+  configuration:
+    auto-mapping-behavior: full
+    use-generated-keys: true
+
+pagehelper:
+  helperDialect: oracle
+  reasonable: true
+  page-size-zero: true
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: damaiwang
+    password: damai
+#
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm
+#    time-zone: GMT+8
+
+    #spring:
+    #静态文件请求匹配方式
+  mvc:
+    static-path-pattern: /**
+   #修改默认的静态寻址资源目录
+  resources:
+     static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+      
+  #thymeleaf start
+  thymeleaf:
+    encoding: UTF-8
+    cache: true
+    prefix: classpath:/templates/
+    suffix: .html
+#thymeleaf end
+
+
+
+
+
+

@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="spm-id" content="a2oeg" />
+    <title>大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！</title>
+    <meta property="qc:admins" content="1733241067641511636" />
+    <meta name="keywords" content="演唱会,音乐会,话剧,体育比赛,儿童亲子,动漫,全国,门票,订票,购票,演出,先付先抢,在线选座,明星演唱会,在线订票,大麦网"/>
+    <meta name="description" content="大麦网-全球演出赛事官方购票平台-100%正品，安全快捷，为您提供演唱会、音乐会、话剧、体育比赛等多种门票在线订购服务，让您享受优质的购票体验！"/>
+    <link rel="stylesheet" href="css/zhuye-index.css"/>
+</head>
+<body data-spm='home'>
+<!--<script>-->
+    <!--with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","pu_i=&userid=&aplus&asid=AQAAAADuzhBcEeJoRgAAAAB2zU4edmDPZQ==&sidx=0&ckx=|",id="tb-beacon-aplus",src="//g.alicdn.com/alilog/mlog/aplus_v2.js")-->
+<!--</script>-->
+<!--[if gte IE 8]>
+<div style="height: 40px;line-height: 40px;background-color: #ffedf4; color: #FF1268; text-align: center; ">由于您的浏览器版本过低，为了您更好的体验，请使用chrome浏览器或升级至IE10以上版本</div>
+<![endif]-->
+
+<p></p>
+
+
+
+
+<div class="dm-header-wrap">
+    <div class="dm-header-box" data-spm="top">
+        <a href="//www.damai.cn"><img class="i-logo" src="images/TB1TikIsAvoK1RjSZFDXXXY3pXa-230-104.png" alt="大麦" /></a>
+        <div class="location-header" style="display:block">
+            <img class="i-icon-location" src="images/TB1XHDuxNGYBuNjy0FnXXX5lpXa-28-32.png" alt="定位" />
+            <span class="city-location">全国</span>
+            <img class="i-arrow-location" src="images/TB1vnUBxStYBeNjSspaXXaOOFXa-20-12.png" alt="箭头" />
+            <div class="city-header-wrap">
+                <div class="city-header" data-spm="city">
+                    <div class="now-city">
+                        <span class="title-city">当前城市:</span>
+                        <span class="name-city select-city">全国</span>
+                    </div>
+                    <div class="hot-city">
+                        <span class="title-city">热门城市:</span>
+                        <div class="list-other"></div>
+                    </div>
+                    <div class="other-city">
+                        <span class="title-city">其他城市:</span>
+                        <div class="list-other"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recommend-header">
+            <a href="//www.damai.cn" class="type-recommend select" data-spm="dhome">首页</a>
+            <a href="//search.damai.cn/search.htm?order=1" class="type-recommend" data-spm="dcategory">分类</a>
+
+
+        </div>
+        <div class="right-header" data-spm="nick">
+            <div class="box-header user-header">
+                <a href="javascript:void(0)" class="J_userinfo_img" data-spm="duserinfo"><img class="i-box-header i-user" src="images/TB14UKCGQyWBuNjy0FpXXassXXa-54-54.png" /></a>
+                <a href="//passport.damai.cn/accountinfo/myinfo" class="J_userinfo_name" data-spm="duserinfo">
+                    <div class="span-box-header name-user"></div>
+                </a>
+                <div class="login-user show">
+                    <span class="span-box-header span-user"  th:text="${session.yh.YH_NiCheng}" data-spm="dlogin">登录</span>
+                    <!--<input type="hidden" id="xx" th:value="${session.yh.YH_ID}"/>-->
+                </div>
+                <div class="list-wrap">
+                    <div class="list-login">
+                        <a th:href="@{gerenxinxi1(YH_ID=${session.yh.YH_ID})}" id="grxx" class="li-login select" data-spm="duserinfo">个人信息</a>
+                        <a href="//my.damai.cn/account/accountSafe" class="li-login" data-spm="daccountsetting">账号设置</a>
+                        <a href="//orders.damai.cn/orderList" class="li-login" data-spm="dordermanage">订单管理</a>
+                        <a href="//www.damai.cn/redirect.aspx?type=logout" data-spm="dexit" class="li-login out-login">退出登录</a>
+                    </div>
+                    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+                    <!--<script type="text/javascript">-->
+                       <!--$("#grxx").click(function () {-->
+                           <!--var YH_ID=$("#xx").value();-->
+                           <!--alert(YH_ID)-->
+                           <!--// window.location.href="gerenxinxi1?YH_ID="+YH_ID;-->
+                       <!--})-->
+                    <!--</script>-->
+                </div>
+            </div>
+            <div class="box-header download-header">
+                <img class="i-box-header i-download" src="images/TB1A9eIGKuSBuNjy1XcXXcYjFXa-54-54.png" alt="下载" />
+                <span class="span-box-header">下载</span>
+                <div class="ewm-download">
+                    <img class="i-ewm" src="images/TB1r0uFxHSYBuNjSspiXXXNzpXa-280-280.png" />
+                </div>
+            </div>
+            <div class="box-header">
+                <a href="//en.damai.cn/" data-spm="denglish">
+                    <img class="i-box-header" src="images/TB13UKCGQyWBuNjy0FpXXassXXa-54-54.png" alt="英文站" />
+                    <span class="span-box-header">English</span>
+                </a>
+            </div>
+        </div>
+        <div class="search-header" data-spm="searchtxt">
+            <img class="i-search" src="images/TB1qv3jxGmWBuNjy1XaXXXCbXXa-34-36.png" alt="搜索" />
+            <input class="input-search" placeholder="搜索明星、演出、体育赛事" data-spm="dsearchbtn" />
+            <div class="btn-search" data-spm="dsearchbtn2">搜索</div>
+            <div class="list-search-wrap">
+                <div class="list-search">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="slides" class="w1200">
+    <div data-spm="banner" class="slides_container tab-content">
+        <div class="tab-pannel">
+            <a data-spm="ditem_0"
+               href=https://piao.damai.cn/168387.html?pos=1&amp;acm=201808136-1.1003.2.4744271&amp;scm=1003.2.201808136-1.OTHER_1542136530681_4744271?clicktitle=世界羽联&middot;世界巡回赛总决赛 target="_blank"
+            >
+
+                <!--↓是主页轮播图-->
+                <img src=https://img.alicdn.com/tps/i4/TB1mEIGsAPoK1RjSZKbSut1IXXa.jpg>
+            </a>
+        </div>
+        <div class="tab-pannel">
+            <a data-spm="ditem_1"
+               href=https://p.damai.cn/wow/act/act/cba2018?pos=2&amp;acm=201808136-2.1003.2.4709215&amp;scm=1003.2.201808136-2.OTHER_1544925412832_4709215?clicktitle=现场看CBA上大麦体育 target="_blank"
+            >   <!--↓是主页轮播图-->
+                <img src=https://gw.alicdn.com/tfs/TB19HX4kYrpK1RjSZTEXXcWAVXa-1200-320.jpg>
+            </a>
+        </div>
+    </div>
+    <div class="prev" id="J_pre">
+        <div class="arrow left"></div>
+    </div>
+    <div class="next" id="J_next">
+        <div class="arrow"></div>
+    </div>
+    <div class="nav">
+        <!--第一张图片设置do current的属性-->
+        <div class="dot current"></div>
+        <div class="dot"></div>
+    </div>
+</div>
+
+<div data-spm="category" class="category w1200">
+    <a data-spm="ditem_0"
+       href="//search.damai.cn/search.htm?ctl=%E6%BC%94%E5%94%B1%E4%BC%9A&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__ych"></span>
+        <p class="category__info">演唱会</p></a>
+    <a data-spm="ditem_1"
+       href="//search.damai.cn/search.htm?ctl=%E8%AF%9D%E5%89%A7%E6%AD%8C%E5%89%A7&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__gjhj"></span>
+        <p class="category__info">话剧歌剧</p></a>
+    <a data-spm="ditem_2"
+       href="https://p.damai.cn/wow/pc/act/sports"
+       class="category__list"> <span class="category__icon category__icon__tyjj"></span>
+        <p class="category__info">体育赛事</p></a>
+    <a data-spm="ditem_3"
+       href="//search.damai.cn/search.htm?tn=%E5%84%BF%E7%AB%A5%E4%BA%B2%E5%AD%90&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__qz"></span>
+        <p class="category__info">儿童亲子</p></a>
+    <a data-spm="ditem_4"
+       href="//search.damai.cn/search.htm?ctl=%E5%BA%A6%E5%81%87%E4%BC%91%E9%97%B2&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__zlxx"></span>
+        <p class="category__info">度假休闲</p></a>
+    <a data-spm="ditem_5"
+       href="//search.damai.cn/search.htm?ctl=%E9%9F%B3%E4%B9%90%E4%BC%9A&order=1&cty="
+       class="category__list"> <span
+            class="category__icon category__icon__yyh"></span>
+        <p class="category__info">音乐会</p></a>
+    <a data-spm="ditem_6"
+       href="//search.damai.cn/search.htm?ctl=%E6%9B%B2%E8%8B%91%E6%9D%82%E5%9D%9B&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__xsxq"></span>
+        <p class="category__info">曲苑杂坛</p></a>
+    <a data-spm="ditem_7"
+       href="//search.damai.cn/search.htm?ctl=%E8%88%9E%E8%B9%88%E8%8A%AD%E8%95%BE&order=1&cty="
+       class="category__list"> <span class="category__icon category__icon__wdbl"></span>
+        <p class="category__info">舞蹈芭蕾</p></a>
+    <a data-spm="ditem_8" href="//search.damai.cn/search.htm?tn=%E5%8A%A8%E6%BC%AB&order=1&cty="
+       class="category__list"> <span
+            class="category__icon category__icon__dm"></span>
+        <p class="category__info">动漫</p></a>
+    <a data-spm="ditem_9"
+       href="//search.damai.cn/search.htm?tn=%E6%97%85%E6%B8%B8%E5%B1%95%E8%A7%88&order=1&cty="
+       class="category__list">
+        <span class="category__icon category__icon__lyzl"></span>
+        <p class="category__info">旅游展览</p>
+    </a>
+</div>
+<div class="dm-content-wrap">
+    <div class="J-data-dm-content" style="display: block;">
+<!--
+        [{"name":"演唱会","id":"1"},{"name":"话剧歌剧","id":"3"},{"name":"体育比赛","id":"6","link":"https://p.damai.cn/wow/pc/act/sports"},{"name":"儿童亲子","id":"100"}]
+-->
+    </div>
+
+    <!--<div class="dm-content dm-content-1" data-spm="card_0"></div>
+
+    <div class="dm-content dm-content-3" data-spm="card_1"></div>
+
+    <div class="dm-content dm-content-6" data-spm="card_2"></div>
+
+    <div class="dm-content dm-content-100" data-spm="card_3"></div>-->
+    <div class="dm-content dm-content-1" data-spm="card_0" style="display: block;"><div class="head">
+        <span class="head-title">演唱会</span>
+        <a href="https://search.damai.cn/search.htm?ctl=%E6%BC%94%E5%94%B1%E4%BC%9A&amp;order=1" target="_blank" data-spm="dviewall">
+            <span class="head-more">查看全部</span>
+        </a>
+    </div>
+        <div class="box">
+            <a href="https://piao.damai.cn/170498.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-left" target="_blank" data-spm="ditem_0">
+                <img class="box-left__bg" src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/170498_n.jpg">
+                <div class="box-left__info">
+                    <div class="title">陈小春STOP ANGRY巡回演唱会-深圳站 </div>
+                    <div class="details">¥380<span>起</span></div>
+                </div>
+            </a>
+            <div class="box-right">
+                <a href="https://piao.damai.cn/170481.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_1" target="_blank">
+                    <div class="itemimg">
+                        <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/170481_n.jpg">
+                    </div>
+                    <div class="iteminfo">
+                        <div class="title" title="2018年金木跨年嘉年华">2018年金木跨年嘉年华</div>
+                        <div class="venue">武汉市园博园</div>
+                        <div class="showtime">2018.12.31  14:00-22:00</div>
+                        <div class="price">¥218<span>起</span></div>
+                    </div>
+                </a><a href="https://piao.damai.cn/170711.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_2" target="_blank">
+                <div class="itemimg">
+                    <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/170711_n.jpg">
+                </div>
+                <div class="iteminfo">
+                    <div class="title" title="烽火跨年群星演唱会">烽火跨年群星演唱会</div>
+                    <div class="venue">黄龙体育中心(体育场)</div>
+                    <div class="showtime">2018.12.22</div>
+                    <div class="price">¥180<span>起</span></div>
+                </div>
+            </a><a href="https://piao.damai.cn/166767.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_3" target="_blank">
+                <div class="itemimg">
+                    <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/166767_n.jpg">
+                </div>
+                <div class="iteminfo">
+                    <div class="title" title="NEXT TO YOU乐华七子世界巡回演唱会·上海站">NEXT TO YOU乐华七子世界巡回演唱会·上海站</div>
+                    <div class="venue">梅赛德斯-奔驰文化中心</div>
+                    <div class="showtime">2018.12.15 19:30</div>
+                    <div class="price">¥480<span>起</span></div>
+                </div>
+            </a><a href="https://piao.damai.cn/170072.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_4" target="_blank">
+                <div class="itemimg">
+                    <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/170072_n.jpg">
+                </div>
+                <div class="iteminfo">
+                    <div class="title" title="2018福州茉莉音乐节">2018福州茉莉音乐节</div>
+                    <div class="venue">福州海峡奥林匹克体育中心北广场</div>
+                    <div class="showtime">2018.12.31-2019.1.1</div>
+                    <div class="price">¥219<span>起</span></div>
+                </div>
+            </a><a href="https://piao.damai.cn/169070.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_5" target="_blank">
+                <div class="itemimg">
+                    <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/169070_n.jpg">
+                </div>
+                <div class="iteminfo">
+                    <div class="title" title="2018-2019楠溪江·东海跨年音乐节">2018-2019楠溪江·东海跨年音乐节</div>
+                    <div class="venue">楠溪江滩地音乐公园</div>
+                    <div class="showtime">2018.12.30-2019.01.01</div>
+                    <div class="price">¥220<span>起</span></div>
+                </div>
+            </a><a href="https://piao.damai.cn/170399.html?clicktitle=%E6%BC%94%E5%94%B1%E4%BC%9A" class="box-right__item" data-spm="ditem_6" target="_blank">
+                <div class="itemimg">
+                    <img src="./大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！_files/170399_n.jpg">
+                </div>
+                <div class="iteminfo">
+                    <div class="title" title="QUEEN PLUS 女王+到汕头演唱会">QUEEN PLUS 女王+到汕头演唱会</div>
+                    <div class="venue">汕头方特欢乐世界·蓝水星</div>
+                    <div class="showtime">2019.01.18</div>
+                    <div class="price">¥180<span>起</span></div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="dm-footer">
+    <div class="w1200">
+        <ul class="footer__links">
+
+            <li class="footer__links__list"><a href="//help.damai.cn" target="_blank" data-spm="flink0">帮助中心</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=69&amp;categoryId=30" target="_blank" data-spm="flink1">公司介绍</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=70&amp;categoryId=30" target="_blank" data-spm="flink2">品牌识别</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=72&amp;categoryId=30" target="_blank" data-spm="flink3">公司大事记</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=40&amp;categoryId=14" target="_blank" data-spm="flink4">隐私权专项政策</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;jubao.alibaba.com&#x2F;internet&#x2F;readme.htm?spm=a2o6e.search.0.0.72f44d15Votov6&amp;site=damai" target="_blank" data-spm="flink5">廉正举报</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;help.damai.cn&#x2F;helpPage.htm?pageId=58&amp;categoryId=5" target="_blank" data-spm="flink6">联系合作</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;job.alibaba.com&#x2F;zhaopin&#x2F;positionList.htm?keyWord=JXU1OTI3JXU5RUE2&amp;_input_charset=UTF-8" target="_blank" data-spm="flink7">招聘信息</a></li>
+            <li class="footer__links__grep">|</li>
+
+            <li class="footer__links__list"><a href="&#x2F;&#x2F;x.damai.cn&#x2F;markets&#x2F;special&#x2F;fangzhapian?spm=a2o6e.home.0.0.75df48d3hqGWGD&amp;wh_ttid=pc" target="_blank" data-spm="flink8">防骗秘籍</a></li>
+
+
+        </ul>
+        <div class="footer__ft">
+        <div class="footer__ft_fl">
+            <a href="//www.damai.cn/?spm=a2o6e.home.0.0.591b48d3QzpG8B" target="_blank" class="footer__ft__logo">
+                <img src="images/TB17qoDszTpK1RjSZKPXXa3UpXa-167-60.png" alt="">
+            </a>
+            <div class="footer__ft__code__box">
+                <img class="footer__ft__code" src="images/TB1r0uFxHSYBuNjSspiXXXNzpXa-280-280.png" alt="">
+                <span>APP下载</span>
+            </div>
+        </div>
+        <div class="footer__ft_fr">
+            <div class="footer__fr__contact">
+
+                <a style="margin-left:0;" href="//online.damai.cn/alime/index?from=damai_pc_item&v=3" class="footer__fr__contact__btn alime">在线客服</a>
+            </div>
+            <ul class="footer__ft__words">
+                <li class="footer__ft__certificate"><a
+                        href="http://www.miitbeian.gov.cn?spm=a2o6e.home.0.0.5b4d48d3mVzb2Z" target="_blank">京ICP证031057号</a></li>
+                <li class="footer__ft__grep">|</li>
+                <li class="footer__ft__certificate"><a href="http://www.miitbeian.gov.cn" target="_blank">京ICP备11043884号</a></li>
+                <li class="footer__ft__grep">|</li>
+                <li class="footer__ft__certificate"><a
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102000430" target="_blank">京公网安备11010102000430号</a>
+                </li>
+                <li class="footer__ft__grep">|</li>
+                <li class="footer__ft__certificate"><a href="images/TB1K9r6xN9YBuNjy0FfXXXIsVXa-1152-799.jpg" target="_blank">广播电视节目制作经营许可证
+                    (京)字第02253号</a></li>
+            </ul>
+            <ul class="footer__ft__words">
+                <li class="footer__ft__certificate"><a
+                        href="images/TB1AsH4xH9YBuNjy0FgXXcxcXXa-1420-1032.jpg" target="_blank">网络文化经营许可证
+                    京网文[2016]3438-413号</a></li>
+                <li class="footer__ft__grep">|</li>
+                <li class="footer__ft__certificate"><a href="images/TB1DfD6CxGYBuNjy0FnXXX5lpXa-1079-1527.jpg" target="_blank">营业性演出许可证
+                    京市演587号</a></li>
+            </ul>
+            <ul class="footer__ft__words">
+                <li class="footer__ft__certificate">北京红马传媒文化发展有限公司 版权所有</li>
+                <li class="footer__ft__certificate"><a
+                        href="//www.damai.cn/?spm=a2o6e.home.0.0.591b48d3QzpG8B">大麦网</a></li>
+                <li>Copyright 2003-2018 All Rights Reserved</li>
+            </ul>
+            <div class="footer__ft__img">
+                    <span id="siteseal">
+                    <!--<script async="" type="text/javascript">-->
+                            <!--function verifySeal() {-->
+                                <!--var bgHeight = "null";-->
+                                <!--var bgWidth = "593";-->
+                                <!--var url = "https:\/\/seal.godaddy.com\/verifySeal?sealID=LU6rXPgk5BZ67ZEYpYS2JcN3AyCJOs6aD3HBo4dwA3iGeqp6csKFmqgB0zLL";-->
+                                <!--window.open(url, 'SealVerfication', 'menubar=no,toolbar=no,personalbar=no,location=yes,status=no,resizable=yes,fullscreen=no,scrollbars=no,width=' + bgWidth + ',height=' + bgHeight);-->
+                            <!--}-->
+                    <!--</script>-->
+                    <img style="cursor:pointer;cursor:hand" class="footer__ft__img1"
+                         src="images/TB1gw_ZxNWYBuNjy1zkXXXGGpXa-131-32.gif"
+                         onclick="verifySeal();" alt="SSL site seal - click to verify"
+                         data-spm-anchor-id="a2o6e.home.0.i1.5b4d48d3mVzb2Z">
+                    </span>
+                <a rel="nofollow" title="电子营业执照" target="_blank"
+                   href="images/TB1CChlpwDqK1RjSZSyXXaxEVXa-1200-1672.jpg">
+                    <img class="footer__ft__img2" alt="" src="images/TB1ZO80pyOYBuNjSsD4XXbSkFXa-141-41.png">
+                </a>
+
+                <a rel="nofollow" target="_blank" href="https://www.pcisecuritystandards.org/">
+                    <img src="images/TB1Y580pyOYBuNjSsD4XXbSkFXa-83-50.png" class="footer__ft__img3">
+                </a>
+                <a rel="nofollow" target="_blank"
+                   href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/1756737221">
+                    <img src="images/TB1pM_ZxNWYBuNjy1zkXXXGGpXa-114-40.png" class="footer__ft__img4w">
+                </a>
+                <a target="_blank" href="https://search.szfw.org/cert/l/CX20130327002367002885"
+                   id="___szfw_logo___">
+                    <img class="footer__ft__img4" src="images/TB1C4nNxTlYBeNjSszcXXbwhFXa-114-42.png">
+                </a>
+                <!--<script type="text/javascript">(function () {-->
+                    <!--document.getElementById('___szfw_logo___').oncontextmenu = function () {-->
+                        <!--return false;-->
+                    <!--}-->
+                <!--})();</script>-->
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<style>
+    .sidebar{top: 72.5%;}
+    img{border: 0;}
+</style>
+<!--<script type="text/javascript" src="https://g.alicdn.com/dt/tracker/3.5.4/??tracker.Tracker.js,tracker.interfaceTrackerPlugin.js,tracker.performanceTrackerPlugin.js" crossorigin></script>-->
+<!--<script type="text/javascript">-->
+
+    <!--var tracker = new window.Tracker({-->
+        <!--pid: 'damaipc',-->
+        <!--plugins: [-->
+            <!--[window.interfaceTrackerPlugin],-->
+            <!--[window.performanceTrackerPlugin]-->
+        <!--],-->
+    <!--});-->
+
+    <!--// 启动 tracker 并监听全局 JS 异常-->
+    <!--tracker.install();-->
+<!--</script>-->
+
+
+
+<script data-config="{combine:true}" src="//g.alicdn.com/kissy/k/6.2.4/seed.js"></script>
+<script src="//g.alicdn.com/damai/pc/1.0.4/p/index/index.js" async crossorigin></script>
+<div class="server_info" style="display:none;color:#f3f3f3;text-align:center;">mec-guide-web011021058207.center.na62</div>
+</body>
+</html>

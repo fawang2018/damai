@@ -1,0 +1,96 @@
+.kissy-login-top {
+    *zoom: 1
+}
+
+.kissy-login-top:after, .kissy-login-top:before {
+    content: "";
+    display: table
+}
+
+.kissy-login-top:after {
+    clear: both
+}
+
+.kissy-login {
+    *zoom: 1
+}
+
+.kissy-login:after, .kissy-login:before {
+    content: "";
+    display: table
+}
+
+.kissy-login:after {
+    clear: both
+}
+
+.kissy-login .wrap {
+    width: 100%;
+    background-color: #ff1268;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4aae), to(#ff1268));
+    background-image: linear-gradient(90deg, #ff4aae, #ff1268);
+    border-color: #ff1268
+}
+
+.kissy-login .wrap #alibaba-login-iframe {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    position: absolute;
+    overflow: hidden
+}
+
+.kissy-login .wrap #alibaba-login-iframe.iframe-show #alibaba-login-iframe-loading {
+    display: none
+}
+
+.kissy-login .w-login {
+    margin: 0 auto;
+    width: 1150px
+}
+
+.kissy-login #alibaba-login-iframe {
+    float: right;
+    *display: inline;
+    width: 350px;
+    min-height: 310px;
+    margin-top: 90px;
+    background: #fff
+}
+
+.kissy-login #alibaba-login-iframe #alibaba-login-box {
+    width: 350px;
+    min-height: 328px
+}
+
+.kissy-login .login, .kissy-login .login-wrap {
+    height: 600px
+}
+
+.kissy-login .login__box {
+    *zoom: 1
+}
+
+.kissy-login .login__box:after, .kissy-login .login__box:before {
+    content: "";
+    display: table
+}
+
+.kissy-login .login__box:after {
+    clear: both
+}
+
+.kissy-login .login__box__poster {
+    float: left;
+    *display: inline;
+    margin-top: 90px
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.alime {
+    display: none !important
+}
